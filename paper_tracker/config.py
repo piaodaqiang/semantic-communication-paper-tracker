@@ -23,9 +23,20 @@ DEFAULT_SOURCES = {
     "arxiv": {
         "enabled": True,
         "base_url": "https://export.arxiv.org/api/query",
-        "max_results_per_keyword": 50,
-        "request_timeout_seconds": 10,
-    }
+        "max_results_per_keyword": 10,
+        "request_timeout_seconds": 20,
+        "delay_seconds": 3,
+        "max_retries": 2,
+    },
+    "openalex": {
+        "enabled": True,
+        "base_url": "https://api.openalex.org/works",
+        "max_results_per_keyword": 10,
+        "request_timeout_seconds": 20,
+        "delay_seconds": 2,
+        "max_retries": 3,
+        "mailto": "",
+    },
 }
 
 DEFAULT_CLASSIFICATION_RULES = {

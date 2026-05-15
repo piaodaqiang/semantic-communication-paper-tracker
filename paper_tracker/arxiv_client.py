@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import re
 import ssl
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -15,7 +16,13 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 ARXIV = "{http://arxiv.org/schemas/atom}"
 
 
-def fetch_arxiv(keyword: str, base_url: str, max_results: int, timeout: int = 30) -> list[Paper]:
+def fetch_arxiv(
+    keyword: str,
+    base_url: str,
+    max_results: int,
+    timeout: int = 30,
+    max_retries: int = 2,
+) -> list[Paper]:
     query = urllib.parse.urlencode(
         {
             "search_query": build_arxiv_query(keyword),
@@ -27,9 +34,32 @@ def fetch_arxiv(keyword: str, base_url: str, max_results: int, timeout: int = 30
     )
     url = f"{base_url}?{query}"
     request = urllib.request.Request(url, headers={"User-Agent": "semantic-communication-paper-tracker/0.1"})
-    with urllib.request.urlopen(request, timeout=timeout, context=ssl_context()) as response:
-        xml_text = response.read()
+    xml_text = open_with_retries(request, timeout=timeout, max_retries=max_retries)
     return parse_arxiv_feed(xml_text, keyword)
+
+
+def open_with_retries(request: urllib.request.Request, timeout: int, max_retries: int) -> bytes:
+    last_error: Exception | None = None
+    for attempt in range(max_retries + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout, context=ssl_context()) as response:
+                return response.read()
+        except Exception as exc:
+            last_error = exc
+            if attempt >= max_retries:
+                break
+            time.sleep(retry_delay(exc, attempt))
+    raise last_error or RuntimeError("request failed")
+
+
+def retry_delay(exc: Exception, attempt: int) -> float:
+    retry_after = getattr(exc, "headers", {}).get("Retry-After") if hasattr(exc, "headers") else None
+    if retry_after:
+        try:
+            return min(float(retry_after), 30.0)
+        except ValueError:
+            pass
+    return min(2.0 * (attempt + 1), 10.0)
 
 
 def build_arxiv_query(keyword: str) -> str:

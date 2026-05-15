@@ -5,6 +5,7 @@
 ## 当前能力
 
 - QueueA Daily Inbox：从 arXiv 拉取原始论文元数据，过滤近六年，去重后保存。
+- OpenAlex 兜底检索：当 arXiv 结果不足时补充更宽的论文元数据来源。
 - QueueB Weekly Curated Set：合并 Inbox，计算相关性，检测开源线索，分类并导出周报。
 - 输出格式：
   - Excel：`outputs/weekly/semantic_communication_papers_YYYY-WW.xlsx`
@@ -24,7 +25,7 @@ D:\miniconda\envs\ai\python.exe scripts\curate_weekly_set.py
 快速验证时建议先限制每个关键词的 arXiv 返回量：
 
 ```powershell
-D:\miniconda\envs\ai\python.exe scripts\fetch_daily_inbox.py --max-results 3
+D:\miniconda\envs\ai\python.exe scripts\fetch_daily_inbox.py --max-results 3 --fail-on-empty
 ```
 
 如果本机网络或证书环境导致 arXiv 访问失败，脚本会在每日 Markdown 摘要的“抓取错误”中记录原因；GitHub Actions 环境通常不会遇到本机 Conda 证书问题。

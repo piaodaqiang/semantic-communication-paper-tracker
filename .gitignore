@@ -11,3 +11,4 @@ data/curated/*.tmp
 .mypy_cache/
 ~$*.docx
 tests/_artifacts/
+.local_backup/

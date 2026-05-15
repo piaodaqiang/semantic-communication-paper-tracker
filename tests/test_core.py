@@ -7,6 +7,7 @@ from paper_tracker.classify import classify_paper
 from paper_tracker.config import DEFAULT_CLASSIFICATION_RULES
 from paper_tracker.open_source import detect_open_source
 from paper_tracker.exporters import export_excel, export_word_report
+from paper_tracker.openalex_client import parse_openalex_works, reconstruct_abstract
 from paper_tracker.scoring import filter_recent, score_relevance
 from paper_tracker.schema import Paper
 from paper_tracker.storage import dedupe_papers
@@ -29,6 +30,30 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(len(papers), 1)
         self.assertEqual(papers[0].year, 2026)
         self.assertEqual(papers[0].arxiv_id, "2601.00001v1")
+
+    def test_parse_openalex_works_extracts_paper(self) -> None:
+        payload = {
+            "results": [
+                {
+                    "id": "https://openalex.org/W1",
+                    "display_name": "Semantic Communication for Wireless Networks",
+                    "publication_year": 2025,
+                    "doi": "https://doi.org/10.1234/example",
+                    "authorships": [{"author": {"display_name": "Alice"}}],
+                    "primary_location": {
+                        "landing_page_url": "https://example.org/paper",
+                        "pdf_url": "https://example.org/paper.pdf",
+                        "source": {"display_name": "Example Venue"},
+                    },
+                    "abstract_inverted_index": {"Semantic": [0], "communication": [1], "works": [2]},
+                }
+            ]
+        }
+        papers = parse_openalex_works(payload, "semantic communication")
+        self.assertEqual(len(papers), 1)
+        self.assertEqual(papers[0].source, "OpenAlex")
+        self.assertEqual(papers[0].year, 2025)
+        self.assertEqual(papers[0].abstract, "Semantic communication works")
 
     def test_filter_recent_keeps_only_last_six_years(self) -> None:
         papers = [Paper(paper_id="a", title="old", year=2019), Paper(paper_id="b", title="new", year=2026)]

@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run daily inbox
-        run: python scripts/fetch_daily_inbox.py --max-results 30
+        run: python scripts/fetch_daily_inbox.py --max-results 10 --fail-on-empty
       - name: Run weekly curated set
         if: github.event.schedule == '0 2 * * 1' || github.event_name == 'workflow_dispatch'
         run: python scripts/curate_weekly_set.py
