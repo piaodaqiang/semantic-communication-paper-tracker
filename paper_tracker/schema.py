@@ -17,6 +17,7 @@ PAPER_FIELDS = [
     "paper_url",
     "pdf_url",
     "abstract",
+    "arxiv_comment",
     "keywords",
     "is_open_source",
     "code_url",
@@ -46,6 +47,7 @@ class Paper:
     paper_url: str = ""
     pdf_url: str = ""
     abstract: str = ""
+    arxiv_comment: str = ""
     keywords: list[str] = field(default_factory=list)
     is_open_source: bool = False
     code_url: str = ""

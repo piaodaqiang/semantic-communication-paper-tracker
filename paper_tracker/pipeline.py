@@ -85,7 +85,9 @@ def run_daily_inbox(root: Path, max_results: int | None = None) -> dict[str, Pat
 def run_weekly_curated(root: Path, limit_days: int = 7) -> dict[str, Path | int]:
     ensure_dirs(root)
     keywords_config = load_keywords(root)
+    sources = load_sources(root)
     rules = load_classification_rules(root)
+    open_source_options = sources.get("open_source_detection", {})
     papers = dedupe_papers(load_inbox_files(root, limit_days=limit_days))
     scored: list[Paper] = []
     for paper in papers:
@@ -96,7 +98,7 @@ def run_weekly_curated(root: Path, limit_days: int = 7) -> dict[str, Path | int]
             keywords_config.get("negative_keywords", []),
         )
         if paper.curation_status == "curated":
-            detect_open_source(paper, fetch_pages=False)
+            detect_open_source(paper, fetch_pages=False, options=open_source_options)
             score_relevance(
                 paper,
                 keywords_config.get("primary_keywords", []),

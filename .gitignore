@@ -10,6 +10,7 @@ data/curated/*.tmp
 .pytest_cache/
 .mypy_cache/
 ~$*.docx
+~$*.xlsx
 tests/_artifacts/
 .local_backup/
 temp/

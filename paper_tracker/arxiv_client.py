@@ -84,6 +84,7 @@ def parse_arxiv_feed(xml_text: bytes | str, keyword: str) -> list[Paper]:
     for entry in root.findall(f"{ATOM}entry"):
         title = _clean_text(entry.findtext(f"{ATOM}title"))
         abstract = _clean_text(entry.findtext(f"{ATOM}summary"))
+        arxiv_comment = _clean_text(entry.findtext(f"{ARXIV}comment"))
         published = entry.findtext(f"{ATOM}published") or ""
         year = _parse_year(published)
         paper_url = entry.findtext(f"{ATOM}id") or ""
@@ -113,6 +114,7 @@ def parse_arxiv_feed(xml_text: bytes | str, keyword: str) -> list[Paper]:
                 paper_url=paper_url,
                 pdf_url=pdf_url,
                 abstract=abstract,
+                arxiv_comment=arxiv_comment,
                 keywords=[keyword],
             )
         )

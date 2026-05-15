@@ -37,6 +37,16 @@ DEFAULT_SOURCES = {
         "max_retries": 3,
         "mailto": "",
     },
+    "open_source_detection": {
+        "papers_with_code_enabled": True,
+        "papers_with_code_base_url": "https://paperswithcode.com/api/v1/search/",
+        "github_search_enabled": True,
+        "github_search_url": "https://api.github.com/search/repositories",
+        "pdf_extract_enabled": True,
+        "request_timeout_seconds": 12,
+        "max_pdf_bytes": 750000,
+        "github_max_results": 3,
+    },
 }
 
 DEFAULT_CLASSIFICATION_RULES = {

@@ -6,7 +6,12 @@ from tempfile import TemporaryDirectory
 from paper_tracker.arxiv_client import parse_arxiv_feed
 from paper_tracker.classify import classify_paper
 from paper_tracker.config import DEFAULT_CLASSIFICATION_RULES
-from paper_tracker.open_source import detect_open_source
+from paper_tracker.open_source import (
+    detect_from_github_search,
+    detect_from_papers_with_code,
+    detect_from_pdf,
+    detect_open_source,
+)
 from paper_tracker.exporters import export_excel, export_word_report
 from paper_tracker.openalex_client import parse_openalex_works, reconstruct_abstract
 from paper_tracker.pipeline import run_weekly_curated
@@ -120,6 +125,113 @@ class CoreTests(unittest.TestCase):
         detect_open_source(paper)
         self.assertTrue(paper.is_open_source)
         self.assertEqual(paper.code_url, "https://github.com/example/semantic-comm")
+
+    def test_detect_open_source_from_arxiv_comment(self) -> None:
+        paper = Paper(
+            paper_id="p",
+            title="Semantic communication with comment code",
+            arxiv_comment="Code: https://github.com/example/comment-code",
+        )
+        detect_open_source(
+            paper,
+            options={
+                "papers_with_code_enabled": False,
+                "github_search_enabled": False,
+                "pdf_extract_enabled": False,
+            },
+        )
+        self.assertTrue(paper.is_open_source)
+        self.assertEqual(paper.open_source_evidence, "arxiv_comment")
+
+    def test_detect_from_papers_with_code_mock(self) -> None:
+        paper = Paper(paper_id="p", title="Semantic Communication for Wireless Networks")
+        original = __import__("paper_tracker.open_source", fromlist=["fetch_json"]).fetch_json
+
+        def fake_fetch_json(url: str, timeout: int):
+            return {
+                "results": [
+                    {
+                        "paper_title": "Semantic Communication for Wireless Networks",
+                        "repository": "https://github.com/example/wireless-semcom",
+                    }
+                ]
+            }
+
+        import paper_tracker.open_source as open_source
+
+        open_source.fetch_json = fake_fetch_json
+        try:
+            result, error = detect_from_papers_with_code(paper, {"papers_with_code_base_url": "https://example.test"}, 1)
+        finally:
+            open_source.fetch_json = original
+        self.assertIsNone(error)
+        self.assertEqual(result["code_url"], "https://github.com/example/wireless-semcom")
+        self.assertEqual(result["evidence"], "papers_with_code")
+
+    def test_detect_from_github_search_mock(self) -> None:
+        paper = Paper(paper_id="p", title="Semantic Communication for Wireless Networks")
+        original = __import__("paper_tracker.open_source", fromlist=["fetch_json"]).fetch_json
+
+        def fake_fetch_json(url: str, timeout: int):
+            return {
+                "items": [
+                    {
+                        "html_url": "https://github.com/example/wireless-semcom",
+                        "name": "wireless-semcom",
+                        "full_name": "example/wireless-semcom",
+                        "description": "Semantic Communication for Wireless Networks implementation",
+                        "topics": ["semantic-communication"],
+                    }
+                ]
+            }
+
+        import paper_tracker.open_source as open_source
+
+        open_source.fetch_json = fake_fetch_json
+        try:
+            result, error = detect_from_github_search(
+                paper,
+                {"github_search_url": "https://example.test", "github_max_results": 3},
+                1,
+            )
+        finally:
+            open_source.fetch_json = original
+        self.assertIsNone(error)
+        self.assertEqual(result["code_url"], "https://github.com/example/wireless-semcom")
+        self.assertEqual(result["evidence"], "github_search")
+
+    def test_detect_from_pdf_mock(self) -> None:
+        paper = Paper(paper_id="p", title="Semantic Communication", pdf_url="https://example.test/paper.pdf")
+        original = __import__("paper_tracker.open_source", fromlist=["safe_fetch_binary_as_text"]).safe_fetch_binary_as_text
+
+        def fake_fetch_pdf(url: str, timeout: int, max_bytes: int):
+            return "Project page and code: https://github.com/example/pdf-code"
+
+        import paper_tracker.open_source as open_source
+
+        open_source.safe_fetch_binary_as_text = fake_fetch_pdf
+        try:
+            result, error = detect_from_pdf(paper, {"max_pdf_bytes": 1000}, 1)
+        finally:
+            open_source.safe_fetch_binary_as_text = original
+        self.assertIsNone(error)
+        self.assertEqual(result["code_url"], "https://github.com/example/pdf-code")
+        self.assertEqual(result["evidence"], "pdf_link_extract")
+
+    def test_open_source_failures_do_not_raise(self) -> None:
+        paper = Paper(paper_id="p", title="Semantic Communication for Missing Code")
+        detect_open_source(
+            paper,
+            options={
+                "papers_with_code_enabled": True,
+                "papers_with_code_base_url": "https://127.0.0.1:9",
+                "github_search_enabled": False,
+                "pdf_extract_enabled": False,
+                "request_timeout_seconds": 1,
+            },
+        )
+        self.assertFalse(paper.is_open_source)
+        self.assertIn("source_error:papers_with_code", paper.open_source_evidence)
 
     def test_score_relevance_marks_curated(self) -> None:
         paper = Paper(
