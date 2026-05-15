@@ -36,7 +36,16 @@ def export_excel(path: Path, papers: list[Paper]) -> None:
     ws.auto_filter.ref = ws.dimensions
     for index, field in enumerate(PAPER_FIELDS, start=1):
         width = 14
-        if field in {"title", "abstract", "paper_url", "pdf_url", "code_url", "project_url"}:
+        if field in {
+            "title",
+            "abstract",
+            "paper_url",
+            "pdf_url",
+            "code_url",
+            "project_url",
+            "candidate_code_urls",
+            "open_source_evidence",
+        }:
             width = 42
         elif field in {"authors", "application_scenario", "technical_framework"}:
             width = 24
@@ -51,17 +60,21 @@ def export_markdown_summary(path: Path, papers: list[Paper], title: str) -> None
     lines.append("")
     lines.append("## 建议精读论文")
     for paper in sorted(papers, key=lambda item: item.relevance_score, reverse=True)[:10]:
-        code = "开源" if paper.is_open_source else "未发现开源"
-        lines.append(f"- {paper.title} ({paper.year}) | {paper.application_scenario} | {paper.technical_framework} | {code}")
+        code = format_open_source_status(paper)
+        lines.append(
+            f"- {paper.title} ({paper.year}) | {paper.application_scenario} | "
+            f"{paper.technical_framework} | {code}"
+        )
+    lines.append("")
+    lines.extend(build_open_source_review_lines(papers))
     lines.append("")
     lines.append("## 逐篇简表")
-    lines.append("| 序号 | 题名 | 年份 | 场景 | 技术框架 | 相关性 | 开源 |")
+    lines.append("| 序号 | 题名 | 年份 | 场景 | 技术框架 | 相关性 | 开源状态 |")
     lines.append("| --- | --- | --- | --- | --- | --- | --- |")
     for index, paper in enumerate(sorted(papers, key=lambda item: item.relevance_score, reverse=True), start=1):
-        code = paper.code_url if paper.is_open_source else "未发现"
         lines.append(
             f"| {index} | {paper.title} | {paper.year} | {paper.application_scenario} | "
-            f"{paper.technical_framework} | {paper.relevance_score} | {code} |"
+            f"{paper.technical_framework} | {paper.relevance_score} | {format_open_source_status(paper)} |"
         )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -85,22 +98,27 @@ def export_word_report(path: Path, papers: list[Paper], title: str) -> None:
     add_counter_table(doc, "应用场景", Counter(paper.application_scenario for paper in papers))
     add_counter_table(doc, "技术框架", Counter(paper.technical_framework for paper in papers))
 
-    doc.add_heading("建议精读论文", level=1)
+    doc.add_heading("三、建议精读论文", level=1)
     for paper in sorted(papers, key=lambda item: item.relevance_score, reverse=True)[:10]:
         doc.add_paragraph(
-            f"{paper.title}（{paper.year}）｜{paper.application_scenario}｜{paper.technical_framework}｜相关性 {paper.relevance_score}",
+            f"{paper.title}（{paper.year}）｜{paper.application_scenario}｜"
+            f"{paper.technical_framework}｜相关性 {paper.relevance_score}｜{format_open_source_status(paper)}",
             style="List Bullet",
         )
-    doc.add_heading("三、逐篇明细", level=1)
+
+    doc.add_heading("四、逐篇明细", level=1)
     add_paper_table(doc, papers)
 
-    doc.add_heading("四、开源情况", level=1)
-    open_papers = [item for item in papers if item.is_open_source]
-    if open_papers:
-        for paper in open_papers[:20]:
-            doc.add_paragraph(f"{paper.title}：{paper.code_url}", style="List Bullet")
-    else:
-        doc.add_paragraph("本次 curated 论文中暂未检测到明确代码仓库链接，后续可人工补充项目主页或 GitHub 仓库。")
+    doc.add_heading("五、开源复核清单", level=1)
+    for line in build_open_source_review_lines(papers):
+        if line.startswith("## "):
+            continue
+        if line.startswith("### "):
+            doc.add_heading(line.replace("### ", ""), level=2)
+        elif line.startswith("- "):
+            doc.add_paragraph(line.replace("- ", ""), style="List Bullet")
+        elif line:
+            doc.add_paragraph(line)
     doc.save(path)
 
 
@@ -108,10 +126,14 @@ def build_summary_lines(papers: list[Paper]) -> list[str]:
     year_counter = Counter(str(paper.year) for paper in papers if paper.year)
     scenario_counter = Counter(paper.application_scenario for paper in papers)
     framework_counter = Counter(paper.technical_framework for paper in papers)
-    open_count = sum(1 for paper in papers if paper.is_open_source)
+    open_count = sum(1 for paper in papers if paper.open_source_status == "detected")
+    review_count = sum(1 for paper in papers if paper.open_source_status == "needs_review")
+    not_detected_count = sum(1 for paper in papers if paper.open_source_status == "not_detected")
     return [
         f"论文总数：{len(papers)}",
-        f"开源论文数：{open_count}",
+        f"已确认开源论文数：{open_count}",
+        f"待人工复核候选数：{review_count}",
+        f"自动未发现代码数：{not_detected_count}",
         "年份分布：" + format_counter(year_counter),
         "场景分布：" + format_counter(scenario_counter),
         "技术框架分布：" + format_counter(framework_counter),
@@ -124,8 +146,49 @@ def format_counter(counter: Counter[str]) -> str:
     return "；".join(f"{key} {value}" for key, value in counter.most_common())
 
 
+def format_open_source_status(paper: Paper) -> str:
+    if paper.open_source_status == "detected" and paper.code_url:
+        return f"detected: {paper.code_url}"
+    if paper.open_source_status == "needs_review":
+        candidates = "; ".join(paper.candidate_code_urls) or paper.project_url
+        return f"needs_review: {candidates}" if candidates else "needs_review"
+    return "not_detected"
+
+
+def build_open_source_review_lines(papers: list[Paper]) -> list[str]:
+    detected = [paper for paper in papers if paper.open_source_status == "detected"]
+    needs_review = [paper for paper in papers if paper.open_source_status == "needs_review"]
+    not_detected = [paper for paper in papers if paper.open_source_status == "not_detected"]
+    lines = [
+        "## 开源复核清单",
+        "",
+        "说明：not_detected 只表示自动流程未发现明确代码链接，不等于论文一定未开源。",
+        "",
+        "### 已确认开源",
+    ]
+    if detected:
+        for paper in detected:
+            lines.append(f"- {paper.title} ({paper.year}) | {paper.code_url} | evidence={paper.open_source_evidence}")
+    else:
+        lines.append("- 本次 curated 论文中暂未检测到高可信代码仓库链接。")
+    lines.extend(["", "### 需要人工复核"])
+    if needs_review:
+        for paper in needs_review:
+            candidates = "; ".join(paper.candidate_code_urls) or paper.project_url or "N/A"
+            lines.append(f"- {paper.title} ({paper.year}) | candidates={candidates} | evidence={paper.open_source_evidence}")
+    else:
+        lines.append("- 本次没有需要人工复核的候选链接。")
+    lines.extend(["", "### 自动未发现"])
+    if not_detected:
+        for paper in not_detected:
+            lines.append(f"- {paper.title} ({paper.year}) | evidence={paper.open_source_evidence}")
+    else:
+        lines.append("- 无")
+    return lines
+
+
 def write_minimal_docx(path: Path, papers: list[Paper], title: str) -> None:
-    detail_rows = [["序号", "题名", "年份", "应用场景", "技术框架", "相关性", "开源"]]
+    detail_rows = [["序号", "题名", "年份", "应用场景", "技术框架", "相关性", "开源状态"]]
     for index, paper in enumerate(sorted(papers, key=lambda item: item.relevance_score, reverse=True), start=1):
         detail_rows.append(
             [
@@ -135,19 +198,16 @@ def write_minimal_docx(path: Path, papers: list[Paper], title: str) -> None:
                 paper.application_scenario,
                 paper.technical_framework,
                 str(paper.relevance_score),
-                paper.code_url if paper.is_open_source else "未发现",
+                format_open_source_status(paper),
             ]
         )
     scenario_rows = [["应用场景", "数量"], *[[key, str(value)] for key, value in Counter(p.application_scenario for p in papers).most_common()]]
     framework_rows = [["技术框架", "数量"], *[[key, str(value)] for key, value in Counter(p.technical_framework for p in papers).most_common()]]
     recommended = [
-        f"{paper.title}（{paper.year}）｜{paper.application_scenario}｜{paper.technical_framework}｜相关性 {paper.relevance_score}"
+        f"{paper.title}（{paper.year}）｜{paper.application_scenario}｜{paper.technical_framework}｜相关性 {paper.relevance_score}｜{format_open_source_status(paper)}"
         for paper in sorted(papers, key=lambda item: item.relevance_score, reverse=True)[:10]
     ]
-    open_source_lines = (
-        [f"{paper.title}：{paper.code_url}" for paper in [item for item in papers if item.is_open_source][:20]]
-        or ["本次 curated 论文中暂未检测到明确代码仓库链接，后续可人工补充项目主页或 GitHub 仓库。"]
-    )
+    open_source_lines = build_open_source_review_lines(papers)
     document_xml = (
         '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
         '<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body>'
@@ -162,7 +222,7 @@ def write_minimal_docx(path: Path, papers: list[Paper], title: str) -> None:
         + "".join(_docx_block(text) for text in recommended)
         + _docx_block("四、逐篇明细")
         + _docx_table(detail_rows)
-        + _docx_block("五、开源情况")
+        + _docx_block("五、开源复核清单")
         + "".join(_docx_block(text) for text in open_source_lines)
         + "<w:sectPr/></w:body></w:document>"
     )
@@ -218,7 +278,7 @@ def add_counter_table(doc, label: str, counter: Counter[str]) -> None:
 def add_paper_table(doc, papers: list[Paper]) -> None:
     table = doc.add_table(rows=1, cols=7)
     table.style = "Table Grid"
-    headers = ["序号", "题名", "年份", "应用场景", "技术框架", "相关性", "开源"]
+    headers = ["序号", "题名", "年份", "应用场景", "技术框架", "相关性", "开源状态"]
     for index, header in enumerate(headers):
         table.rows[0].cells[index].text = header
     for index, paper in enumerate(sorted(papers, key=lambda item: item.relevance_score, reverse=True), start=1):
@@ -230,7 +290,7 @@ def add_paper_table(doc, papers: list[Paper]) -> None:
             paper.application_scenario,
             paper.technical_framework,
             str(paper.relevance_score),
-            paper.code_url if paper.is_open_source else "未发现",
+            format_open_source_status(paper),
         ]
         for cell_index, value in enumerate(values):
             row[cell_index].text = value

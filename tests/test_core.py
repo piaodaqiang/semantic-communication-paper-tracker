@@ -7,7 +7,9 @@ from paper_tracker.arxiv_client import parse_arxiv_feed
 from paper_tracker.classify import classify_paper
 from paper_tracker.config import DEFAULT_CLASSIFICATION_RULES
 from paper_tracker.open_source import (
+    build_request_headers,
     detect_from_github_search,
+    detect_from_author_pages,
     detect_from_papers_with_code,
     detect_from_pdf,
     detect_open_source,
@@ -202,6 +204,52 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(result["evidence"], "github_search")
         self.assertEqual(candidates, ["https://github.com/example/wireless-semcom"])
 
+    def test_github_token_header(self) -> None:
+        headers = build_request_headers("token-123")
+        self.assertEqual(headers["Authorization"], "Bearer token-123")
+
+    def test_github_search_uses_multiple_queries_and_token(self) -> None:
+        paper = Paper(
+            paper_id="p",
+            title="Semantic Communication for Wireless Networks",
+            arxiv_id="2601.12345v1",
+        )
+        original = __import__("paper_tracker.open_source", fromlist=["fetch_json"]).fetch_json
+        calls = []
+
+        def fake_fetch_json(url: str, timeout: int, token: str = ""):
+            calls.append((url, token))
+            if "2601.12345" in url:
+                return {
+                    "items": [
+                        {
+                            "html_url": "https://github.com/example/wireless-semcom",
+                            "name": "wireless-semcom",
+                            "full_name": "example/wireless-semcom",
+                            "description": "Semantic Communication for Wireless Networks official code",
+                            "topics": ["semantic-communication"],
+                        }
+                    ]
+                }
+            return {"items": []}
+
+        import paper_tracker.open_source as open_source
+
+        open_source.fetch_json = fake_fetch_json
+        try:
+            result, error, candidates = detect_from_github_search(
+                paper,
+                {"github_search_url": "https://example.test", "github_max_results": 3, "github_token": "token-123"},
+                1,
+            )
+        finally:
+            open_source.fetch_json = original
+        self.assertIsNone(error)
+        self.assertEqual(result["code_url"], "https://github.com/example/wireless-semcom")
+        self.assertEqual(candidates, ["https://github.com/example/wireless-semcom"])
+        self.assertTrue(any(token == "token-123" for _, token in calls))
+        self.assertGreaterEqual(len(calls), 3)
+
     def test_detect_from_pdf_mock(self) -> None:
         paper = Paper(paper_id="p", title="Semantic Communication", pdf_url="https://example.test/paper.pdf")
         original = __import__("paper_tracker.open_source", fromlist=["safe_fetch_binary_as_text"]).safe_fetch_binary_as_text
@@ -306,6 +354,31 @@ class CoreTests(unittest.TestCase):
         self.assertIsNone(result)
         self.assertEqual(candidates, [])
 
+    def test_author_page_candidate_does_not_mark_detected(self) -> None:
+        paper = Paper(
+            paper_id="p",
+            title="Semantic Communication for Wireless Networks",
+            paper_url="https://example.test/project",
+        )
+        original = __import__("paper_tracker.open_source", fromlist=["safe_fetch_text"]).safe_fetch_text
+
+        def fake_fetch_text(url: str, timeout: int = 15):
+            return (
+                "Semantic Communication for Wireless Networks project page. "
+                "Code may be available at https://github.com/example/project-candidate"
+            )
+
+        import paper_tracker.open_source as open_source
+
+        open_source.safe_fetch_text = fake_fetch_text
+        try:
+            result, error, candidates = detect_from_author_pages(paper, {}, 1)
+        finally:
+            open_source.safe_fetch_text = original
+        self.assertIsNone(error)
+        self.assertIsNone(result)
+        self.assertEqual(candidates, ["https://github.com/example/project-candidate"])
+
     def test_score_relevance_marks_curated(self) -> None:
         paper = Paper(
             paper_id="p",
@@ -374,6 +447,51 @@ class CoreTests(unittest.TestCase):
             document_xml = docx.read("word/document.xml").decode("utf-8")
         self.assertIn("逐篇明细", document_xml)
         self.assertGreaterEqual(document_xml.count("<w:tbl>"), 3)
+
+    def test_exports_open_source_review_checklist(self) -> None:
+        output_dir = Path("tests") / "_artifacts"
+        output_dir.mkdir(exist_ok=True)
+        papers = [
+            Paper(
+                paper_id="detected",
+                title="Detected Semantic Communication",
+                year=2026,
+                open_source_status="detected",
+                is_open_source=True,
+                code_url="https://github.com/example/detected",
+                open_source_evidence="github_search",
+            ),
+            Paper(
+                paper_id="review",
+                title="Review Semantic Communication",
+                year=2026,
+                open_source_status="needs_review",
+                candidate_code_urls=["https://github.com/example/review"],
+                open_source_evidence="author_project_page",
+            ),
+            Paper(
+                paper_id="missing",
+                title="Missing Semantic Communication",
+                year=2026,
+                open_source_status="not_detected",
+                open_source_evidence="not_detected",
+            ),
+        ]
+        md_path = output_dir / "review_summary.md"
+        word_path = output_dir / "review_summary.docx"
+        from paper_tracker.exporters import export_markdown_summary
+
+        export_markdown_summary(md_path, papers, "Semantic Communication Review")
+        export_word_report(word_path, papers, "Semantic Communication Review")
+        md_text = md_path.read_text(encoding="utf-8")
+        self.assertIn("开源复核清单", md_text)
+        self.assertIn("已确认开源", md_text)
+        self.assertIn("需要人工复核", md_text)
+        self.assertIn("自动未发现", md_text)
+        with zipfile.ZipFile(word_path) as docx:
+            document_xml = docx.read("word/document.xml").decode("utf-8")
+        self.assertIn("开源复核清单", document_xml)
+        self.assertIn("needs_review", document_xml)
 
 
 if __name__ == "__main__":

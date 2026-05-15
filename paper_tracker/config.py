@@ -43,9 +43,12 @@ DEFAULT_SOURCES = {
         "github_search_enabled": True,
         "github_search_url": "https://api.github.com/search/repositories",
         "pdf_extract_enabled": True,
-        "request_timeout_seconds": 12,
-        "max_pdf_bytes": 750000,
+        "author_page_enabled": True,
+        "request_timeout_seconds": 6,
+        "max_pdf_bytes": 350000,
         "github_max_results": 3,
+        "github_max_queries": 3,
+        "github_token_env": "GITHUB_TOKEN",
     },
 }
 

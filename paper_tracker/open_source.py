@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import urllib.parse
 import urllib.request
@@ -19,6 +20,7 @@ CODE_PATTERNS = [
 
 PROJECT_PATTERNS = [
     re.compile(r"https?://[^\s\"'<>)\]]*(?:project|demo|code|software)[^\s\"'<>)\]]*", re.IGNORECASE),
+    re.compile(r"https?://[^\s\"'<>)\]]*(?:github\.io|pages\.[^\s\"'<>)\]]*)[^\s\"'<>)\]]*", re.IGNORECASE),
 ]
 
 LOW_VALUE_REPO_MARKERS = {
@@ -42,9 +44,12 @@ DEFAULT_OPTIONS = {
     "github_search_enabled": True,
     "github_search_url": "https://api.github.com/search/repositories",
     "pdf_extract_enabled": True,
+    "author_page_enabled": True,
     "request_timeout_seconds": 12,
     "max_pdf_bytes": 750000,
     "github_max_results": 3,
+    "github_max_queries": 3,
+    "github_token_env": "GITHUB_TOKEN",
 }
 
 
@@ -75,6 +80,12 @@ def detect_open_source(
         candidates.extend(source_candidates)
         if error:
             errors.append(f"source_error:github_search:{error}")
+
+    if not result and opts.get("author_page_enabled", True):
+        result, error, source_candidates = detect_from_author_pages(paper, opts, timeout)
+        candidates.extend(source_candidates)
+        if error:
+            errors.append(f"source_error:author_project_page:{error}")
 
     if not result and opts.get("pdf_extract_enabled", True):
         result, error, source_candidates = detect_from_pdf(paper, opts, timeout)
@@ -154,35 +165,62 @@ def detect_from_github_search(
 ) -> tuple[dict[str, str] | None, str | None, list[str]]:
     candidates: list[str] = []
     try:
-        query = urllib.parse.urlencode(
-            {
-                "q": f'"{paper.title}" in:readme,description',
-                "sort": "stars",
-                "order": "desc",
-                "per_page": int(options.get("github_max_results", 3)),
-            }
-        )
-        payload = fetch_json(f"{options['github_search_url']}?{query}", timeout=timeout)
-        for item in payload.get("items", []):
-            repo_url = str(item.get("html_url") or "")
-            searchable = " ".join(
-                [
-                    str(item.get("name") or ""),
-                    str(item.get("full_name") or ""),
-                    str(item.get("description") or ""),
-                    str(item.get("topics") or ""),
-                ]
+        for search_query in build_github_queries(paper)[: int(options.get("github_max_queries", 3))]:
+            query = urllib.parse.urlencode(
+                {
+                    "q": search_query,
+                    "sort": "stars",
+                    "order": "desc",
+                    "per_page": int(options.get("github_max_results", 3)),
+                }
             )
-            code_url = find_first(CODE_PATTERNS, repo_url)
-            if not code_url or is_low_value_repo(searchable):
+            token = get_github_token(options)
+            github_url = f"{options['github_search_url']}?{query}"
+            payload = fetch_json(github_url, timeout=timeout, token=token) if token else fetch_json(github_url, timeout=timeout)
+            for item in payload.get("items", []):
+                repo_url = str(item.get("html_url") or "")
+                searchable = " ".join(
+                    [
+                        str(item.get("name") or ""),
+                        str(item.get("full_name") or ""),
+                        str(item.get("description") or ""),
+                        str(item.get("topics") or ""),
+                    ]
+                )
+                code_url = find_first(CODE_PATTERNS, repo_url)
+                if not code_url or is_low_value_repo(searchable):
+                    continue
+                similarity = title_similarity(paper.title, searchable)
+                overlap = core_terms_overlap(paper.title, searchable)
+                if similarity >= 0.35 or overlap >= 2:
+                    candidates.append(code_url)
+                if is_confirmed_github_match(paper, searchable):
+                    return {"code_url": code_url, "project_url": repo_url, "evidence": "github_search"}, None, unique_urls(candidates)
+        return None, None, candidates
+    except Exception as exc:
+        return None, normalize_error(exc), candidates
+
+
+def detect_from_author_pages(
+    paper: Paper,
+    options: dict[str, Any],
+    timeout: int,
+) -> tuple[dict[str, str] | None, str | None, list[str]]:
+    urls = [paper.paper_url, paper.project_url]
+    candidates: list[str] = []
+    try:
+        for url in urls:
+            if not url:
                 continue
-            similarity = title_similarity(paper.title, searchable)
-            overlap = core_terms_overlap(paper.title, searchable)
-            if similarity >= 0.35 or overlap >= 2:
-                candidates.append(code_url)
-            if similarity >= 0.45 or overlap >= 3:
-                if code_url:
-                    return {"code_url": code_url, "project_url": repo_url, "evidence": "github_search"}, None, candidates
+            page_text = safe_fetch_text(url, timeout=timeout)
+            text_result = detect_from_text_blob(page_text, "author_project_page")
+            if not text_result:
+                continue
+            if text_result.get("code_url") and title_similarity(paper.title, page_text[:3000]) >= 0.25:
+                candidates.append(text_result["code_url"])
+            project_url = text_result.get("project_url", "")
+            if project_url and not text_result.get("code_url"):
+                return {"code_url": "", "project_url": project_url, "evidence": "author_project_page"}, None, candidates
         return None, None, candidates
     except Exception as exc:
         return None, normalize_error(exc), candidates
@@ -226,24 +264,32 @@ def normalize_error(exc: Exception) -> str:
     return name
 
 
-def fetch_json(url: str, timeout: int) -> dict[str, Any]:
-    request = urllib.request.Request(url, headers={"User-Agent": "semantic-communication-paper-tracker/0.1"})
-    data = open_with_retries(request, timeout=timeout, max_retries=1)
+def fetch_json(url: str, timeout: int, token: str = "") -> dict[str, Any]:
+    headers = build_request_headers(token)
+    request = urllib.request.Request(url, headers=headers)
+    data = open_with_retries(request, timeout=timeout, max_retries=0)
     return json.loads(data.decode("utf-8", errors="ignore"))
+
+
+def build_request_headers(token: str = "") -> dict[str, str]:
+    headers = {"User-Agent": "semantic-communication-paper-tracker/0.1"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
 
 
 def safe_fetch_text(url: str, timeout: int = 15) -> str:
     try:
-        request = urllib.request.Request(url, headers={"User-Agent": "semantic-communication-paper-tracker/0.1"})
-        data = open_with_retries(request, timeout=timeout, max_retries=1)
+        request = urllib.request.Request(url, headers=build_request_headers())
+        data = open_with_retries(request, timeout=timeout, max_retries=0)
         return data[:500_000].decode("utf-8", errors="ignore")
     except Exception:
         return ""
 
 
 def safe_fetch_binary_as_text(url: str, timeout: int, max_bytes: int) -> str:
-    request = urllib.request.Request(url, headers={"User-Agent": "semantic-communication-paper-tracker/0.1"})
-    data = open_with_retries(request, timeout=timeout, max_retries=1)
+    request = urllib.request.Request(url, headers=build_request_headers())
+    data = open_with_retries(request, timeout=timeout, max_retries=0)
     return data[:max_bytes].decode("latin-1", errors="ignore")
 
 
@@ -290,3 +336,50 @@ def unique_urls(urls: list[str]) -> list[str]:
 def is_low_value_repo(searchable: str) -> bool:
     normalized = normalize(searchable)
     return any(marker in normalized for marker in LOW_VALUE_REPO_MARKERS)
+
+
+def get_github_token(options: dict[str, Any]) -> str:
+    direct = str(options.get("github_token") or "")
+    if direct:
+        return direct
+    env_name = str(options.get("github_token_env") or "GITHUB_TOKEN")
+    return os.environ.get(env_name, "")
+
+
+def build_github_queries(paper: Paper) -> list[str]:
+    queries = [f'"{paper.title}" in:readme,description']
+    title_terms = important_terms(paper.title)
+    if title_terms:
+        queries.append(" ".join(title_terms[:8]) + " in:name,readme,description")
+    if paper.arxiv_id:
+        arxiv_base = paper.arxiv_id.split("v")[0]
+        queries.append(f'"{arxiv_base}" in:readme,description')
+    if title_terms:
+        queries.append("semantic communication " + " ".join(title_terms[:4]) + " in:readme,description")
+    return unique_urls(queries)
+
+
+def important_terms(title: str) -> list[str]:
+    stopwords = {
+        "a",
+        "an",
+        "and",
+        "are",
+        "based",
+        "for",
+        "from",
+        "in",
+        "is",
+        "of",
+        "on",
+        "the",
+        "to",
+        "toward",
+        "towards",
+        "with",
+    }
+    return [term for term in normalize(title).split() if len(term) > 2 and term not in stopwords]
+
+
+def is_confirmed_github_match(paper: Paper, searchable: str) -> bool:
+    return title_similarity(paper.title, searchable) >= 0.45 or core_terms_overlap(paper.title, searchable) >= 3

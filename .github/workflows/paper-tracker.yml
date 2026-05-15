@@ -23,6 +23,8 @@ jobs:
         run: python scripts/fetch_daily_inbox.py --max-results 10 --fail-on-empty
       - name: Run weekly curated set
         if: github.event.schedule == '0 2 * * 1' || github.event_name == 'workflow_dispatch'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/curate_weekly_set.py
       - name: Commit generated outputs
         run: |
