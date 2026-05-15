@@ -1,66 +1,90 @@
 # Semantic Communication Paper Tracker
 
-语义通信论文自动检索与整理项目，用于持续追踪近六年论文、标注开源情况、按场景和技术框架分类，并输出导师可读的 Excel / Word 汇报文件。
+语义通信论文自动检索与整理项目。系统用于持续追踪近六年语义通信相关论文，补充论文元数据，标注开源代码线索，并按应用场景和技术框架分类，最终生成 Excel、Word 和 Markdown 汇总文件。
 
-## 当前能力
+## 当前功能
 
-- QueueA Daily Inbox：从 arXiv 拉取原始论文元数据，过滤近六年，去重后保存。
-- OpenAlex 兜底检索：当 arXiv 结果不足时补充更宽的论文元数据来源。
-- QueueB Weekly Curated Set：合并 Inbox，严格筛选高相关论文，检测开源线索，分类并导出周报。
-- Weekly 输出只包含 `curated` 论文；低相关候选保留在 Daily Inbox 供人工复核。
-- 输出格式：
-  - Excel：`outputs/weekly/semantic_communication_papers_YYYY-WW.xlsx`
-  - Word：`outputs/weekly/semantic_communication_report_YYYY-WW.docx`
-  - Markdown 摘要：`outputs/weekly/weekly_summary_YYYY-WW.md`
-- 没有 LLM、没有 API key 时也能运行基础流程。
+- Daily Inbox：从 arXiv 和 OpenAlex 检索论文元数据，过滤近六年论文并去重。
+- Weekly Curated Set：合并近期 Daily Inbox，筛选高相关论文，生成正式周报。
+- 开源代码补查：自动检查论文元数据、arXiv comment、Papers with Code、GitHub、论文页面和 PDF 中的代码线索。
+- 分类整理：按应用场景、技术框架、任务类型和模态进行基础分类。
+- 结果导出：生成导师可读的 Excel 表格、Word 报告和 Markdown 摘要。
+- GitHub Actions：支持每日自动检索、每周自动整理，也支持手动触发 workflow。
 
-## 筛选边界
+## 输出文件
 
-- 年份窗口默认只允许当前年份向前 6 年，例如 2026 年运行时保留 `2021-2026`，自动排除未来年份和异常年份。
-- Weekly 精选要求标题或摘要出现语义通信核心组合词，例如 `semantic communication`、`semantic communications`、`SemCom`、`semantic-aware communication`、`task-oriented semantic communication`。
-- 开源标注只在高相关 `curated` 论文上执行，避免无关论文因为包含 GitHub 链接而被误计入开源论文。
-- arXiv 和 OpenAlex 的重复项会优先按规范化标题合并。
+每周整理结果位于 `outputs/weekly/`：
 
-## 快速开始
+```text
+semantic_communication_papers_YYYY-WW.xlsx
+semantic_communication_report_YYYY-WW.docx
+weekly_summary_YYYY-WW.md
+```
 
-本机如果 `python` 不在 PATH，可使用：
+Excel 中包含标题、作者、年份、摘要、论文链接、PDF 链接、分类结果、相关性分数、开源状态和代码链接等字段。
+
+开源状态说明：
+
+- `detected`：自动流程检测到较可信的代码仓库链接。
+- `needs_review`：发现候选链接，但需要人工复核。
+- `not_detected`：自动流程未发现明确代码链接，不代表论文一定未开源。
+
+## 使用方式
+
+安装依赖：
+
+```powershell
+pip install -r requirements.txt
+```
+
+运行每日检索：
+
+```powershell
+python scripts/fetch_daily_inbox.py
+```
+
+运行每周整理：
+
+```powershell
+python scripts/curate_weekly_set.py
+```
+
+在本地 Python 不在 PATH 的情况下，可以使用指定解释器运行：
 
 ```powershell
 D:\miniconda\envs\ai\python.exe scripts\fetch_daily_inbox.py
 D:\miniconda\envs\ai\python.exe scripts\curate_weekly_set.py
 ```
 
-快速验证时建议先限制每个关键词的 arXiv 返回量：
+快速测试时可以限制每个关键词的返回数量：
 
 ```powershell
-D:\miniconda\envs\ai\python.exe scripts\fetch_daily_inbox.py --max-results 3 --fail-on-empty
+python scripts/fetch_daily_inbox.py --max-results 3 --fail-on-empty
 ```
 
-如果本机网络或证书环境导致 arXiv 访问失败，脚本会在每日 Markdown 摘要的“抓取错误”中记录原因；GitHub Actions 环境通常不会遇到本机 Conda 证书问题。
+## 筛选规则
 
-也可以安装依赖后使用普通 Python：
-
-```powershell
-pip install -r requirements.txt
-python scripts/fetch_daily_inbox.py
-python scripts/curate_weekly_set.py
-```
+- 年份范围：默认保留当前年份向前六年的论文，例如 2026 年运行时保留 2021-2026。
+- Weekly 输出只包含高相关 `curated` 论文，低相关候选保留在 Daily Inbox。
+- 语义通信相关性主要依据标题和摘要中的核心组合词判断，例如 `semantic communication`、`semantic communications`、`SemCom`、`semantic-aware communication`、`task-oriented semantic communication`。
+- 开源检测只对高相关 `curated` 论文执行，避免无关论文因包含 GitHub 链接被误标为开源论文。
 
 ## 项目结构
 
 ```text
-configs/                 检索词、数据源、分类规则
-paper_tracker/           核心 Python 包
+configs/                 检索词、数据源和分类规则
+paper_tracker/           核心 Python 模块
 scripts/                 可执行脚本入口
-data/inbox/              Daily Inbox 原始流
-data/curated/            Weekly Curated Set 精华流
+data/inbox/              Daily Inbox 原始数据
+data/curated/            Weekly Curated Set 数据
 outputs/daily/           每日新增摘要
 outputs/weekly/          每周 Excel / Word / Markdown 输出
-docs/                    项目说明、工作流、Skill 设计
+docs/                    项目计划、工作流和 Skill 设计说明
 ```
 
-## 注意
+## 注意事项
 
-- 仓库可以公开，但不要提交 `.env`、API key、PDF 缓存和大体积临时文件。
+- 不提交 `.env`、API key、PDF 缓存和本地临时文件。
 - PDF 缓存目录 `cache/` 已被 `.gitignore` 排除。
-- 本项目第一版是脚本系统，Agent 和 Skill 等流程稳定后再封装。
+- GitHub Actions 使用仓库默认 `GITHUB_TOKEN` 提升 GitHub 搜索稳定性，不需要额外配置 Secret。
+- 当前版本以脚本自动化为主，Agent 和 Skill 封装放在后续流程稳定后继续扩展。
