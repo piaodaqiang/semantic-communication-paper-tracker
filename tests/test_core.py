@@ -1,6 +1,7 @@
 import unittest
 import zipfile
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 from paper_tracker.arxiv_client import parse_arxiv_feed
 from paper_tracker.classify import classify_paper
@@ -8,9 +9,10 @@ from paper_tracker.config import DEFAULT_CLASSIFICATION_RULES
 from paper_tracker.open_source import detect_open_source
 from paper_tracker.exporters import export_excel, export_word_report
 from paper_tracker.openalex_client import parse_openalex_works, reconstruct_abstract
-from paper_tracker.scoring import filter_recent, score_relevance
+from paper_tracker.pipeline import run_weekly_curated
+from paper_tracker.scoring import filter_recent, has_core_semantic_signal, score_relevance
 from paper_tracker.schema import Paper
-from paper_tracker.storage import dedupe_papers
+from paper_tracker.storage import dedupe_papers, save_json
 
 
 class CoreTests(unittest.TestCase):
@@ -56,13 +58,28 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(papers[0].abstract, "Semantic communication works")
 
     def test_filter_recent_keeps_only_last_six_years(self) -> None:
-        papers = [Paper(paper_id="a", title="old", year=2019), Paper(paper_id="b", title="new", year=2026)]
+        papers = [
+            Paper(paper_id="a", title="old", year=2019),
+            Paper(paper_id="b", title="new", year=2026),
+            Paper(paper_id="c", title="future", year=2027),
+        ]
         self.assertEqual([paper.paper_id for paper in filter_recent(papers, years=6, current_year=2026)], ["b"])
 
     def test_dedupe_by_arxiv_id(self) -> None:
         papers = [
             Paper(paper_id="1", title="A", arxiv_id="2601.00001"),
             Paper(paper_id="2", title="A copy", arxiv_id="2601.00001", abstract="copy"),
+        ]
+        self.assertEqual(len(dedupe_papers(papers)), 1)
+
+    def test_dedupe_by_normalized_title_across_sources(self) -> None:
+        papers = [
+            Paper(paper_id="arxiv:1", title="Adaptive Dual-Path Framework for Covert Semantic Communication"),
+            Paper(
+                paper_id="openalex:1",
+                title="Adaptive Dual Path Framework for Covert Semantic Communication",
+                doi="10.1234/example",
+            ),
         ]
         self.assertEqual(len(dedupe_papers(papers)), 1)
 
@@ -95,6 +112,39 @@ class CoreTests(unittest.TestCase):
         score_relevance(paper, ["semantic communication"], [])
         self.assertGreaterEqual(paper.relevance_score, 3.0)
         self.assertEqual(paper.curation_status, "curated")
+
+    def test_score_relevance_rejects_non_core_semantic_usage(self) -> None:
+        paper = Paper(
+            paper_id="p",
+            title="Semantic segmentation for urban vegetation monitoring",
+            abstract="A semantic change detection dataset with communication between modules.",
+        )
+        score_relevance(paper, ["semantic communication"], [])
+        self.assertEqual(paper.relevance_score, 0.0)
+        self.assertEqual(paper.curation_status, "candidate")
+        self.assertFalse(has_core_semantic_signal(f"{paper.title} {paper.abstract}"))
+
+    def test_weekly_exports_only_curated_papers(self) -> None:
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            inbox = root / "data" / "inbox" / "daily_inbox_20260515.json"
+            papers = [
+                Paper(
+                    paper_id="good",
+                    title="Semantic Communication for Wireless Networks",
+                    year=2026,
+                    abstract="Semantic communication improves wireless transmission.",
+                ),
+                Paper(
+                    paper_id="bad",
+                    title="Semantic segmentation with open source code",
+                    year=2026,
+                    abstract="Code is available at https://github.com/example/not-semcom.",
+                ),
+            ]
+            save_json(inbox, papers)
+            result = run_weekly_curated(root)
+            self.assertEqual(result["count"], 1)
 
     def test_exports_excel_and_word_files(self) -> None:
         output_dir = Path("tests") / "_artifacts"

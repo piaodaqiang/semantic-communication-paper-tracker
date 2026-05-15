@@ -87,16 +87,28 @@ def run_weekly_curated(root: Path, limit_days: int = 7) -> dict[str, Path | int]
     keywords_config = load_keywords(root)
     rules = load_classification_rules(root)
     papers = dedupe_papers(load_inbox_files(root, limit_days=limit_days))
-    curated: list[Paper] = []
+    scored: list[Paper] = []
     for paper in papers:
-        detect_open_source(paper, fetch_pages=False)
         classify_paper(paper, rules)
         score_relevance(
             paper,
             keywords_config.get("primary_keywords", []),
             keywords_config.get("negative_keywords", []),
         )
-        curated.append(paper)
+        if paper.curation_status == "curated":
+            detect_open_source(paper, fetch_pages=False)
+            score_relevance(
+                paper,
+                keywords_config.get("primary_keywords", []),
+                keywords_config.get("negative_keywords", []),
+            )
+        else:
+            paper.is_open_source = False
+            paper.code_url = ""
+            paper.project_url = ""
+            paper.open_source_evidence = "not_checked_low_relevance"
+        scored.append(paper)
+    curated = [paper for paper in scored if paper.curation_status == "curated"]
     curated = sorted(curated, key=lambda item: (item.relevance_score, item.year or 0), reverse=True)
     year, week, _ = datetime.now().isocalendar()
     stamp = f"{year}-W{week:02d}"

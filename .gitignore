@@ -12,3 +12,4 @@ data/curated/*.tmp
 ~$*.docx
 tests/_artifacts/
 .local_backup/
+temp/

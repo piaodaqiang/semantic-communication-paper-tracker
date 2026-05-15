@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 from pathlib import Path
 from typing import Iterable
 
@@ -65,12 +66,19 @@ def dedupe_papers(papers: Iterable[Paper]) -> list[Paper]:
 
 
 def _dedupe_key(paper: Paper) -> str:
+    normalized_title = normalize_title(paper.title)
+    if len(normalized_title) >= 20:
+        return f"title:{normalized_title}"
     if paper.doi:
         return f"doi:{paper.doi.lower()}"
     if paper.arxiv_id:
         return f"arxiv:{paper.arxiv_id.lower()}"
-    normalized_title = " ".join(paper.title.lower().split())
     return f"title:{normalized_title}"
+
+
+def normalize_title(title: str) -> str:
+    normalized = re.sub(r"[^a-z0-9]+", " ", title.lower())
+    return " ".join(normalized.split())
 
 
 def _merge_paper(left: Paper, right: Paper) -> Paper:

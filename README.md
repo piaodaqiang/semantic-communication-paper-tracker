@@ -6,12 +6,20 @@
 
 - QueueA Daily Inbox：从 arXiv 拉取原始论文元数据，过滤近六年，去重后保存。
 - OpenAlex 兜底检索：当 arXiv 结果不足时补充更宽的论文元数据来源。
-- QueueB Weekly Curated Set：合并 Inbox，计算相关性，检测开源线索，分类并导出周报。
+- QueueB Weekly Curated Set：合并 Inbox，严格筛选高相关论文，检测开源线索，分类并导出周报。
+- Weekly 输出只包含 `curated` 论文；低相关候选保留在 Daily Inbox 供人工复核。
 - 输出格式：
   - Excel：`outputs/weekly/semantic_communication_papers_YYYY-WW.xlsx`
   - Word：`outputs/weekly/semantic_communication_report_YYYY-WW.docx`
   - Markdown 摘要：`outputs/weekly/weekly_summary_YYYY-WW.md`
 - 没有 LLM、没有 API key 时也能运行基础流程。
+
+## 筛选边界
+
+- 年份窗口默认只允许当前年份向前 6 年，例如 2026 年运行时保留 `2021-2026`，自动排除未来年份和异常年份。
+- Weekly 精选要求标题或摘要出现语义通信核心组合词，例如 `semantic communication`、`semantic communications`、`SemCom`、`semantic-aware communication`、`task-oriented semantic communication`。
+- 开源标注只在高相关 `curated` 论文上执行，避免无关论文因为包含 GitHub 链接而被误计入开源论文。
+- arXiv 和 OpenAlex 的重复项会优先按规范化标题合并。
 
 ## 快速开始
 
