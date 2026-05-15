@@ -21,6 +21,20 @@ PROJECT_PATTERNS = [
     re.compile(r"https?://[^\s\"'<>)\]]*(?:project|demo|code|software)[^\s\"'<>)\]]*", re.IGNORECASE),
 ]
 
+LOW_VALUE_REPO_MARKERS = {
+    "arxiv daily",
+    "daily arxiv",
+    "arxivsub",
+    "papers daily",
+    "paper daily",
+    "awesome",
+    "survey",
+    "literature",
+    "reading list",
+    "newsletter",
+    "bibliography",
+}
+
 
 DEFAULT_OPTIONS = {
     "papers_with_code_enabled": True,
@@ -44,23 +58,27 @@ def detect_open_source(
     timeout = int(opts.get("request_timeout_seconds", timeout))
     errors: list[str] = []
 
+    candidates: list[str] = []
     result = detect_from_text(paper)
     if not result and fetch_pages and paper.paper_url:
         page_text = safe_fetch_text(paper.paper_url, timeout=timeout)
         result = detect_from_text_blob(page_text, "paper_page")
 
     if not result and opts.get("papers_with_code_enabled", True):
-        result, error = detect_from_papers_with_code(paper, opts, timeout)
+        result, error, source_candidates = detect_from_papers_with_code(paper, opts, timeout)
+        candidates.extend(source_candidates)
         if error:
             errors.append(f"source_error:papers_with_code:{error}")
 
     if not result and opts.get("github_search_enabled", True):
-        result, error = detect_from_github_search(paper, opts, timeout)
+        result, error, source_candidates = detect_from_github_search(paper, opts, timeout)
+        candidates.extend(source_candidates)
         if error:
             errors.append(f"source_error:github_search:{error}")
 
     if not result and opts.get("pdf_extract_enabled", True):
-        result, error = detect_from_pdf(paper, opts, timeout)
+        result, error, source_candidates = detect_from_pdf(paper, opts, timeout)
+        candidates.extend(source_candidates)
         if error:
             errors.append(f"source_error:pdf_link_extract:{error}")
 
@@ -68,11 +86,15 @@ def detect_open_source(
         paper.code_url = result.get("code_url", "")
         paper.project_url = result.get("project_url", "")
         paper.is_open_source = bool(paper.code_url)
+        paper.open_source_status = "detected" if paper.code_url else "needs_review"
+        paper.candidate_code_urls = unique_urls(candidates)
         paper.open_source_evidence = result.get("evidence", "metadata")
     else:
         paper.code_url = ""
         paper.project_url = ""
         paper.is_open_source = False
+        paper.candidate_code_urls = unique_urls(candidates)
+        paper.open_source_status = "needs_review" if paper.candidate_code_urls else "not_detected"
         paper.open_source_evidence = compact_errors(errors) if errors else "not_detected"
     return paper
 
@@ -102,31 +124,35 @@ def detect_from_papers_with_code(
     paper: Paper,
     options: dict[str, Any],
     timeout: int,
-) -> tuple[dict[str, str] | None, str | None]:
+) -> tuple[dict[str, str] | None, str | None, list[str]]:
+    candidates: list[str] = []
     try:
         query = urllib.parse.urlencode({"q": paper.title})
         url = f"{options['papers_with_code_base_url']}?{query}"
         payload = fetch_json(url, timeout=timeout)
-        candidates = payload.get("results", []) if isinstance(payload, dict) else []
-        for item in candidates:
+        results = payload.get("results", []) if isinstance(payload, dict) else []
+        for item in results:
             title = str(item.get("paper_title") or item.get("title") or "")
             if title_similarity(paper.title, title) < 0.82:
                 continue
             repo_url = str(item.get("repository") or item.get("code_url") or item.get("url_abs") or "")
             code_url = find_first(CODE_PATTERNS, repo_url)
+            if code_url:
+                candidates.append(code_url)
             project_url = str(item.get("paper_url") or item.get("url_abs") or "")
             if code_url:
-                return {"code_url": code_url, "project_url": project_url, "evidence": "papers_with_code"}, None
-        return None, None
+                return {"code_url": code_url, "project_url": project_url, "evidence": "papers_with_code"}, None, candidates
+        return None, None, candidates
     except Exception as exc:
-        return None, normalize_error(exc)
+        return None, normalize_error(exc), candidates
 
 
 def detect_from_github_search(
     paper: Paper,
     options: dict[str, Any],
     timeout: int,
-) -> tuple[dict[str, str] | None, str | None]:
+) -> tuple[dict[str, str] | None, str | None, list[str]]:
+    candidates: list[str] = []
     try:
         query = urllib.parse.urlencode(
             {
@@ -147,31 +173,39 @@ def detect_from_github_search(
                     str(item.get("topics") or ""),
                 ]
             )
-            if title_similarity(paper.title, searchable) >= 0.45 or core_terms_overlap(paper.title, searchable) >= 3:
-                code_url = find_first(CODE_PATTERNS, repo_url)
+            code_url = find_first(CODE_PATTERNS, repo_url)
+            if not code_url or is_low_value_repo(searchable):
+                continue
+            similarity = title_similarity(paper.title, searchable)
+            overlap = core_terms_overlap(paper.title, searchable)
+            if similarity >= 0.35 or overlap >= 2:
+                candidates.append(code_url)
+            if similarity >= 0.45 or overlap >= 3:
                 if code_url:
-                    return {"code_url": code_url, "project_url": repo_url, "evidence": "github_search"}, None
-        return None, None
+                    return {"code_url": code_url, "project_url": repo_url, "evidence": "github_search"}, None, candidates
+        return None, None, candidates
     except Exception as exc:
-        return None, normalize_error(exc)
+        return None, normalize_error(exc), candidates
 
 
 def detect_from_pdf(
     paper: Paper,
     options: dict[str, Any],
     timeout: int,
-) -> tuple[dict[str, str] | None, str | None]:
+) -> tuple[dict[str, str] | None, str | None, list[str]]:
     if not paper.pdf_url:
-        return None, None
+        return None, None, []
     try:
         text = safe_fetch_binary_as_text(
             paper.pdf_url,
             timeout=timeout,
             max_bytes=int(options.get("max_pdf_bytes", 750000)),
         )
-        return detect_from_text_blob(text, "pdf_link_extract"), None
+        result = detect_from_text_blob(text, "pdf_link_extract")
+        candidates = [result["code_url"]] if result and result.get("code_url") else []
+        return result, None, candidates
     except Exception as exc:
-        return None, normalize_error(exc)
+        return None, normalize_error(exc), []
 
 
 def compact_errors(errors: list[str]) -> str:
@@ -243,3 +277,16 @@ def core_terms_overlap(title: str, candidate: str) -> int:
 
 def normalize(value: str) -> str:
     return " ".join(re.sub(r"[^a-z0-9]+", " ", value.lower()).split())
+
+
+def unique_urls(urls: list[str]) -> list[str]:
+    result = []
+    for url in urls:
+        if url and url not in result:
+            result.append(url)
+    return result
+
+
+def is_low_value_repo(searchable: str) -> bool:
+    normalized = normalize(searchable)
+    return any(marker in normalized for marker in LOW_VALUE_REPO_MARKERS)

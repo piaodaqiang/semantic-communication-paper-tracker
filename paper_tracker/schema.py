@@ -20,8 +20,10 @@ PAPER_FIELDS = [
     "arxiv_comment",
     "keywords",
     "is_open_source",
+    "open_source_status",
     "code_url",
     "project_url",
+    "candidate_code_urls",
     "open_source_evidence",
     "application_scenario",
     "technical_framework",
@@ -50,8 +52,10 @@ class Paper:
     arxiv_comment: str = ""
     keywords: list[str] = field(default_factory=list)
     is_open_source: bool = False
+    open_source_status: str = "not_detected"
     code_url: str = ""
     project_url: str = ""
+    candidate_code_urls: list[str] = field(default_factory=list)
     open_source_evidence: str = ""
     application_scenario: str = "未分类"
     technical_framework: str = "未分类"
@@ -66,6 +70,7 @@ class Paper:
         row = asdict(self)
         row["authors"] = "; ".join(self.authors)
         row["keywords"] = "; ".join(self.keywords)
+        row["candidate_code_urls"] = "; ".join(self.candidate_code_urls)
         return row
 
     @classmethod
@@ -75,6 +80,10 @@ class Paper:
             clean["authors"] = [item.strip() for item in clean["authors"].split(";") if item.strip()]
         if isinstance(clean["keywords"], str):
             clean["keywords"] = [item.strip() for item in clean["keywords"].split(";") if item.strip()]
+        if isinstance(clean["candidate_code_urls"], str):
+            clean["candidate_code_urls"] = [
+                item.strip() for item in clean["candidate_code_urls"].split(";") if item.strip()
+            ]
         if clean["year"] in ("", None):
             clean["year"] = None
         else:

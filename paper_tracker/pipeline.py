@@ -106,8 +106,10 @@ def run_weekly_curated(root: Path, limit_days: int = 7) -> dict[str, Path | int]
             )
         else:
             paper.is_open_source = False
+            paper.open_source_status = "not_checked"
             paper.code_url = ""
             paper.project_url = ""
+            paper.candidate_code_urls = []
             paper.open_source_evidence = "not_checked_low_relevance"
         scored.append(paper)
     curated = [paper for paper in scored if paper.curation_status == "curated"]
