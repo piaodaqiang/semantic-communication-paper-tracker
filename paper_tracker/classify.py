@@ -18,10 +18,19 @@ def classify_paper(paper: Paper, rules: Mapping[str, Mapping[str, list[str]]]) -
 def best_label(text: str, label_rules: Mapping[str, list[str]]) -> str:
     best = ("未分类", 0)
     for label, keywords in label_rules.items():
-        score = sum(1 for keyword in keywords if keyword.lower() in text)
+        score = sum(keyword_score(text, keyword) for keyword in keywords)
         if score > best[1]:
             best = (label, score)
     return best[0]
+
+
+def keyword_score(text: str, keyword: str) -> int:
+    keyword = keyword.lower().strip()
+    if not keyword:
+        return 0
+    if re.fullmatch(r"[a-z0-9]+", keyword):
+        return 1 if re.search(rf"\b{re.escape(keyword)}\b", text) else 0
+    return 1 if keyword in text else 0
 
 
 def infer_task_type(text: str) -> str:

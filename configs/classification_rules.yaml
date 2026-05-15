@@ -105,3 +105,38 @@ technical_frameworks:
     - classical
     - channel coding
     - source coding
+  Optimization / Resource Allocation:
+    - optimization
+    - resource allocation
+    - genetic algorithm
+    - greedy
+    - alternating optimization
+    - convexity
+    - minlp
+    - noma
+    - uav
+    - hovering position
+    - queueing
+    - latency
+    - age of information
+    - aoi
+  Semantic-Aware Physical Layer:
+    - constellation
+    - qam
+    - modulation
+    - physical layer
+    - semantic-aware noma
+    - pinching-antenna
+    - pinching antennas
+    - waveguide
+    - semantic spectral efficiency
+    - covert semantic communication
+    - dual-path
+    - stego
+  Information Theory / Semantic Coding:
+    - information theory
+    - semantic channel theory
+    - deductive compression
+    - structural fidelity
+    - resolution information
+    - ambiguity

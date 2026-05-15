@@ -93,6 +93,24 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(paper.application_scenario, "文本语义通信")
         self.assertIn(paper.technical_framework, {"Autoencoder / DeepSC", "Transformer"})
 
+    def test_classify_semantic_physical_layer(self) -> None:
+        paper = Paper(
+            paper_id="p",
+            title="Semantic-Aware NOMA for Pinching-Antenna Systems",
+            abstract="A waveguide and semantic spectral efficiency method for pinching antennas.",
+        )
+        classify_paper(paper, DEFAULT_CLASSIFICATION_RULES)
+        self.assertEqual(paper.technical_framework, "Semantic-Aware Physical Layer")
+
+    def test_classify_optimization_framework(self) -> None:
+        paper = Paper(
+            paper_id="p",
+            title="UAV-Enabled Semantic Communications via Genetic Algorithm",
+            abstract="Joint optimization of hovering position and resource allocation.",
+        )
+        classify_paper(paper, DEFAULT_CLASSIFICATION_RULES)
+        self.assertEqual(paper.technical_framework, "Optimization / Resource Allocation")
+
     def test_detect_open_source_from_abstract(self) -> None:
         paper = Paper(
             paper_id="p",
@@ -167,6 +185,10 @@ class CoreTests(unittest.TestCase):
         self.assertTrue(excel_path.exists() or excel_path.with_suffix(".csv").exists())
         self.assertTrue(word_path.exists())
         self.assertTrue(zipfile.is_zipfile(word_path))
+        with zipfile.ZipFile(word_path) as docx:
+            document_xml = docx.read("word/document.xml").decode("utf-8")
+        self.assertIn("逐篇明细", document_xml)
+        self.assertGreaterEqual(document_xml.count("<w:tbl>"), 3)
 
 
 if __name__ == "__main__":
