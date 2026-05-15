@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+cache/
+data/raw/
+data/inbox/*.tmp
+data/curated/*.tmp
+.pytest_cache/
+.mypy_cache/
+~$*.docx
+tests/_artifacts/

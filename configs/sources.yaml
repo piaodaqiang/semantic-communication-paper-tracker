@@ -1,0 +1,13 @@
+arxiv:
+  enabled: true
+  base_url: https://export.arxiv.org/api/query
+  max_results_per_keyword: 50
+  request_timeout_seconds: 10
+
+semantic_scholar:
+  enabled: false
+  note: Enable in a later phase when API throttling and keys are configured.
+
+openalex:
+  enabled: false
+  note: Enable in a later phase for DOI and venue enrichment.
