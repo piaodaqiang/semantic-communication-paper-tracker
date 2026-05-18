@@ -1,6 +1,6 @@
 # Daily Inbox Summary
 
-新增/候选论文数量：64
+新增/候选论文数量：111
 
 ## 候选论文
 - How Far Back in Time a Digital Twin Reflects the State of the Physical Object: Age of Staleness (2026) | http://arxiv.org/abs/2605.16176v1
@@ -28,37 +28,31 @@
 - Intelligent Network System: Service Provisioning Using AI-Agents (2026) | https://hal.science/hal-05577132
 - From Computer to AI Communications: Toward Secure and Efficient Protocol (2026) | https://hal.science/hal-05574059
 - DroidHunter : une détection robuste basée sur la vision contre les logiciels malveillants Android obfusqués (2026) | https://hal.science/hal-05419946
-- QISFP: Quantum-Inspired Semantic Fidelity for Energy-Efficient and Noise-Resilient Visual IoT Transmission (2026) | https://doi.org/10.21203/rs.3.rs-8273777/v1
-- Research on Multi-Agent Semantic Communication Framework Based on Comparative Learning Joint Optimization (2026) | https://doi.org/10.3390/s26102963
-- Spacing-Based Coupling Radiation Control in Pinching-Antennas Systems for Heterogeneous NOMA Users (2026) | https://arxiv.org/abs/2605.04655
-- Contextual Memory-Enhanced Source Coding for Low-SNR Communications (2026) | https://arxiv.org/abs/2605.04400
-- Adaptive Dual-Path Framework for Covert Semantic Communication (2026) | https://arxiv.org/abs/2605.03423
-- SAGE: Training-Free Semantic Evidence Composition for Edge-Cloud Inference under Hard Uplink Budgets (2026) | https://arxiv.org/abs/2604.19623
-- Joint Optimization of Hovering Position and Resource Allocation in UAV-Enabled Semantic Communications via Greedy-Enhanced Adaptive Cellular Genetic Algorithm (2026) | https://doi.org/10.3390/inventions11020040
-- Semantic Channel Theory: Deductive Compression and Structural Fidelity for Multi-Agent Communication (2026) | https://arxiv.org/abs/2604.16471
-- Waveguide to Meaning: Semantic-Aware NOMA for Pinching-Antenna Systems (2026) | http://arxiv.org/abs/2604.05464
-- Semantic Communication with an LLM-enabled Knowledge Base (2026) | http://arxiv.org/abs/2604.05504
-- The Synthetic Persona Fallacy in HCI-Q Methodology (2026) | https://oro.open.ac.uk/view/person/la4227.html>
-- Governing Epistemic Risk in Large Language Model Use for Art History and Art Criticism Instruction: A Policy Analysis (2026) | https://pub.respai.de/articles/1-1/3ymeng.html
-- Platforming threatoric on TikTok : racial‑religious fear during Malaysia’s 15th general election (2026) | https://openalex.org/W7134999412
-- Toward a culturally situated perspective: Rethinking the role of AI in intangible cultural heritage pattern creation (2026) | https://ualresearchonline.arts.ac.uk/view/creators/Yuan=3AXiaojing=3A=3A.html>
-- Time Lapse: Deducting Claims and Expenses Under Section 2053 (2026) | https://scholarlycommons.law.hofstra.edu/acteclj/vol50/iss3/3
-- Covert Scrambling to the Edge in Tshangla: An Analysis of <em>Wh-</em> In-Situ (2026) | https://academicworks.cuny.edu/gc_etds/6680
-- Twitteratura: Digital Social Reading and Active Reception of Literary Texts in the Context of Italian Contemporary Literature (2026) | https://academicworks.cuny.edu/gc_etds/6667
-- Le COVID-19 est-il vraiment derrière nous ? Comprendre et accompagner les difficultés cognitives et fonctionnelles dans le COVID Long : apports d'un essai randomisé contrôlé (2026) | https://orbi.uliege.be/handle/2268/344444
-- MERVIN: A Unified Framework for Multimodal Event Retrieval in Vietnamese News Videos (2026) | http://arxiv.org/abs/2605.16120v1
-- Multi-level Self-supervised Pretraining on Compositional Hierarchical Graph for Molecular Property Prediction (2026) | http://arxiv.org/abs/2605.16088v1
-- Towards Foundation Models for Relational Databases with Language Models and Graph Neural Networks (2026) | http://arxiv.org/abs/2605.16085v1
-- Relational Database Data Lineage Ontology (2026) | http://arxiv.org/abs/2605.16068v1
-- XSearch: Explainable Code Search via Concept-to-Code Alignment (2026) | http://arxiv.org/abs/2605.16046v1
-- RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents (2026) | http://arxiv.org/abs/2605.16045v1
-- Decomposed Vision-Language Alignment for Fine-Grained Open-Vocabulary Segmentation (2026) | http://arxiv.org/abs/2605.15942v1
+- The Shared Prosperity Internet (2026) | http://arxiv.org/abs/2605.15791v1
+- LatentRouter: Can We Choose the Right Multimodal Model Before Seeing Its Answer? (2026) | http://arxiv.org/abs/2605.11301v1
+- Can Language Models Identify Side Effects of Breast Cancer Radiation Treatments? (2026) | http://arxiv.org/abs/2605.08439v1
+- A Comprehensive Survey on Agent Skills: Taxonomy, Techniques, and Applications (2026) | http://arxiv.org/abs/2605.07358v1
+- Task-Oriented Communication for Human Action Understanding via Edge-Cloud Co-Inference (2026) | http://arxiv.org/abs/2605.07354v1
+- Multi-Robot Coordination in V2X Environments (2026) | http://arxiv.org/abs/2605.06662v1
+- When Semantic Communication Meets Queueing: Cross-Layer Latency and Task Fidelity Optimization (2026) | http://arxiv.org/abs/2605.05514v1
+- Adaptive Dual-Path Framework for Covert Semantic Communication (2026) | http://arxiv.org/abs/2605.03423v1
+- Synthetic Biological Intelligence: System-Level Abstractions and Adaptive Bio-Digital Interaction (2026) | http://arxiv.org/abs/2604.27933v1
+- SalesSim: Benchmarking and Aligning Multimodal Language Models as Retail User Simulators (2026) | http://arxiv.org/abs/2605.08334v1
+- Surprisal Minimisation over Goal-directed Alternatives Predicts Production Choice in Dialogue (2026) | http://arxiv.org/abs/2605.00506v1
+- Goal-Oriented Semantic Communication for Logical Decision Making (2026) | http://arxiv.org/abs/2604.19614v1
+- Goal-oriented Resource Allocation for Collaborative Integrated Sensing and Communication (2026) | http://arxiv.org/abs/2604.16556v1
+- Optimal Codes for Deterministic Identification over Gaussian Channels: Closing the Capacity Gap (2026) | http://arxiv.org/abs/2604.11782v1
+- Semi-Supervised Goal-Oriented Semantic Communication Framework for Foreground Classification (2026) | http://arxiv.org/abs/2604.10870v1
+- Edge Intelligence for Satellite-based Earth Observation: Scheduling Image Acquisition and Processing (2026) | http://arxiv.org/abs/2604.05937v1
+- Foundations of Future Communication Systems: Innovations in Communication - A Report (2026) | http://arxiv.org/abs/2604.05694v1
+- Image Semantic Communication with Quadtree Partition-based Coding (2025) | http://arxiv.org/abs/2512.05395v1
+- VQ-VAE Based Digital Semantic Communication with Importance-Aware OFDM Transmission (2025) | http://arxiv.org/abs/2508.08686v2
+- Over-the-Air ODE-Inspired Neural Network for Dual Task-Oriented Semantic Communications (2025) | http://arxiv.org/abs/2505.04970v1
+- LLM-Enabled Data Transmission in End-to-End Semantic Communication (2025) | http://arxiv.org/abs/2504.07431v2
+- A Semantic Approach to Successive Interference Cancellation for Multiple Access Networks (2025) | http://arxiv.org/abs/2501.10926v1
+- Power-Efficient Optimization for Coexisting Semantic and Bit-Based Users in NOMA Networks (2025) | http://arxiv.org/abs/2501.01048v2
+- Editable-DeepSC: Reliable Cross-Modal Semantic Communications for Facial Editing (2024) | http://arxiv.org/abs/2411.15702v5
+- Semantic-Aware Resource Management for C-V2X Platooning via Multi-Agent Reinforcement Learning (2024) | http://arxiv.org/abs/2411.04672v2
 
 ## 抓取错误
 - arXiv:semantic communications: <HTTPError 429: 'Unknown Error'>
-- arXiv:task-oriented communication: TimeoutError('The read operation timed out')
-- arXiv:goal-oriented communication: TimeoutError('The read operation timed out')
-- arXiv:DeepSC: TimeoutError('The read operation timed out')
-- arXiv:semantic-aware communication: <HTTPError 429: 'Unknown Error'>
-- arXiv:semantic transmission: <HTTPError 429: 'Unknown Error'>
-- arXiv:semantic channel coding: TimeoutError('The read operation timed out')
