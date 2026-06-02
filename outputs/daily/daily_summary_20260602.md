@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：115
+
+## 候选论文
+- MOC: Multi-Order Communication in LLM-based Multi-Agent Systems (2026) | http://arxiv.org/abs/2606.02359v1
+- CEON: Circular Economy Ontology Network (2026) | http://arxiv.org/abs/2606.02253v1
+- Breaking the Pair: Evaluating Dyadic Interaction via Speaker Switching (2026) | http://arxiv.org/abs/2606.02185v1
+- Breaking the Information Silo: Semantic Personas for Cross-Domain Recommendation (2026) | http://arxiv.org/abs/2606.01783v1
+- HS3: A Descriptive, Interoperable Serialization Standard for Statistical Models in High-Energy Physics (2026) | http://arxiv.org/abs/2606.01760v1
+- Post-Deterministic Distributed Systems: A New Foundation for Trustworthy Autonomous Infrastructure (2026) | http://arxiv.org/abs/2606.01722v1
+- Type-Error Ablation and AI Coding Agents (2026) | http://arxiv.org/abs/2606.01522v1
+- ClawHub Security Signals: When VirusTotal, Static Analysis, and SkillSpector Disagree (2026) | http://arxiv.org/abs/2606.01494v1
+- A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks (2026) | http://arxiv.org/abs/2606.01312v1
+- Toward Reliable Semantic Communication: Beyond Average Performance (2026) | http://arxiv.org/abs/2606.01284v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- Accessing primary care following the Affordable Care Act : a qualitative study of low-income women’s experiences in urban California (2026) | https://openalex.org/W7126357041
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- Technology-Enhanced Writing Pedagogy for EFL Learners: A Multi-Study Dissertation on Practice, Effectiveness, and Teacher Perceptions (2026) | https://escholarship.org/uc/item/1bf8j2r7
+- Reconstruction and Renaissance of Dongbei China:A Multimodal Metaphor Analysis of New Media on Harbin (2026) | https://research.manchester.ac.uk/en/publications/02ba2ca7-0a6a-45f6-8e18-8cf3c7218f17
+- Universal Audio Generation (2026) | https://hal.science/hal-05110014
+- Contexts of Violence against Physicians in the Health System: A Grounded Theory Study in Ahvaz Medical Centers (2026) | https://doaj.org/article/acd58a228b7c454c9214db73a38e0c5d
+- Mind the Gap: Connecting Protocol Representations in Squirrel (2026) | https://hal.science/hal-05013723v1/document
+- Multi-Taxonomy Vulnerability Classification with Hierarchically Finetuned Language Models (2026) | https://hal.science/hal-05500820
+- Deep Learning-Based Data Hiding Technique for Medical Images (2026) | https://openalex.org/W7128888790
+- Knowing your weaknesses is your greatest strength:Mapping CVE to CWE by leveraging CWE Hierarchy and LLMs (2026) | https://research.utwente.nl/en/publications/f6a774fb-9d09-4c1a-8b29-cb7377fb3411
+- CLEAR: Scheduling of Multi-model Mobile Workloads on Chiplet Edge Platforms (2026) | https://hal.science/hal-05555466
+- Reality Constructed, Reality Lost: Navigating Multiple Digital Realities Of Sustainability (2026) | https://aisel.aisnet.org/ecis2026/is_resil/isresilience/4
+- Explaining Multimodal Ai Predictions: A Conceptual Review (2026) | https://aisel.aisnet.org/ecis2026/litrev/litrev/8
+- Schnitzel-Prediction: Designing Human-Ai Collaboration For Cafeteria Demand Forecasting (2026) | https://aisel.aisnet.org/ecis2026/is_resil/isresilience/7
+- Spatially Distributed Task-Oriented Compression for Multi-Emitter Localization and Characterization with Spectral Overlap (2026) | http://arxiv.org/abs/2606.01446v1
+- ChildVox: A Speech, Audio, and Large Audio-Language Model Benchmark in Understanding and Characterizing Sound across Childhood (2026) | http://arxiv.org/abs/2605.29257v1
+- A Goal-Oriented Networking Approach for Intelligent IoT Service Deployment (2026) | http://arxiv.org/abs/2605.28502v1
+- HyperParallel-MoE: Multi-Core Interleaved Scheduling for Fast MoE Training on Ascend NPUs (2026) | http://arxiv.org/abs/2605.23764v2
+- Embedding-Based Federated Learning with Runtime Governance for Iron Deficiency Prediction (2026) | http://arxiv.org/abs/2605.21563v1
+- TONIC: Token-Centric Semantic Communication for Task-Oriented Wireless Systems (2026) | http://arxiv.org/abs/2605.21553v1
+- Building Arabic NLP from the Ground Up: Twenty Years of Lessons, Failures, and Open Problems (2026) | http://arxiv.org/abs/2605.20786v1
+- Design Principles and Observable Indicators for AI-Enabled Pedagogical Accompaniment: Evidence from the Amico Dual-Mode Prototype in Italy and China (2026) | http://arxiv.org/abs/2605.20665v1
+- Quantum communications in continuous variable systems (2026) | http://arxiv.org/abs/2605.19602v1
+- World Model-Enabled Causal Digital Twins for Semantic Communications in Physical AI Systems (2026) | http://arxiv.org/abs/2605.16547v1
+- The Shared Prosperity Internet (2026) | http://arxiv.org/abs/2605.15791v1
+- Not All Symbols Are Equal: Importance-Aware Constellation Design for Semantic Communication (2026) | http://arxiv.org/abs/2605.14940v1
+- SalesSim: Benchmarking and Aligning Multimodal Language Models as Retail User Simulators (2026) | http://arxiv.org/abs/2605.08334v1
+- Surprisal Minimisation over Goal-directed Alternatives Predicts Production Choice in Dialogue (2026) | http://arxiv.org/abs/2605.00506v1
+- Goal-Oriented Semantic Communication for Logical Decision Making (2026) | http://arxiv.org/abs/2604.19614v1
+- Goal-oriented Resource Allocation for Collaborative Integrated Sensing and Communication (2026) | http://arxiv.org/abs/2604.16556v1
+- Optimal Codes for Deterministic Identification over Gaussian Channels: Closing the Capacity Gap (2026) | http://arxiv.org/abs/2604.11782v1
+- Semi-Supervised Goal-Oriented Semantic Communication Framework for Foreground Classification (2026) | http://arxiv.org/abs/2604.10870v1
+- Image Semantic Communication with Quadtree Partition-based Coding (2025) | http://arxiv.org/abs/2512.05395v1
+- VQ-VAE Based Digital Semantic Communication with Importance-Aware OFDM Transmission (2025) | http://arxiv.org/abs/2508.08686v2
+- Over-the-Air ODE-Inspired Neural Network for Dual Task-Oriented Semantic Communications (2025) | http://arxiv.org/abs/2505.04970v1
+- LLM-Enabled Data Transmission in End-to-End Semantic Communication (2025) | http://arxiv.org/abs/2504.07431v2
+- A Semantic Approach to Successive Interference Cancellation for Multiple Access Networks (2025) | http://arxiv.org/abs/2501.10926v1
+- Power-Efficient Optimization for Coexisting Semantic and Bit-Based Users in NOMA Networks (2025) | http://arxiv.org/abs/2501.01048v2
+- Editable-DeepSC: Reliable Cross-Modal Semantic Communications for Facial Editing (2024) | http://arxiv.org/abs/2411.15702v5
