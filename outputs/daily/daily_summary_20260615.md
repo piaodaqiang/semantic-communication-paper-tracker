@@ -1,6 +1,6 @@
 # Daily Inbox Summary
 
-新增/候选论文数量：112
+新增/候选论文数量：96
 
 ## 候选论文
 - RATS! Patches Talk Through Registers: Emergent Parts in Register Attention Transformers (2026) | http://arxiv.org/abs/2606.14701v1
@@ -53,3 +53,8 @@
 - Over-the-Air ODE-Inspired Neural Network for Dual Task-Oriented Semantic Communications (2025) | http://arxiv.org/abs/2505.04970v1
 - LLM-Enabled Data Transmission in End-to-End Semantic Communication (2025) | http://arxiv.org/abs/2504.07431v2
 - A Semantic Approach to Successive Interference Cancellation for Multiple Access Networks (2025) | http://arxiv.org/abs/2501.10926v1
+
+## 抓取错误
+- OpenAlex:goal-oriented communication: TimeoutError('The read operation timed out')
+- OpenAlex:DeepSC: TimeoutError('The read operation timed out')
+- OpenAlex:semantic encoding: TimeoutError('The read operation timed out')
