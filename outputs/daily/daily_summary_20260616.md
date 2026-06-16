@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：115
+
+## 候选论文
+- SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM (2026) | http://arxiv.org/abs/2606.16881v1
+- Evolution & Foundation: AI Shares Creative Control (2026) | http://arxiv.org/abs/2606.16849v1
+- The Missing Layer: Why EdTech Needs Design-Time Generative UI, Not Just Runtime Personalization (2026) | http://arxiv.org/abs/2606.15902v1
+- SkillVetBench: LLM-as-Judge for Multi-Dimensional Security Risk Evaluation in Open-Source LLM Agent Skills (2026) | http://arxiv.org/abs/2606.15899v1
+- SACE: Concept Erasure at the Semantic Singularity in Visual Autoregressive Models (2026) | http://arxiv.org/abs/2606.15819v1
+- Beyond Positive Signals: Unlocking Implicit Negative Behaviors for Enhanced Sequential User Modeling (2026) | http://arxiv.org/abs/2606.15252v1
+- Can We Unmask the Underground? Detecting and Predicting Hidden Forum Interactions (2026) | http://arxiv.org/abs/2606.14880v1
+- RATS! Patches Talk Through Registers: Emergent Parts in Register Attention Transformers (2026) | http://arxiv.org/abs/2606.14701v1
+- Event-Level Sensing for Intelligent 6G ISAC (2026) | http://arxiv.org/abs/2606.14223v1
+- Personal Care Utility: Health as Everyday Infrastructure (2026) | http://arxiv.org/abs/2606.14145v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- Accessing primary care following the Affordable Care Act : a qualitative study of low-income women’s experiences in urban California (2026) | https://openalex.org/W7126357041
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- Technology-Enhanced Writing Pedagogy for EFL Learners: A Multi-Study Dissertation on Practice, Effectiveness, and Teacher Perceptions (2026) | https://escholarship.org/uc/item/1bf8j2r7
+- Reconstruction and Renaissance of Dongbei China:A Multimodal Metaphor Analysis of New Media on Harbin (2026) | https://research.manchester.ac.uk/en/publications/02ba2ca7-0a6a-45f6-8e18-8cf3c7218f17
+- ASSESSING AWARENESS AND USE OF ARTIFICIAL INTELLIGENCE TOOLS AMONG LIBRARY PERSONNEL IN PUBLIC AND PRIVATE INSTITUTIONS IN EKITI STATE, NIGERIA (2026) | https://scholarworks.sjsu.edu/libphilprac/8312
+- Universal Audio Generation (2026) | https://hal.science/hal-05110014
+- Modular Verification for Network-On-Chip Designs Using Probabilistic Verification and Assume-Guarantee Reasoning (2026) | https://digitalcommons.usu.edu/etd2023/816
+- High-Throughput Characterization of Creep in Additively Manufactured 316L Stainless Steel (2026) | https://digitalcommons.usu.edu/etd2023/809
+- Mind the Gap: Connecting Protocol Representations in Squirrel (2026) | https://hal.science/hal-05013723v1/document
+- Focal Collective Actors as Narrative Structures: Cross-Platform Brokerage in Digital Protest (2026) | https://aisel.aisnet.org/pacis2026/data_analtyics/data_anltics/9
+- When Models Meet Sensors – A Structured Review and IS Research Agenda for Generative AI-Enabled IoT Artifacts (2026) | https://aisel.aisnet.org/pacis2026/iot_smartcity/iot_smartcity/11
+- Requirements to Overcome the Transparency Uncertainty in Data Usage: A Smart Living focused Approach (2026) | https://aisel.aisnet.org/pacis2026/dig_sec/dig_sec/13
+- AI Use Cases in Knowledge and Technology Transfer: Evidence from Expert Interviews (2026) | https://aisel.aisnet.org/pacis2026/di_entren/di_entren/6
+- Bridging Inclusive Education and AI: A Technology-Centric Taxonomy and Systematic Literature Review (2026) | https://aisel.aisnet.org/pacis2026/is_education/is_education/2
+- How Far Can Machine Translation Quality Take You? Extrinsic Discourse Evaluation in Goal-Oriented Setups (2026) | http://arxiv.org/abs/2606.16596v1
+- Noncoherent ISAC over Block-Fading Channels: Asymptotic Performance Analysis (2026) | http://arxiv.org/abs/2606.14400v1
+- Explainable Task-Oriented Token Communication for AI-Native 6G Networks (2026) | http://arxiv.org/abs/2606.14808v1
+- SpheriCity: Designing Trustworthy Conversational AI for Sustainability Decision Support (2026) | http://arxiv.org/abs/2606.13854v1
+- Revolutionizing Wireless Communications with Space Data Centers: Applications and Open Challenges (2026) | http://arxiv.org/abs/2606.13086v1
+- Game-Theoretic Latent Space Alignment for Multi-user Semantic MIMO Communications (2026) | http://arxiv.org/abs/2606.12005v1
+- NARRAS: Edge-Triggered Distributed Inference for CSI-Based Localization in Vehicular IoT Networks (2026) | http://arxiv.org/abs/2606.11914v1
+- Designed-Source Reductions and a Dual-Purpose Feasibility Band for Semantic Rate-Distortion (2026) | http://arxiv.org/abs/2606.11280v1
+- BenSyc: Benchmarking Conversational Sycophancy and Human Alignment in LLMs for Bengali Contexts (2026) | http://arxiv.org/abs/2606.10061v1
+- Semantic and Task-Oriented V2X Communications: Pushing the Limits of V2X Networks Scalability (2026) | http://arxiv.org/abs/2606.09126v1
+- Bridging the Usability Gap: Lessons from Interpreting Studies for Machine Interpreting Design (2026) | http://arxiv.org/abs/2606.16009v1
+- 'AI Alignment' Encompasses Competing Technical Priorities (2026) | http://arxiv.org/abs/2606.14315v1
+- A Goal-Oriented Networking Approach for Intelligent IoT Service Deployment (2026) | http://arxiv.org/abs/2605.28502v1
+- World Model-Enabled Causal Digital Twins for Semantic Communications in Physical AI Systems (2026) | http://arxiv.org/abs/2605.16547v1
+- The Shared Prosperity Internet (2026) | http://arxiv.org/abs/2605.15791v1
+- Not All Symbols Are Equal: Importance-Aware Constellation Design for Semantic Communication (2026) | http://arxiv.org/abs/2605.14940v1
+- SalesSim: Benchmarking and Aligning Multimodal Language Models as Retail User Simulators (2026) | http://arxiv.org/abs/2605.08334v1
+- Surprisal Minimisation over Goal-directed Alternatives Predicts Production Choice in Dialogue (2026) | http://arxiv.org/abs/2605.00506v1
+- Goal-Oriented Semantic Communication for Logical Decision Making (2026) | http://arxiv.org/abs/2604.19614v1
+- Image Semantic Communication with Quadtree Partition-based Coding (2025) | http://arxiv.org/abs/2512.05395v1
+- VQ-VAE Based Digital Semantic Communication with Importance-Aware OFDM Transmission (2025) | http://arxiv.org/abs/2508.08686v2
+- Over-the-Air ODE-Inspired Neural Network for Dual Task-Oriented Semantic Communications (2025) | http://arxiv.org/abs/2505.04970v1
+- LLM-Enabled Data Transmission in End-to-End Semantic Communication (2025) | http://arxiv.org/abs/2504.07431v2
+- A Semantic Approach to Successive Interference Cancellation for Multiple Access Networks (2025) | http://arxiv.org/abs/2501.10926v1
+- Power-Efficient Optimization for Coexisting Semantic and Bit-Based Users in NOMA Networks (2025) | http://arxiv.org/abs/2501.01048v2
