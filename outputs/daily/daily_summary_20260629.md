@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：111
+
+## 候选论文
+- Compositionality and the lexicon in evolutionary semantics (2026) | http://arxiv.org/abs/2606.27228v1
+- An Information-Theoretic Metric for Semantic Value of Spatiotemporal Information (2026) | http://arxiv.org/abs/2606.26844v1
+- Multi-Modal Environment-Aware Beam Management for Massive MIMO: A Geometry-Driven Virtual Base Station Framework (2026) | http://arxiv.org/abs/2606.26567v1
+- DinoLink: A Token-Centric Representation Compression Framework for Bandwidth-Constrained Collaborative V2X Perception (2026) | http://arxiv.org/abs/2606.26398v1
+- NEURON-Fabric: Architecture-Runtime Co-Design for Controlled Low-Bit Gradient Communication (2026) | http://arxiv.org/abs/2606.25759v1
+- fARfetch: Enabling Collocated AR-HRC in Large Visually Diverse Environments with VLM-Driven AR Content Adaptation (2026) | http://arxiv.org/abs/2606.25162v1
+- Kiko: Programming Agents to Enact Interaction Protocols (2026) | http://arxiv.org/abs/2606.26156v1
+- Unified Multi-Task Relevance Modeling for E-Commerce: Comparing Task Routing Architectures Across LLMs and Cross-Encoders (2026) | http://arxiv.org/abs/2606.23919v1
+- The Hitchhiker's Guide to Agentic AI: From Foundations to Systems (2026) | http://arxiv.org/abs/2606.24937v1
+- EEG Benchmarking Needs a Task Specification Layer: NeuroDoc for Rulebook-Guided, Executable Benchmark Construction (2026) | http://arxiv.org/abs/2606.22925v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- Let’s Read Together: AAC-Supported Interactive Reading in the Classroom (2026) | http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/408410
+- Accessing primary care following the Affordable Care Act : a qualitative study of low-income women’s experiences in urban California (2026) | https://openalex.org/W7126357041
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- Technology-Enhanced Writing Pedagogy for EFL Learners: A Multi-Study Dissertation on Practice, Effectiveness, and Teacher Perceptions (2026) | https://escholarship.org/uc/item/1bf8j2r7
+- Reconstruction and Renaissance of Dongbei China:A Multimodal Metaphor Analysis of New Media on Harbin (2026) | https://research.manchester.ac.uk/en/publications/02ba2ca7-0a6a-45f6-8e18-8cf3c7218f17
+- Forecasting Technological Directions in Wireless Networks and Mobile Computing via AutoML Framework (2026) | http://arxiv.org/abs/2606.27394v1
+- Modular Verification for Network-On-Chip Designs Using Probabilistic Verification and Assume-Guarantee Reasoning (2026) | https://digitalcommons.usu.edu/etd2023/816
+- High-Throughput Characterization of Creep in Additively Manufactured 316L Stainless Steel (2026) | https://digitalcommons.usu.edu/etd2023/809
+- Mind the Gap: Connecting Protocol Representations in Squirrel (2026) | https://hal.science/hal-05013723v1/document
+- Focal Collective Actors as Narrative Structures: Cross-Platform Brokerage in Digital Protest (2026) | https://aisel.aisnet.org/pacis2026/data_analtyics/data_anltics/9
+- Digital Sustainability and ESG Disclosure: A Study of Its Implementation Status and Development Effort by Indonesian Public Listed Companies (2026) | https://aisel.aisnet.org/pacis2026/iot_smartcity/iot_smartcity/8
+- When Models Meet Sensors – A Structured Review and IS Research Agenda for Generative AI-Enabled IoT Artifacts (2026) | https://aisel.aisnet.org/pacis2026/iot_smartcity/iot_smartcity/11
+- Seeking Uniqueness or Craving Connection? How Virtual Influencer Source Type and Consumer Self-Construal Shape Brand Attitude (2026) | https://aisel.aisnet.org/pacis2026/general_topic/general_topic/8
+- MAP-Based Task-Oriented Precoding for Multiuser Communication (2026) | http://arxiv.org/abs/2606.25722v1
+- HEART: Coordination of Heterogeneous Expert Agents for Physically Grounded Robotic Task Planning (2026) | http://arxiv.org/abs/2606.25404v1
+- AOHP: An Open-Source OS-Level Agent Harness for Personalized, Efficient and Secure Interaction (2026) | http://arxiv.org/abs/2606.23449v1
+- SCENIC: Semantic-Conditioned Edge-Aware Neural Framework for Structured IoT Command Generation (2026) | http://arxiv.org/abs/2606.22296v1
+- AIPatient Arena: EHR-grounded evaluation of large language models in end-to-end clinical consultation workflows (2026) | http://arxiv.org/abs/2606.17474v1
+- How Far Can Machine Translation Quality Take You? Extrinsic Discourse Evaluation in Goal-Oriented Setups (2026) | http://arxiv.org/abs/2606.16596v1
+- Security and Human-Centered Assessment of BACnet-Controlled DALI Infrastructure in an Educational Building Automation Testbed (2026) | http://arxiv.org/abs/2606.17089v1
+- Noncoherent ISAC over Block-Fading Channels: Asymptotic Performance Analysis (2026) | http://arxiv.org/abs/2606.14400v1
+- Beyond Surface Forms: A Comprehensive, Mechanism-Oriented Taxonomy of Indirect Linguistic Encoding for LLM-Based Coded Language Detection (2026) | http://arxiv.org/abs/2606.27314v1
+- Explainable AI for Next-Generation Wireless Physical Layer: Basics, State-of-the-Art, and Open Challenges (2026) | http://arxiv.org/abs/2606.24424v1
+- R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning (2026) | http://arxiv.org/abs/2606.18786v2
+- Bridging the Usability Gap: Lessons from Interpreting Studies for Machine Interpreting Design (2026) | http://arxiv.org/abs/2606.16009v2
+- 'AI Alignment' Encompasses Competing Technical Priorities (2026) | http://arxiv.org/abs/2606.14315v1
+- A Goal-Oriented Networking Approach for Intelligent IoT Service Deployment (2026) | http://arxiv.org/abs/2605.28502v1
+- World Model-Enabled Causal Digital Twins for Semantic Communications in Physical AI Systems (2026) | http://arxiv.org/abs/2605.16547v1
+- The Shared Prosperity Internet (2026) | http://arxiv.org/abs/2605.15791v1
+- Not All Symbols Are Equal: Importance-Aware Constellation Design for Semantic Communication (2026) | http://arxiv.org/abs/2605.14940v1
+- Image Semantic Communication with Quadtree Partition-based Coding (2025) | http://arxiv.org/abs/2512.05395v1
+- VQ-VAE Based Digital Semantic Communication with Importance-Aware OFDM Transmission (2025) | http://arxiv.org/abs/2508.08686v2
+- Over-the-Air ODE-Inspired Neural Network for Dual Task-Oriented Semantic Communications (2025) | http://arxiv.org/abs/2505.04970v1
+- LLM-Enabled Data Transmission in End-to-End Semantic Communication (2025) | http://arxiv.org/abs/2504.07431v2
+- A Semantic Approach to Successive Interference Cancellation for Multiple Access Networks (2025) | http://arxiv.org/abs/2501.10926v1
+- Power-Efficient Optimization for Coexisting Semantic and Bit-Based Users in NOMA Networks (2025) | http://arxiv.org/abs/2501.01048v2
+- Editable-DeepSC: Reliable Cross-Modal Semantic Communications for Facial Editing (2024) | http://arxiv.org/abs/2411.15702v5
+- Semantic-Aware Resource Management for C-V2X Platooning via Multi-Agent Reinforcement Learning (2024) | http://arxiv.org/abs/2411.04672v2
