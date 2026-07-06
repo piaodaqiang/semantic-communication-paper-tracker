@@ -1,5 +1,295 @@
 [
   {
+    "paper_id": "arxiv:2607.02376v1",
+    "title": "Hardware-Enforced Semantic Coordination for Safety-Critical Real-Time Autonomous Systems",
+    "authors": "Uwe M. Borghoff; Paolo Bottoni; Remo Pareschi",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.02376v1",
+    "paper_url": "http://arxiv.org/abs/2607.02376v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.02376v1",
+    "abstract": "Recent advances in agentic AI are producing increasingly complex autonomous systems that integrate large language models, world models, optimization engines, specialized neural architectures, autonomous platforms, and human operators. While much current research focuses on improving reasoning capabilities, safety-critical real-time deployment also requires bounded and verifiable coordination among heterogeneous components operating concurrently under uncertainty. Software-mediated coordination presents fundamental limitations in domains where bounded latency, deterministic coordination, and enforceable safety guarantees are essential. Hence, we propose a hardware-enforced semantic coordination architecture in which selected coordination semantics are implemented directly at the hardware level via field-programmable gate arrays (FPGAs). The approach builds on the Topic-Based Communication Space Petri Net (TB-CSPN) framework, which separates semantic reasoning from interaction management. In this approach, selected TB-CSPN coordination mechanisms are mapped onto FPGA primitives, creating a hardware-native semantic coordination layer. Focus is not on acceleration, but on enforcing temporal synchronization, semantic gating, authorization constraints, and bounded coordination behavior directly in hardware. Semantic reasoning remains adaptive and software-driven, while embedded coordination semantics become deterministic.",
+    "arxiv_comment": "1 figure, 6 pages",
+    "keywords": "semantic communication; semantic communications",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.665778+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.01928v1",
+    "title": "Sparse-Aware Vector Quantization for Bandwidth-Efficient Collaborative 3D Semantic Occupancy Prediction",
+    "authors": "Feng Li; Chaokun Zhang; Gong Chen",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.01928v1",
+    "paper_url": "http://arxiv.org/abs/2607.01928v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01928v1",
+    "abstract": "Collaborative perception extends single-agent perception by enabling multiple vehicles to exchange complementary perceptual information. However, it introduces an inherent trade-off between perception gain and communication overhead, which is particularly severe for 3D semantic occupancy prediction that relies on fine-grained spatial structures. Existing methods typically compress 3D features into 2D, causing severe spatial information loss, or transmit dense 3D representations, hindering real-world deployment. To overcome these limitations, we propose a bandwidth-efficient collaborative Vector Quantization Semantic Occupancy Prediction (VQSOP) framework. VQSOP employs a Sparse-Aware Vector Quantization (SAVQ) mechanism that exploits 3D scene sparsity to compactly encode informative regions, drastically reducing communication overhead while preserving complete geometric context. Furthermore, to enhance structural consistency and feature continuity, we design a Dual-Branch Adaptive Spatial Refinement (ASR) module that dynamically fuses local high-frequency details with broad contextual semantics. Extensive experiments demonstrate that our approach achieves state-of-the-art performance while reducing communication volume by up to 82x.",
+    "arxiv_comment": "Accepted by ECCV26",
+    "keywords": "semantic communication; semantic communications; semantic-aware communication; semantic encoding",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.665851+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.00740v1",
+    "title": "Stochastic Connectivity as the Foundation of a Runtime Model for Microservice Availability Analysis",
+    "authors": "Anatoly A. Krasnovsky; Anna Maslovskaya",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.00740v1",
+    "paper_url": "http://arxiv.org/abs/2607.00740v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00740v1",
+    "abstract": "Microservice availability is commonly assessed by fault injection and chaos experiments, but such experiments are costly, operationally risky, and difficult to repeat for every architectural change. Distributed tracing and deployment metadata provide cheaper evidence, yet they usually remain descriptive: they show which services interacted, not what endpoint-level availability property follows. This paper proposes a formal runtime availability model based on stochastic connectivity for resilience-oriented analysis of microservice endpoints. It treats endpoint availability under explicit fault scenarios as a measurable facet of microservice resilience, combining a typed service-dependency graph, a replication map, a probability measure over node and edge states, and request-specific success predicates. Its semantics separates computational failures of service replicas from communication failures of logical dependencies, showing that replication cannot compensate for bottleneck dependencies. The model can be reconstructed from traces and deployment artifacts, parameterized for architectural what-if analysis, and analyzed by Monte Carlo simulation before or alongside fault injection. We define the model, its trace-to-model construction, elementary semantic properties, and a synthetic adequacy study. The study matches closed-form oracle cases within sampling error and exposes boundaries caused by edge bottlenecks, correlated failures, missing traces, and time-dependent failures.",
+    "arxiv_comment": "",
+    "keywords": "semantic communication; semantic communications",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.665914+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.00576v1",
+    "title": "Safe Alone, Unsafe Together: Safeguarding Against Implicit Toxicity When Benign Images Combine",
+    "authors": "Jiaxian Lv; Shiyao Cui; Yingkang Wang; Guoxin Wu; Qingling Zhang; Minlie Huang",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.00576v1",
+    "paper_url": "http://arxiv.org/abs/2607.00576v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00576v1",
+    "abstract": "Multi-image content has become an increasingly prevalent form of visual communication in social media, giving rise to a new safety issue, multi-image implicit toxicity (MIIT), where each image appears benign in isolation, but harmful semantics emerge when the images are interpreted jointly. MIIT is particularly challenging for existing commercial moderation APIs and models due to the lack of explicit risky cues in each image. This paper aims to study how to identify MIIT. We first provide a formal definition of MIIT and analyze three key challenges for its detection. To alleviate the scarcity of data in this area, we construct MIIT-dataset, an image-only multi-image safety dataset covering seven representative risk categories through an automatic generation pipeline. Finally, we train MiShield with progressively distilled reasoning supervision, enabling it to produce safety judgments accompanied by explicit analyses of the correlated entities that result in the hazards. Experiments show that MiShield-8B models outperform representative moderation services and even larger-scale models, revealing its effectiveness and practical value for this widely used visual format. Warning: This paper contains potentially sensitive content.",
+    "arxiv_comment": "15 pages, 8 figures",
+    "keywords": "semantic communication; semantic communications",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.665975+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.00342v1",
+    "title": "Semantic-based Internet of Embodied Intelligence: Visions and Frontiers",
+    "authors": "Yaheng Wang; Rui Meng; Xiaodong Xu; Yiming Liu; Feiliang Song; Linyuan Hu; Huishi Song; Lexi Xu; Tony Q. S. Quek; Ping Zhang",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.00342v1",
+    "paper_url": "http://arxiv.org/abs/2607.00342v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00342v1",
+    "abstract": "Recent advances in generative artificial intelligence (AI) and embodied intelligence (EI) enable autonomous agents to interact with the physical world. However, scaling these systems into networks of multiple agents, namely the Internet of EI (IoEI), faces critical bottlenecks. These include the overhead of massive multimodal data transmission and the decoupling of logical reasoning from physical constraints. To address these challenges, we envision the Semantic-based IoEI (SIoEI), which leverages semantic information as a unified metric throughout the agent lifecycle. We systematically define four key dimensions of EI: perception, intelligence, control, and communication. We further elaborate how semantic empowerment revolutionizes environmental perception, cognition and task planning, action generation and robust control, and communication and networking. We also present a case study to verify that, the semantic-empowered end-to-end process significantly improves channel robustness and reduces end-to-end latency for EI. Finally, we outline critical open research directions for the SIoEI paradigm.",
+    "arxiv_comment": "7 pages, 4 figures",
+    "keywords": "semantic communication; semantic communications; semantic transmission",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.666033+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.00316v1",
+    "title": "Evolving Intelligent Complex Systems via Intellicise Networks: Architecture, Technologies, and Pathways",
+    "authors": "Ping Zhang; Rui Meng; Xiaodong Xu; Song Gao; Zixuan Huang; Yaheng Wang; Yinqiu Liu; Ruichen Zhang; Yiming Liu; Kaiwen Yu; Yaping Sun; Han Meng; Haonan Tong; Huishi Song; Qianqian Yang; Shuoyao Wang; Lexi Xu; Qinghe Du; Geng Sun; Jiawen Kang; Gang Wu; Yiqing Zhou; Haixia Zhang; Zesong Fei; Aimin Hao; Ming Li",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.00316v1",
+    "paper_url": "http://arxiv.org/abs/2607.00316v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00316v1",
+    "abstract": "Future engineering infrastructures are evolving into large-scale, open, heterogeneous, and wirelessly interconnected complex systems. These systems present significant challenges in optimizing network resource utilization, managing high-dimensional information spaces, and accommodating diverse business requirements. Intellicise networks, characterized by Intent-driven operation, semantic-native capability, and distributed intelligence, offer a promising paradigm for enabling such intelligent complex systems. We provide a systematic exploration of future intelligent complex systems from the perspective of intellicise networks. Specifically, we propose a cross-domain intelligent communication network architecture based on intellicise networks, grounded in information theory, systems theory, game theory, and cybernetics. The architecture comprises a cross-layer organizational framework, multi-functional planes, and novel information flows. The cross-layer framework defines the vertical evolution from perception and cognition to decision, while the control, user, data, computation, intelligence, and security planes deliver horizontal intellicise capabilities. Moreover, data, knowledge, model, and task flows interconnect the various layers and planes, forming a closed-loop process that derives simplicity from high-level intelligene while concurrently pursuing enhanced. Building on this architecture, we review key enabling technologies, tracing their evolution from semantic extraction to intent understanding, from heterogeneous resource integration to self-configuration and self-optimization, from generative artificial intelligence (AI) to agentic AI, and from embodied AI to symbodied AI. Additionally, we present a case study on intellicise networks for embodied agent communications and discuss representative applications and services for intelligent complex systems.",
+    "arxiv_comment": "23 pages, 12 figures",
+    "keywords": "semantic communication; semantic communications",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.666131+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.00293v1",
+    "title": "Rosetta: Composable Native Multimodal Pretraining",
+    "authors": "Xiangyue Liu; Zijian Zhang; Miles Yang; Zhao Zhong; Liefeng Bo; Ping Tan",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.00293v1",
+    "paper_url": "http://arxiv.org/abs/2607.00293v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00293v1",
+    "abstract": "Achieving true artificial general intelligence requires foundation models capable of integrating new modalities without forgetting prior knowledge. However, accommodating continuous generative objectives alongside discrete understanding tasks causes severe gradient conflicts. Existing architectures, including standard Mixture-of-Experts (MoE), are highly susceptible to representation overwriting. Even structurally partitioned paradigms like Mixture-of-Transformers (MoT) remain vulnerable to catastrophic forgetting, severely impeding multimodal scalability. In this work, we introduce Rosetta, a composable native multimodal pretraining framework designed for seamless and non-destructive modality expansion. Rosetta adopts a modular paradigm where core foundational knowledge is preserved within global shared experts, while modality-specific capabilities are distributed across plug-and-play experts. To guarantee non-destructive composition, we propose Momentum-Anchored Orthogonal Projection (MAOP). MAOP leverages the optimizer's momentum state as an implicit semantic anchor, selectively neutralizing conflicting gradient components from new modalities while preserving synergistic updates. Extensive evaluations demonstrate that, while standard MoE and MoT architectures suffer catastrophic forgetting of previously acquired knowledge, Rosetta robustly preserves established language and visual understanding. Furthermore, it delivers superior image generation and unlocks cross-modal synergy, paving the way for truly composable and unified multimodal foundation models. To facilitate further multimodal research, we release our code and checkpoints to the community. Project page at https://rosetta-lmm.github.io/.",
+    "arxiv_comment": "",
+    "keywords": "semantic communication; semantic communications",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.666194+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.31973v1",
+    "title": "Semantic Leakage and Privacy Preservation in Relay-Assisted Semantic Communications",
+    "authors": "Yalin E. Sagduyu; Tugba Erpek; Aylin Yener; Sennur Ulukus",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.31973v1",
+    "paper_url": "http://arxiv.org/abs/2606.31973v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31973v1",
+    "abstract": "Semantic communication (SemCom) has emerged as a promising paradigm in which the transmission of task-relevant information is prioritized over raw data, enabling efficient and robust communication under resource and channel constraints. In this paper, the privacy implications of relay-assisted SemCom systems are studied, where the intermediate relay node operates directly on learned latent representations. It is shown that the relay, even without access to source data, can reliably infer semantic meaning and reconstruct signals with performance comparable to that of the legitimate receiver, revealing a fundamental privacy vulnerability of semantic representations. To address this issue, an iterative adversarial training framework is proposed in which a strong, adaptively trained eavesdropper at the relay is explicitly accounted for. The proposed approach alternates between optimizing the relay's eavesdropping function and the legitimate system, resulting in representations that preserve semantic decoding performance at the intended receiver while degrading semantic inference at the relay. The semantic accuracy gap between the legitimate receiver and the eavesdropper is significantly enlarged across channel conditions. Importantly, this protection is achieved in a stealthy manner, with high reconstruction fidelity maintained while semantic leakage is selectively suppressed.",
+    "arxiv_comment": "",
+    "keywords": "semantic communication; semantic communications; semantic transmission",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.666251+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.31745v1",
+    "title": "JL1-CC&QA: Extending the JL1-CD Benchmark with Change Captioning and Question Answering",
+    "authors": "Ziyuan Liu; Ruifei Zhu; Ouqiao Ma; Yuantao Gu",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.31745v1",
+    "paper_url": "http://arxiv.org/abs/2606.31745v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31745v1",
+    "abstract": "Remote sensing change detection (CD) traditionally focuses on pixel-level binary segmentation, which identifies where changes occur but neither what nor why. To bridge this semantic gap, we introduce JL1-CC&QA, a multi-task benchmark that extends the JL1-CD dataset with two complementary annotation layers: change captioning (CC) and change question answering (QA). Built upon 5,000 bi-temporal image pairs acquired by the Jilin-1 satellite at 0.5-0.75m ground sample distance, the benchmark comprises: (i) JL1-CC, providing 17,021 quality-verified captions that describe diverse land-cover transformations; and (ii) JL1-QA, offering 20,060 question-answer pairs across eight question types, enabling fine-grained, interactive interrogation of surface changes. All annotations are produced via a three-stage pipeline consisting of multi-modal large language model (LLM) generation, vision-grounded LLM judging, and human expert verification. We hope that JL1-CC&QA, as a benchmark unifying binary change masks, change captions, and change-oriented QA over the same image set, will serve as a valuable resource for the community to advance multi-task change understanding in remote sensing. The dataset is available at https://github.com/circleLZY/JL1-CD.",
+    "arxiv_comment": "10 pages, 8 figures",
+    "keywords": "semantic communication; semantic communications; task-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.666304+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.31715v1",
+    "title": "Semantic-Aware Multiple Access via Spatial Redundancy Exploitation for Uplink-Dominant 6G Use Cases",
+    "authors": "Hamidreza Mazandarani; Masoud Shokrnezhad; Tarik Taleb; Onur Günlü",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.31715v1",
+    "paper_url": "http://arxiv.org/abs/2606.31715v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31715v1",
+    "abstract": "Emerging uplink-dominant 6G use cases, such as cooperative vehicular streaming, require efficient transmission of high-volume visual data over limited wireless resources. While semantic communications can reduce traffic by prioritizing task-relevant content, most existing approaches treat users independently and therefore overlook spatial redundancy among nearby devices' observations. This paper proposes a semantic-aware multiple access scheme that exploits overlapping fields of view among vehicular users to reduce redundant uplink transmissions. We formulate a joint perception and transmission control problem in which users decide which image patches to transmit, when to transmit them, and over which channel, subject to communication constraints. To address the resulting complexity, we introduce a practical two-phase approach. First, nearby vehicles share selected observation patches over Vehicle-to-Vehicle (V2V) links to calculate inter-user spatial redundancy. Second, users transmit only semantically important, non-redundant patches to the base station, where observations can be reconstructed using the received patches and complementary views from neighboring vehicles. Simulation results in a dense urban vehicular scenario demonstrate that our approach improves the proportion of users who achieve high-fidelity reconstruction, highlighting the potential of semantic-aware multiple access for sustainable and resource-efficient 6G uplink systems.",
+    "arxiv_comment": "",
+    "keywords": "semantic communication; semantic-aware communication; semantic transmission",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:05.666381+00:00"
+  },
+  {
     "paper_id": "openalex:https://openalex.org/W7121465138",
     "title": "DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON",
     "authors": "Ngenwie Emilia Tanyie; Therese Mungah Shalo Tchombe",
@@ -26,7 +316,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:15:12.810736+00:00"
+    "last_checked_at": "2026-07-06T06:18:09.507405+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164975731",
@@ -55,7 +345,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:15:12.810799+00:00"
+    "last_checked_at": "2026-07-06T06:18:09.507475+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7126357041",
@@ -84,7 +374,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:15:12.810890+00:00"
+    "last_checked_at": "2026-07-06T06:18:09.507577+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164183113",
@@ -113,7 +403,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:15:12.810957+00:00"
+    "last_checked_at": "2026-07-06T06:18:09.507655+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7161111530",
@@ -142,7 +432,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:15:12.811013+00:00"
+    "last_checked_at": "2026-07-06T06:18:09.507716+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7117395041",
@@ -171,7 +461,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:15:12.811102+00:00"
+    "last_checked_at": "2026-07-06T06:18:09.507816+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7130910808",
@@ -200,7 +490,36 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:15:12.811118+00:00"
+    "last_checked_at": "2026-07-06T06:18:09.507834+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.01772v1",
+    "title": "LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design",
+    "authors": "Wen Wang; Yaping Sun; Yejun He; Hao Chen; Zhiyong Chen; Xiaodong Xu; Nan Ma; Shuguang Cui",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.01772v1",
+    "paper_url": "http://arxiv.org/abs/2607.01772v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01772v1",
+    "abstract": "Vision-radar fusion is central to robust autonomous driving, combining dense visual semantics with precise range and velocity measurements from radar. However, real-world fusion quality is fundamentally challenged by dynamically varying input quality, stemming from occlusion, adverse weather, and channel noise. To address this, we re-frame the problem from static data fusion to channel-aware semantic reasoning and propose a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception (LM-SCIP) framework. It places a Large Language Model (LLM) as a central reasoning core to fuse a local visual stream with a quality-varying external radar stream used to cover perception-blind spots. Concretely, LM-SCIP couples a hierarchical radar-vision encoder with a Channel-Adaptive Semantic Module (CASM) that maps link indicators into a \"Channel Prompt\" to dynamically gate external radar features. A parameter-efficient, LoRA-tuned LLM, in conjunction with a heterogeneous Mixture-of-Experts (H-MoE), then arbitrates between local visual cues and the channel-conditioned radar context. Finally, a decoupled multi-task decoder outputs localization, trajectory forecasting, and image reconstruction. Experiments on nuScenes and VIRAT validate our approach. On nuScenes, under a controlled toggle of radar input, LM-SCIP reduces localization RMSE by 40.0% versus a vision-only baseline. On VIRAT, the model attains a 0.214m localization RMSE and 0.179m minFDE (k=1). These results reveal that the proposed LM-SCIP enables a robust vision-dominant fallback at low SNR and synergistic fusion at high SNR.",
+    "arxiv_comment": "6 pages, 4 figures. Accepted by 2026 IEEE 37th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)",
+    "keywords": "semantic communications; semantic encoding",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:11.784696+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164453445",
@@ -229,7 +548,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:16:20.040054+00:00"
+    "last_checked_at": "2026-07-06T06:18:15.305417+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164451846",
@@ -258,7 +577,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:16:20.040123+00:00"
+    "last_checked_at": "2026-07-06T06:18:15.305497+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7126005415",
@@ -287,7 +606,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:16:20.040141+00:00"
+    "last_checked_at": "2026-07-06T06:18:15.305519+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164713470",
@@ -316,7 +635,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:16:20.040187+00:00"
+    "last_checked_at": "2026-07-06T06:18:15.305575+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164712961",
@@ -345,7 +664,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:16:20.040236+00:00"
+    "last_checked_at": "2026-07-06T06:18:15.305633+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164719164",
@@ -374,7 +693,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:16:20.040288+00:00"
+    "last_checked_at": "2026-07-06T06:18:15.305691+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164784653",
@@ -403,7 +722,558 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:16:20.040330+00:00"
+    "last_checked_at": "2026-07-06T06:18:15.305738+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.01921v1",
+    "title": "Low-Latency Task-Oriented Image Transmission with Opportunistic Spectrum Access",
+    "authors": "João Henrique Inacio de Souza; Mattia Merluzzi; Mateus P. Mota; Beatriz Soret; Petar Popovski",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.01921v1",
+    "paper_url": "http://arxiv.org/abs/2607.01921v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01921v1",
+    "abstract": "Communication systems designed for reliable data reconstruction, rather than task-oriented communication, typically rely on separate source and channel coding and incur high latency under limited spectrum availability and fading channels. To address this, we propose a transmission framework with opportunistic spectrum access, in which the transmitter sends discrete latent representations learned via a vector-quantized variational autoencoder (VQ-VAE) over idle licensed channels using standard digital modulation. The AI-powered receiver is still able to reconstruct task-related information from the heavily compressed data. We develop a cross-layer latency model that accounts for compression, block errors, retransmissions, and stochastic channel access. Results on latency-accuracy trade-offs show that the proposed scheme achieves at least 79- and 3.3-fold latency reductions with only 5.7% and 2.4% drops in classification accuracy compared to benchmarks using conventional source and channel coding. The framework enables low-latency communication and reliable task execution even under limited spectrum availability and challenging channel conditions.",
+    "arxiv_comment": "This work has been accepted for presentation at IEEE SPAWC 2026",
+    "keywords": "task-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:17.708719+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.01305v1",
+    "title": "Generative AI and Federated Learning for Intrusion Detection Systems: A Survey",
+    "authors": "Jiefei Liu; Abu Saleh Md Tayeen; Pratyay Kumar; Qixu Gong; Wenbin Jiang; Huiping Cao; Satyajayant Misra; Jayashree Harikumar",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.01305v1",
+    "paper_url": "http://arxiv.org/abs/2607.01305v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.01305v1",
+    "abstract": "Intrusion Detection Systems (IDSs) are essential for monitoring network traffic and identifying malicious activities in modern cyber-physical, Internet of Things (IoT), enterprise, and distributed network environments. However, developing reliable IDS models remains challenging because attack behaviors evolve over time, realistic datasets are difficult to obtain, traffic records may be incomplete, attack classes are often imbalanced, and privacy constraints limit centralized data collection. Recent advances in generative artificial intelligence (AI) and Federated Learning (FL) provide new opportunities to address these limitations. Generative models can support anomaly detection, synthetic traffic generation, data augmentation, data imputation, adversarial traffic generation, and IDS alert explanation. FL enables distributed IDS training without directly sharing local network traffic, making it suitable for privacy-sensitive and geographically distributed environments. This survey provides a structured review of generative AI and FL techniques for IDS. We first summarize representative IDS research directions, including adversarial machine learning, anomaly-based detection, IoT-oriented IDS, explainable IDS, and benchmark datasets. We then categorize generative AI applications in IDS according to model families and task objectives, covering autoencoder-based models, Generative Adversarial Networks (GANs), diffusion models, and Large Language Models (LLMs). Finally, we review emerging studies that integrate generative AI with FL-based IDS and discuss open challenges, including synthetic data quality, realistic traffic generation, dual-use adversarial risks, non-IID client distributions, communication-efficient model sharing, federated IDS benchmarking, and domain-specific LLMs for network security.",
+    "arxiv_comment": "",
+    "keywords": "task-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:17.708820+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.00839v1",
+    "title": "Rethinking Multi-Label Image Classification With Deep Learning: Taxonomy, Challenge, and Outlook",
+    "authors": "Xuelin Zhu; Xiu-Shen Wei; Jiawei Ge; Shuai Xu; Bing Wang",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.00839v1",
+    "paper_url": "http://arxiv.org/abs/2607.00839v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00839v1",
+    "abstract": "Multi-label image classification (MLIC), a fundamental task in computer vision, focuses on identifying multiple objects or concepts within an image, underpinning numerous read-world applications, such as autonomous driving, disease diagnosis, recommendation system, and mobile service robot. Over the past decade, deep learning paradigms based on convolutional neural networks, recurrent neural networks, and Transformers have significantly advanced this field, owing to their powerful capability in visual representation and relationship modeling. These advances have markedly improved the robustness, scalability, and generalization ability of MLIC models across diverse datasets and application domains. In this survey, we provide a comprehensive review of the deep learning-based literature on MLIC. Concretely, we first revisit the background, including problem definition, datasets, backbones and evaluation metrics. Next, we develop a plausible taxonomy for the deep learning-based MLIC approaches, organizing them into six groups: region-oriented methods, label-oriented methods, architecture-oriented methods, representation-oriented methods, learning-oriented methods, and data-oriented methods. Finally, we provide an insightful exposition of the underlying learning game in MLIC and its implications for other vision domains, and we empirically summarize the key challenges and research directions in MLIC while outlining promising avenues for future development. We believe this survey offers the research community a holistic and systematic perspective on MLIC, thereby facilitating subsequent exploration and innovation in this field and beyond.",
+    "arxiv_comment": "",
+    "keywords": "task-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:17.708894+00:00"
+  },
+  {
+    "paper_id": "arxiv:2607.00445v1",
+    "title": "Gaze-Informed Proactive AI Assistance for Children's Picture Exploration",
+    "authors": "Zekun Wu; Man Su; Huiyong Li; Tomohiro Nagashima; Anna Maria Feit",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2607.00445v1",
+    "paper_url": "http://arxiv.org/abs/2607.00445v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00445v1",
+    "abstract": "Proactive assistance with large language models (LLMs) has received growing attention in the human computer interaction (HCI) community. However, most past work on proactive LLMs' assistance has focused on adult users and task-oriented settings, leaving open how such systems could support children, whose interests and needs are often expressed through gaze and other nonverbal behaviors rather than explicit requests. In this study, we focus on two key challenges of proactive assistance in children's picture exploration: when to provide assistance and what assistance to provide based on children's nonverbal behaviors. To address these challenges, we introduce Ollie, a gaze-informed proactive artificial intelligence (AI) assistant that offers short narrative descriptions based on where a child is looking. Ollie uses children's gaze to estimate their attention, identify their current visual focus, and select a related picture region for the LLM to verbally describe. In a within-subject experiment, we compared gaze-informed assistance with random assistance. Results show that gaze-informed assistance kept children's attention on their current focus for a longer period of time, and guided them more effectively to related picture regions. Children, parents, and a participating kindergarten teacher viewed Ollie positively and consider that it better matched children's interests when compared with the random assistance. This work shows the feasibility of using gaze as an implicit input for proactive AI assistance for children and provides design implications for future child-centered AI systems.",
+    "arxiv_comment": "",
+    "keywords": "task-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:17.708967+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.31498v1",
+    "title": "Governance Gaps in Agent Interoperability Protocols: What MCP, A2A, and ACP Cannot Express",
+    "authors": "Richard Kang; Yudho Diponegoro",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.31498v1",
+    "paper_url": "http://arxiv.org/abs/2606.31498v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31498v1",
+    "abstract": "Agent interoperability protocols (MCP, A2A, ACP, ANP, and ERC-8004) have rapidly matured to enable identity, capability discovery, tool access, and message exchange between autonomous agents. However, as enterprises deploy heterogeneous agent fleets that must make collective decisions under governance constraints, a question arises: can these protocols support governed agent communities, or only task-oriented coordination? We present a systematic gap analysis applying a six-dimension governance requirements taxonomy (membership, deliberation, voting, dissent preservation, human escalation, and audit/replay) derived from organizational theory, multi-agent systems literature, and enterprise governance standards. We analyze each protocol's specification against this taxonomy, classifying capabilities as Supported, Partial, or Absent. The resulting gap matrix reveals that voting and dissent preservation are universally absent across all five protocols, deliberation is absent or at most partial, and no protocol encodes the full set of primitives required for governed agent communities. We distinguish extensible gaps (addressable through protocol extension mechanisms) from structural gaps (requiring a new architectural layer) and assess time-sensitivity based on observed protocol evolution velocity. The analysis establishes that agent community governance constitutes a missing architectural layer above current interoperability standards, not a missing feature within them.",
+    "arxiv_comment": "",
+    "keywords": "task-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:17.709089+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.31426v1",
+    "title": "Towards a Joint Task-Oriented and Generative Semantic Communication Framework for 6G Networks",
+    "authors": "Soheyb Ribouh; Phil Polo Ditsia Di Ngoma",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.31426v1",
+    "paper_url": "http://arxiv.org/abs/2606.31426v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.31426v1",
+    "abstract": "Semantic Communication (SC) has emerged as a key enabler for 6G wireless systems by transmitting task-relevant meaning rather than raw data, thereby significantly reducing bandwidth consumption while preserving communication intent. In this work, we propose an end-to-end OFDM-based semantic communication framework that integrates a semantic encoder-decoder pipeline with a neural receiver operating over a 3GPP vehicular channel. The semantic encoder extracts the underlying meaning of a visual scene by transforming it into a graph-based representation consisting of object-level features and relational structure. At the receiver, the reconstructed scene graph is processed by a spatio-temporal graph neural network (ST-GNN)-based module for collision-risk estimation, enabling task-oriented inference. In parallel, a diffusion-based semantic decoder reconstructs the visual scene from the recovered semantics, providing dual functionality: safety prediction and image reconstruction. The proposed framework is evaluated in a MIMO configuration under varying SNR conditions. Experimental results show that it achieves up to 99.1% data compression relative to pixel-domain transmission, outperforming conventional compression-based methods (JPEG and HEVC) while preserving downstream inference performance. Furthermore, the diffusion-based reconstruction attains significantly lower frechet inception distance (FID) scores than existing semantic communication approaches, reflecting superior semantic and perceptual fidelity.",
+    "arxiv_comment": "",
+    "keywords": "task-oriented communication; semantic transmission",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:17.709152+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.30595v1",
+    "title": "Wireless Backdoor Attack and Defense for Semantic Communications over Multiple Access Channel",
+    "authors": "Yalin E. Sagduyu; Tugba Erpek; Aylin Yener; Sennur Ulukus",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.30595v1",
+    "paper_url": "http://arxiv.org/abs/2606.30595v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.30595v1",
+    "abstract": "Semantic communication (SemCom) aims to preserve semantic meaning and task-oriented information beyond conventional message recovery over wireless channels. The adoption of SemCom in shared-access wireless networks introduces new vulnerabilities for multi-user semantic inference. This paper considers a SemCom system for two transmitters communicating with a common receiver over a multiple access channel. Each transmitter maps source information into latent semantic representations, while the receiver jointly reconstructs and classifies the semantic information for both transmitters. A selective over-the-air backdoor (Trojan) attack is presented in which an adversary transmits a low-power trigger waveform over the air and injects it into the shared received signal during training. By transmitting the trigger again during testing, this stealthy, low-power attack selectively manipulates the semantic inference for one transmitter while minimally affecting the inference of the other transmitter. To mitigate this vulnerability, a trigger-aware defense mechanism is developed to preserve correct semantic labels under trigger-contaminated wireless observations. The results demonstrate both the vulnerability of shared-access SemCom systems to selective over-the-air backdoor attacks and the effectiveness of trigger-aware robust training for semantic protection.",
+    "arxiv_comment": "",
+    "keywords": "task-oriented communication; semantic-aware communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:17.709213+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.30170v1",
+    "title": "Beyond Drug Discovery: The Nanotechnology Molecular Optimization (NMO) Benchmark",
+    "authors": "Matthias Blaschke; Daniel Kienzle; Zsuzsanna Koczor-Benda; Julian Lorenz; Rainer Lienhart; Fabian Pauly",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.30170v1",
+    "paper_url": "http://arxiv.org/abs/2606.30170v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.30170v1",
+    "abstract": "Generative molecular design is shaped by simple proxy benchmarks for drug-like properties and models pretrained on large pharmaceutical datasets. This combination yields strong benchmark metrics but limits transferability to domains structurally distinct from drug discovery. To overcome this limitation and drive discovery toward real, scientifically grounded targets, we introduce the Nanotechnology Molecular Optimization (NMO) Benchmark, which bridges machine learning (ML) and quantum materials science. NMO acts simultaneously as a rigorous testbed for the ML community and a discovery engine for nanotechnology research. The suite replaces proxy oracles with quantum simulations and introduces strict protocols that prioritize scientific utility over leaderboard-oriented overfitting. The physics-based NMO tasks impose hard structural constraints and rugged fitness landscapes, posing fundamentally new requirements on generative models. Notably, advanced molecular optimization methods underperform much simpler approaches on the NMO tasks. We develop a new baseline method identifying the critical components to solve the NMO tasks, including a novel representation for modeling structural constraints and a domain-agnostic pretraining strategy to eliminate pharmaceutical dataset bias. Our results surpass state-of-the-art physical properties and reveal previously unknown structural motifs, offering new insights for the nanotechnology community and demonstrating that ML can drive genuine scientific discovery.",
+    "arxiv_comment": "",
+    "keywords": "task-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:17.709281+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.29354v1",
+    "title": "When LLMs Develop Languages: Symbolic Communication for Efficient Multi-Agent Reasoning",
+    "authors": "Zhengqi Pei; Qingming Huang; Shuhui Wang",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.29354v1",
+    "paper_url": "http://arxiv.org/abs/2606.29354v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.29354v1",
+    "abstract": "Chain-of-Thought (CoT) improves large language models (LLMs) on difficult reasoning tasks, but it often incurs long natural-language rationales that are poorly aligned with efficient machine reasoning. We propose Communicative Language Symbolism Routing (CLSR), a test-time framework in which multiple LLM agents autonomously invent, evolve, and share compact Language Symbolism Frameworks (LSFs), while a latent-free router adaptively selects and composes these languages per query to optimize the accuracy-token trade-off. Unlike prompt optimization that refines surface instructions, CLSR treats each LSF as a reusable symbolic protocol with compact symbols, usage rules, and a message-passing contract, and improves it through an evolutionary loop driven by correctness and token cost. At inference time, the router may invoke a single low-cost LSF call, ensemble multiple LSFs, or execute a multi-round LSF composition protocol on harder queries. Across challenging benchmarks, CLSR reduces latency-oriented generated token completion by $3\\sim 6\\times$ compared to standard CoT while maintaining accuracy. We further derive an information-theoretic lower bound on token cost under arbitrary symbolism and show that, under an interpreter-realizability premise, multi-round LSF protocols conditionally subsume program-execution pipelines. Code is publicly available (https://github.com/pzqpzq/LSF_MDia).",
+    "arxiv_comment": "ICML2026 Regular paper",
+    "keywords": "task-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:17.709361+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.29460v1",
+    "title": "Understanding LLM Intervention Explanations in Multi-Party Human-Robot Interaction",
+    "authors": "Micol Spitale; Massimiliano Nigro; Emily Cross",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.29460v1",
+    "paper_url": "http://arxiv.org/abs/2606.29460v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.29460v1",
+    "abstract": "Large Language Models (LLMs) are increasingly embedded in social robots to support natural group interactions, yet their role in complex multi-party settings remains underexplored. In particular, it is unclear how LLM-driven robots decide when and why to intervene in group conversations. This paper investigates the intervention explanations generated by an LLM-based orchestrator in a multi-party interaction involving three human participants and two robots. We conducted a between-subjects study with 24 groups (66 university students), comparing a homogeneous condition (two robots with the same role, i.e., a mover) and a heterogeneous condition (two robots with different roles, i.e., a mover and an opposer). At each conversational turn, the LLM orchestrator decided whether to intervene and generated a textual explanation of its decision. We performed a thematic analysis of 610 intervention explanations, identifying five recurring themes. Results show that explanations are facilitation-oriented, emphasizing agreement, participation, and interaction flow. While patterns remain stable across conditions, role differentiation emerges: the mover supports coordination, whereas the opposer drives goal-oriented interventions. These findings contribute to explainable AI by characterizing how LLM-driven systems justify intervention decisions in real-time, multi-party human-robot interaction.",
+    "arxiv_comment": "Accepted for 2026 36th IEEE International Conference on Robot and Human Interactive Communication",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.461585+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.27314v1",
+    "title": "Beyond Surface Forms: A Comprehensive, Mechanism-Oriented Taxonomy of Indirect Linguistic Encoding for LLM-Based Coded Language Detection",
+    "authors": "Hamid Reza Firoozfar; Mohammadsadegh Abolhasani; Reza Mousavi; Paul Jen-Hwa Hu",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.27314v1",
+    "paper_url": "http://arxiv.org/abs/2606.27314v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.27314v1",
+    "abstract": "To avoid moderation and surveillance on social media, some users routinely invent indirect linguistic expressions (ILE) that camouflage sensitive meanings. Such expressions surface as algospeak, euphemisms, and adversarial obfuscation, depending on intent and context, and they involve recurring encoding mechanisms. We propose a comprehensive, mechanism-oriented taxonomy of ILE that abstracts away from communicative goals and instead categorizes the underlying operations through which meaning is encoded and recovered. We evaluate the taxonomy by incorporating it into LLM prompts and comparing it with four existing taxonomies and a no-taxonomy baseline, using 2,000 manually annotated TikTok and Bluesky posts. The proposed taxonomy attains the strongest document- and span-level performance across the three LLMs, achieving an improvement of 4.7% in accuracy and 5.4% in F1 over the best-performing benchmark. The empirical results reveal the importance of a comprehensive, mechanism-oriented taxonomy as a stable scaffold for detecting emerging coded language and a useful input to content moderation. Disclaimer: This paper contains content that may be profane, vulgar, or offensive.",
+    "arxiv_comment": "Submitted for review in ARR for EMNLP 2026",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.461666+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.24424v1",
+    "title": "Explainable AI for Next-Generation Wireless Physical Layer: Basics, State-of-the-Art, and Open Challenges",
+    "authors": "Bingnan Xiao; Shuyan Hu; Xiaojing Chen; Zhiyuan Zhai; Bingcong Li; Wei Ni; Xin Wang; Ekram Hossain",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.24424v1",
+    "paper_url": "http://arxiv.org/abs/2606.24424v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.24424v1",
+    "abstract": "Next-generation wireless systems are expected to be ``AI-native,\" with neural networks (NNs) embedded throughout the physical (PHY) layer protocol stack to improve spectral efficiency, latency, and network autonomy. However, the opacity of deep learning (DL) models raises increasing concerns about system reliability, safety, and privacy, especially under complex and time-varying network environments. This survey studies explainable AI (XAI) in wireless PHY layers from the explainability perspective. We first formalize a series of responsibility-oriented goals for wireless XAI. Then, we develop a systematic taxonomy of explainability approaches and distill practical criteria for deploying explanations in communication scenarios. We provide a comprehensive review of where and how XAI can be applied throughout the PHY layer, connecting representative learning paradigms to appropriate explanation techniques, evaluation metrics, and deployment considerations. Open challenges and future directions are discussed, including explainability-performance tradeoffs, explainability-aware data processing, customized XAI for communication-specific structures, cross-layer explanation consistency, and emerging needs for explaining LLM- and Agentic-AI-driven PHY layers.",
+    "arxiv_comment": "30 pages, 11 figures",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.461736+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.18786v2",
+    "title": "R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning",
+    "authors": "Haobin Qin; Baofeng Zhang; Hidehisa Akiyama; Keisuke Fujii",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.18786v2",
+    "paper_url": "http://arxiv.org/abs/2606.18786v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.18786v2",
+    "abstract": "Robot soccer is a challenging testbed for multi-agent reinforcement learning because it combines partial observability, cooperative and adversarial interaction, sparse rewards, and long-horizon tactical behavior. RoboCup 2D Soccer Simulation (RCSS2D) provides a mature robot-soccer platform, but its competition-oriented server-client architecture is difficult to use directly with modern Python-based MARL workflows. We introduce R2D-RL, a reinforcement learning environment that connects RCSS2D and HELIOS-based player clients to a Python MARL interface through shared-memory communication and cycle-level synchronization. R2D-RL supports full-field and scenario-based training with configurable opponents, Base discrete and Hybrid parameterized action spaces, action masks, expected possession value (EPV)-based reward shaping, and parallel execution. We provide front-goal scenarios and an 11-vs-11 full-field benchmark, together with baseline results.",
+    "arxiv_comment": "Code is available at: https://github.com/open-starlab/R2DRL",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.461789+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.16596v1",
+    "title": "How Far Can Machine Translation Quality Take You? Extrinsic Discourse Evaluation in Goal-Oriented Setups",
+    "authors": "Wafaa Mohammed; Kata Naszadi; Vlad Niculae",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.16596v1",
+    "paper_url": "http://arxiv.org/abs/2606.16596v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.16596v1",
+    "abstract": "Existing machine translation (MT) metrics and discourse-focused evaluations primarily assess translation quality intrinsically, without measuring the downstream consequences of translation errors. In this work, we focus on extrinsic discourse evaluation of machine translation under two distinct regimes: static and interactive. Under the static regime, we propose an entity counting task as a probe of referential consistency in discourse. We show that high intrinsic MT quality does not reliably predict downstream discourse success and strong MT systems still produce referential inconsistencies. For the interactive regime, we study the goal-oriented multi-agent Welfare Diplomacy game as a probe of long-horizon communication and coordination. We find that interaction-specific translation failures impact downstream coordination. Our results highlight goal-oriented environments as a viable framework for discourse-sensitive extrinsic MT evaluation.",
+    "arxiv_comment": "",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.461840+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.16009v2",
+    "title": "Bridging the Usability Gap: Lessons from Interpreting Studies for Machine Interpreting Design",
+    "authors": "Claudio Fantinuoli",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.16009v2",
+    "paper_url": "http://arxiv.org/abs/2606.16009v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.16009v2",
+    "abstract": "Machine interpreting (MI), the live, real-time application of speech translation, has achieved remarkable progress on standard benchmarks, with some systems approaching human parity on textual fidelity. Yet the user experience remains far inferior to interpreter-mediated communication, revealing what we term the accuracy illusion: systems that appear accurate on paper but fail in practice to support smooth, goal-oriented interaction. This paper defines MI as a distinct subfield of speech translation, with its own characteristics and the need for evaluation methods grounded in communicative effectiveness rather than isolated fidelity metrics. Drawing on insights from interpreting studies, we identify critical dimensions of professional interpreting practice that are overlooked by current systems, and consolidate them into three interdependent design priorities for future MI: agency (context-sensitive initiative and repair), grounding (multimodal and discourse-level situational awareness), and experience (adaptive improvement through real interaction). Together, these priorities chart a path toward closing the usability gap and enabling systems that can sustain authentic multilingual communication in real time.",
+    "arxiv_comment": "",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.461898+00:00"
+  },
+  {
+    "paper_id": "arxiv:2606.14315v1",
+    "title": "'AI Alignment' Encompasses Competing Technical Priorities",
+    "authors": "Tushita Jha; Rory Svarc; Mateusz Bagiński",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2606.14315v1",
+    "paper_url": "http://arxiv.org/abs/2606.14315v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.14315v1",
+    "abstract": "The ML literature contains many distinct concepts falling under the heading of 'AI alignment'. After noting three concepts of AI alignment in the context of their corresponding research programs, we claim that realistic interventions may promote 'AI alignment' under one conception while being actively counterproductive from the perspective of others. We suggest that tensions between alignment ideals emerge due to differences in background threat-models, alongside differences in normative orientations. In light of our analysis, researchers aiming to further the goal of 'AI alignment' should do five things. First, they should not conflate distinctions of policy and distinctions of scientific scope; second, methodological disagreements should be acknowledged explicitly; third, researchers should distinguish between 'AI alignment' as a high-level ideal and specific 'alignment proxies' used in empirical research; fourth, they should use more granular concepts to identify both the source and nature of possible AI harms/benefits; fifth, they should explicitly acknowledge the diversity of 'alignment' concepts in both empirical work and in communication with non-technical audiences.",
+    "arxiv_comment": "9 pages, 0 figures, 2 tables, ICML 2026",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.461961+00:00"
+  },
+  {
+    "paper_id": "arxiv:2605.28502v1",
+    "title": "A Goal-Oriented Networking Approach for Intelligent IoT Service Deployment",
+    "authors": "Federico Tonini; Davide Borsatti; Wint Yi Poe; Riccardo Trivisonno; Walter Cerroni",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2605.28502v1",
+    "paper_url": "http://arxiv.org/abs/2605.28502v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.28502v1",
+    "abstract": "The first 6G standardization efforts are about to start, shaping the new generation of mobile networks. The IMT-2030 extends the IMT-2020 by expanding its usage scenarios to Immersive, Massive, and Hyper-Reliable and Low-Latency Communications. It also introduces novel scenarios by integrating Artificial Intelligence and Sensing with Communication and supporting Ubiquitous Connectivity. Compared to the previous generation, 6G is expected to improve not only throughput and latency, but also coverage and energy efficiency. A paradigm called Goal-Oriented (GO) communications has recently emerged as a promising solution to improve network efficiency. It relies on the fact that the goal of the communication network is to achieve a specific task with a defined accuracy, rather than creating perfect data delivery. Intelligent devices can pre-process data to send only what is relevant to achieve the task, thus saving precious network resources and energy. Recent works demonstrate that incorporating service- and application-level KPIs in the network allows to achieve higher communication efficiency for devices, but the consequence of using such techniques on the network itself has not yet been explored. This paper proposes a practical end-to-end framework to assess energy consumption, latency, and goal accuracy KPIs, which includes a Multi-Objective optimization model to evaluate the trade-offs between the multiple KPIs relevant to GO networking. We demonstrate, through simulation, that the network can benefit from the application of the GO paradigm, indicating its potential in future network architectures.",
+    "arxiv_comment": "",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.462042+00:00"
+  },
+  {
+    "paper_id": "arxiv:2605.16547v1",
+    "title": "World Model-Enabled Causal Digital Twins for Semantic Communications in Physical AI Systems",
+    "authors": "Lingyi Wang; Tingyu Shui; Walid Saad; Pascal Adjakple",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2605.16547v1",
+    "paper_url": "http://arxiv.org/abs/2605.16547v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.16547v1",
+    "abstract": "Semantic communication has emerged as a promising paradigm for enabling goal-oriented networking. However, most existing semantic communication solutions are tailored to one-shot tasks and optimize instantaneous performance. Hence, they cannot be used to support closed-loop dynamic systems with physical artificial intelligence (AI), in which the transmitted semantics affect not only the current inference outcome but also future control actions, state evolution, and ultimately long-horizon task performance. To address this gap, this paper investigates goal-oriented semantic communications for physical AI systems with closed-loop sensing-communication-inference-control. In particular, the problem of semantic communications is formulated as a long-term return-per-bit maximization under wireless bit-budget constraints while capturing both control efficiency and communication efficiency. To solve this problem, a novel causal information value (CIV) metric is introduced to evaluate the marginal contribution of each semantic token to the expected long-term return by transmission interventions. Then, a world-model-enabled causal digital twin (WM-CDT) framework is proposed to capture the dynamics of closed-loop physical AI systems and enable counterfactual reasoning for long-horizon imagined rollouts. Based on these imagined rollouts, an actor-critic policy is trained for long-horizon agent control with high data efficiency, while the semantic token selector is trained through CIV-per-bit evaluation. Extensive simulations on an AirSim-Sionna-based unmanned aerial vehicle (UAV) navigation simulator show that the proposed WM-CDT framework achieves significant improvement in return-per-kbit and navigation success rate compared to existing reinforcement learning solutions.",
+    "arxiv_comment": "",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.462121+00:00"
+  },
+  {
+    "paper_id": "arxiv:2605.15791v1",
+    "title": "The Shared Prosperity Internet",
+    "authors": "Juan A. Cabrera; Pit Hofmann; Jonas Schulz; Frederic Benken; Hrjehor Mark; Giang T. Nguyen; Holger Boche; Frank H. P. Fitzek",
+    "year": 2026,
+    "venue": "arXiv",
+    "source": "arXiv",
+    "doi": "",
+    "arxiv_id": "2605.15791v1",
+    "paper_url": "http://arxiv.org/abs/2605.15791v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.15791v1",
+    "abstract": "The Shared Prosperity Internet (SPI) is a network-computing architecture that makes the benefits of automation and Artificial Intelligence (AI) broadly accessible to the society. To ground its design, this paper maps the physical constraints of Shannon, Landauer, Turing, and Einstein to three design principles: trustworthiness, sustainability, and technological sovereignty, and maps them into three technical pillars: i) post-Shannon, goal-oriented communication that transmits only what the task requires; ii) anticipatory decision-making (\"negative latency\") with confidence-bounded pre-action and correction; and iii) beyond-digital computing that selects energy-optimal substrates under deadline and computability constraints. The SPI is grounded in three societal use cases: remote teaching for pupils, remote teaching of robots and cyber-physical systems, and elder care. Furthermore, this paper defines measurable outcomes for an SPI, including latency decomposition, bits per event, energy and CO2 per task, safety and privacy indicators, and robustness.",
+    "arxiv_comment": "8 pages, conference, 4 figures, 16 references",
+    "keywords": "goal-oriented communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-07-06T06:18:23.462183+00:00"
   },
   {
     "paper_id": "arxiv:2512.05395v1",
@@ -432,7 +1302,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.248973+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.220815+00:00"
   },
   {
     "paper_id": "arxiv:2508.08686v2",
@@ -461,7 +1331,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.249048+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.220901+00:00"
   },
   {
     "paper_id": "arxiv:2505.04970v1",
@@ -490,7 +1360,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.249111+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.220984+00:00"
   },
   {
     "paper_id": "arxiv:2504.07431v2",
@@ -519,7 +1389,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.249163+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.221051+00:00"
   },
   {
     "paper_id": "arxiv:2501.10926v1",
@@ -548,7 +1418,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.249222+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.221128+00:00"
   },
   {
     "paper_id": "arxiv:2501.01048v2",
@@ -577,7 +1447,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.249278+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.221206+00:00"
   },
   {
     "paper_id": "arxiv:2411.15702v5",
@@ -606,7 +1476,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.249331+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.221280+00:00"
   },
   {
     "paper_id": "arxiv:2411.04672v2",
@@ -635,7 +1505,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.249395+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.221387+00:00"
   },
   {
     "paper_id": "arxiv:2410.01597v1",
@@ -664,7 +1534,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.249432+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.221438+00:00"
   },
   {
     "paper_id": "arxiv:2407.14112v2",
@@ -693,7 +1563,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:32.249493+00:00"
+    "last_checked_at": "2026-07-06T06:18:29.221521+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7166803161",
@@ -722,7 +1592,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.612813+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.968961+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7166766098",
@@ -751,7 +1621,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.612850+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.968998+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7165065148",
@@ -780,7 +1650,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.612933+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.969088+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7163596879",
@@ -809,7 +1679,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.613000+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.969165+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7163777240",
@@ -838,7 +1708,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.613076+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.969251+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7162894167",
@@ -867,7 +1737,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.613138+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.969345+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7162699526",
@@ -896,7 +1766,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.613211+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.969437+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7162219393",
@@ -925,7 +1795,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.613273+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.969511+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7161915654",
@@ -954,7 +1824,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.613331+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.969582+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7161056467",
@@ -983,65 +1853,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:35.613344+00:00"
-  },
-  {
-    "paper_id": "arxiv:2607.01928v1",
-    "title": "Sparse-Aware Vector Quantization for Bandwidth-Efficient Collaborative 3D Semantic Occupancy Prediction",
-    "authors": "Feng Li; Chaokun Zhang; Gong Chen",
-    "year": 2026,
-    "venue": "arXiv",
-    "source": "arXiv",
-    "doi": "",
-    "arxiv_id": "2607.01928v1",
-    "paper_url": "http://arxiv.org/abs/2607.01928v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.01928v1",
-    "abstract": "Collaborative perception extends single-agent perception by enabling multiple vehicles to exchange complementary perceptual information. However, it introduces an inherent trade-off between perception gain and communication overhead, which is particularly severe for 3D semantic occupancy prediction that relies on fine-grained spatial structures. Existing methods typically compress 3D features into 2D, causing severe spatial information loss, or transmit dense 3D representations, hindering real-world deployment. To overcome these limitations, we propose a bandwidth-efficient collaborative Vector Quantization Semantic Occupancy Prediction (VQSOP) framework. VQSOP employs a Sparse-Aware Vector Quantization (SAVQ) mechanism that exploits 3D scene sparsity to compactly encode informative regions, drastically reducing communication overhead while preserving complete geometric context. Furthermore, to enhance structural consistency and feature continuity, we design a Dual-Branch Adaptive Spatial Refinement (ASR) module that dynamically fuses local high-frequency details with broad contextual semantics. Extensive experiments demonstrate that our approach achieves state-of-the-art performance while reducing communication volume by up to 82x.",
-    "arxiv_comment": "Accepted by ECCV26",
-    "keywords": "semantic-aware communication; semantic encoding",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143357+00:00"
-  },
-  {
-    "paper_id": "arxiv:2606.31715v1",
-    "title": "Semantic-Aware Multiple Access via Spatial Redundancy Exploitation for Uplink-Dominant 6G Use Cases",
-    "authors": "Hamidreza Mazandarani; Masoud Shokrnezhad; Tarik Taleb; Onur Günlü",
-    "year": 2026,
-    "venue": "arXiv",
-    "source": "arXiv",
-    "doi": "",
-    "arxiv_id": "2606.31715v1",
-    "paper_url": "http://arxiv.org/abs/2606.31715v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.31715v1",
-    "abstract": "Emerging uplink-dominant 6G use cases, such as cooperative vehicular streaming, require efficient transmission of high-volume visual data over limited wireless resources. While semantic communications can reduce traffic by prioritizing task-relevant content, most existing approaches treat users independently and therefore overlook spatial redundancy among nearby devices' observations. This paper proposes a semantic-aware multiple access scheme that exploits overlapping fields of view among vehicular users to reduce redundant uplink transmissions. We formulate a joint perception and transmission control problem in which users decide which image patches to transmit, when to transmit them, and over which channel, subject to communication constraints. To address the resulting complexity, we introduce a practical two-phase approach. First, nearby vehicles share selected observation patches over Vehicle-to-Vehicle (V2V) links to calculate inter-user spatial redundancy. Second, users transmit only semantically important, non-redundant patches to the base station, where observations can be reconstructed using the received patches and complementary views from neighboring vehicles. Simulation results in a dense urban vehicular scenario demonstrate that our approach improves the proportion of users who achieve high-fidelity reconstruction, highlighting the potential of semantic-aware multiple access for sustainable and resource-efficient 6G uplink systems.",
-    "arxiv_comment": "",
-    "keywords": "semantic-aware communication; semantic transmission",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143442+00:00"
+    "last_checked_at": "2026-07-06T06:18:32.969599+00:00"
   },
   {
     "paper_id": "arxiv:2606.31303v1",
@@ -1070,7 +1882,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143496+00:00"
+    "last_checked_at": "2026-07-06T06:18:35.062249+00:00"
   },
   {
     "paper_id": "arxiv:2606.30993v1",
@@ -1099,36 +1911,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143562+00:00"
-  },
-  {
-    "paper_id": "arxiv:2606.30595v1",
-    "title": "Wireless Backdoor Attack and Defense for Semantic Communications over Multiple Access Channel",
-    "authors": "Yalin E. Sagduyu; Tugba Erpek; Aylin Yener; Sennur Ulukus",
-    "year": 2026,
-    "venue": "arXiv",
-    "source": "arXiv",
-    "doi": "",
-    "arxiv_id": "2606.30595v1",
-    "paper_url": "http://arxiv.org/abs/2606.30595v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.30595v1",
-    "abstract": "Semantic communication (SemCom) aims to preserve semantic meaning and task-oriented information beyond conventional message recovery over wireless channels. The adoption of SemCom in shared-access wireless networks introduces new vulnerabilities for multi-user semantic inference. This paper considers a SemCom system for two transmitters communicating with a common receiver over a multiple access channel. Each transmitter maps source information into latent semantic representations, while the receiver jointly reconstructs and classifies the semantic information for both transmitters. A selective over-the-air backdoor (Trojan) attack is presented in which an adversary transmits a low-power trigger waveform over the air and injects it into the shared received signal during training. By transmitting the trigger again during testing, this stealthy, low-power attack selectively manipulates the semantic inference for one transmitter while minimally affecting the inference of the other transmitter. To mitigate this vulnerability, a trigger-aware defense mechanism is developed to preserve correct semantic labels under trigger-contaminated wireless observations. The results demonstrate both the vulnerability of shared-access SemCom systems to selective over-the-air backdoor attacks and the effectiveness of trigger-aware robust training for semantic protection.",
-    "arxiv_comment": "",
-    "keywords": "semantic-aware communication",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143614+00:00"
+    "last_checked_at": "2026-07-06T06:18:35.062312+00:00"
   },
   {
     "paper_id": "arxiv:2606.30293v1",
@@ -1157,7 +1940,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143683+00:00"
+    "last_checked_at": "2026-07-06T06:18:35.062478+00:00"
   },
   {
     "paper_id": "arxiv:2606.29113v1",
@@ -1186,7 +1969,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143733+00:00"
+    "last_checked_at": "2026-07-06T06:18:35.062538+00:00"
   },
   {
     "paper_id": "arxiv:2606.29052v1",
@@ -1215,7 +1998,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143780+00:00"
+    "last_checked_at": "2026-07-06T06:18:35.062589+00:00"
   },
   {
     "paper_id": "arxiv:2606.26844v1",
@@ -1244,7 +2027,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143834+00:00"
+    "last_checked_at": "2026-07-06T06:18:35.062652+00:00"
   },
   {
     "paper_id": "arxiv:2606.26567v1",
@@ -1273,7 +2056,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:38.143898+00:00"
+    "last_checked_at": "2026-07-06T06:18:35.062730+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7163785652",
@@ -1302,7 +2085,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:42.186325+00:00"
+    "last_checked_at": "2026-07-06T06:18:38.695561+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W4414932055",
@@ -1331,7 +2114,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:42.186362+00:00"
+    "last_checked_at": "2026-07-06T06:18:38.695609+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7159911741",
@@ -1360,36 +2143,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:42.186499+00:00"
-  },
-  {
-    "paper_id": "arxiv:2607.00342v1",
-    "title": "Semantic-based Internet of Embodied Intelligence: Visions and Frontiers",
-    "authors": "Yaheng Wang; Rui Meng; Xiaodong Xu; Yiming Liu; Feiliang Song; Linyuan Hu; Huishi Song; Lexi Xu; Tony Q. S. Quek; Ping Zhang",
-    "year": 2026,
-    "venue": "arXiv",
-    "source": "arXiv",
-    "doi": "",
-    "arxiv_id": "2607.00342v1",
-    "paper_url": "http://arxiv.org/abs/2607.00342v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.00342v1",
-    "abstract": "Recent advances in generative artificial intelligence (AI) and embodied intelligence (EI) enable autonomous agents to interact with the physical world. However, scaling these systems into networks of multiple agents, namely the Internet of EI (IoEI), faces critical bottlenecks. These include the overhead of massive multimodal data transmission and the decoupling of logical reasoning from physical constraints. To address these challenges, we envision the Semantic-based IoEI (SIoEI), which leverages semantic information as a unified metric throughout the agent lifecycle. We systematically define four key dimensions of EI: perception, intelligence, control, and communication. We further elaborate how semantic empowerment revolutionizes environmental perception, cognition and task planning, action generation and robust control, and communication and networking. We also present a case study to verify that, the semantic-empowered end-to-end process significantly improves channel robustness and reduces end-to-end latency for EI. Finally, we outline critical open research directions for the SIoEI paradigm.",
-    "arxiv_comment": "7 pages, 4 figures",
-    "keywords": "semantic transmission",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-07-06T05:19:44.713147+00:00"
+    "last_checked_at": "2026-07-06T06:18:38.695771+00:00"
   },
   {
     "paper_id": "arxiv:2606.32010v1",
@@ -1418,36 +2172,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:44.713227+00:00"
-  },
-  {
-    "paper_id": "arxiv:2606.31973v1",
-    "title": "Semantic Leakage and Privacy Preservation in Relay-Assisted Semantic Communications",
-    "authors": "Yalin E. Sagduyu; Tugba Erpek; Aylin Yener; Sennur Ulukus",
-    "year": 2026,
-    "venue": "arXiv",
-    "source": "arXiv",
-    "doi": "",
-    "arxiv_id": "2606.31973v1",
-    "paper_url": "http://arxiv.org/abs/2606.31973v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.31973v1",
-    "abstract": "Semantic communication (SemCom) has emerged as a promising paradigm in which the transmission of task-relevant information is prioritized over raw data, enabling efficient and robust communication under resource and channel constraints. In this paper, the privacy implications of relay-assisted SemCom systems are studied, where the intermediate relay node operates directly on learned latent representations. It is shown that the relay, even without access to source data, can reliably infer semantic meaning and reconstruct signals with performance comparable to that of the legitimate receiver, revealing a fundamental privacy vulnerability of semantic representations. To address this issue, an iterative adversarial training framework is proposed in which a strong, adaptively trained eavesdropper at the relay is explicitly accounted for. The proposed approach alternates between optimizing the relay's eavesdropping function and the legitimate system, resulting in representations that preserve semantic decoding performance at the intended receiver while degrading semantic inference at the relay. The semantic accuracy gap between the legitimate receiver and the eavesdropper is significantly enlarged across channel conditions. Importantly, this protection is achieved in a stealthy manner, with high reconstruction fidelity maintained while semantic leakage is selectively suppressed.",
-    "arxiv_comment": "",
-    "keywords": "semantic transmission",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-07-06T05:19:44.713277+00:00"
+    "last_checked_at": "2026-07-06T06:18:40.788396+00:00"
   },
   {
     "paper_id": "arxiv:2606.31513v1",
@@ -1476,7 +2201,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:44.713375+00:00"
+    "last_checked_at": "2026-07-06T06:18:40.788579+00:00"
   },
   {
     "paper_id": "arxiv:2606.31497v1",
@@ -1505,36 +2230,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:44.713435+00:00"
-  },
-  {
-    "paper_id": "arxiv:2606.31426v1",
-    "title": "Towards a Joint Task-Oriented and Generative Semantic Communication Framework for 6G Networks",
-    "authors": "Soheyb Ribouh; Phil Polo Ditsia Di Ngoma",
-    "year": 2026,
-    "venue": "arXiv",
-    "source": "arXiv",
-    "doi": "",
-    "arxiv_id": "2606.31426v1",
-    "paper_url": "http://arxiv.org/abs/2606.31426v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.31426v1",
-    "abstract": "Semantic Communication (SC) has emerged as a key enabler for 6G wireless systems by transmitting task-relevant meaning rather than raw data, thereby significantly reducing bandwidth consumption while preserving communication intent. In this work, we propose an end-to-end OFDM-based semantic communication framework that integrates a semantic encoder-decoder pipeline with a neural receiver operating over a 3GPP vehicular channel. The semantic encoder extracts the underlying meaning of a visual scene by transforming it into a graph-based representation consisting of object-level features and relational structure. At the receiver, the reconstructed scene graph is processed by a spatio-temporal graph neural network (ST-GNN)-based module for collision-risk estimation, enabling task-oriented inference. In parallel, a diffusion-based semantic decoder reconstructs the visual scene from the recovered semantics, providing dual functionality: safety prediction and image reconstruction. The proposed framework is evaluated in a MIMO configuration under varying SNR conditions. Experimental results show that it achieves up to 99.1% data compression relative to pixel-domain transmission, outperforming conventional compression-based methods (JPEG and HEVC) while preserving downstream inference performance. Furthermore, the diffusion-based reconstruction attains significantly lower frechet inception distance (FID) scores than existing semantic communication approaches, reflecting superior semantic and perceptual fidelity.",
-    "arxiv_comment": "",
-    "keywords": "semantic transmission",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-07-06T05:19:44.713483+00:00"
+    "last_checked_at": "2026-07-06T06:18:40.788652+00:00"
   },
   {
     "paper_id": "arxiv:2606.31093v1",
@@ -1563,7 +2259,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:44.713620+00:00"
+    "last_checked_at": "2026-07-06T06:18:40.788850+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7165995917",
@@ -1592,7 +2288,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:48.958810+00:00"
+    "last_checked_at": "2026-07-06T06:18:44.337497+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164773713",
@@ -1621,7 +2317,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:48.958950+00:00"
+    "last_checked_at": "2026-07-06T06:18:44.337660+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164715474",
@@ -1650,7 +2346,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:48.959002+00:00"
+    "last_checked_at": "2026-07-06T06:18:44.337724+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164706338",
@@ -1679,7 +2375,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:48.959049+00:00"
+    "last_checked_at": "2026-07-06T06:18:44.337787+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164722315",
@@ -1708,7 +2404,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:48.959096+00:00"
+    "last_checked_at": "2026-07-06T06:18:44.337842+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164783946",
@@ -1737,7 +2433,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:48.959136+00:00"
+    "last_checked_at": "2026-07-06T06:18:44.337888+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164706785",
@@ -1766,7 +2462,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:48.959183+00:00"
+    "last_checked_at": "2026-07-06T06:18:44.337943+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164711551",
@@ -1795,7 +2491,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:48.959232+00:00"
+    "last_checked_at": "2026-07-06T06:18:44.338003+00:00"
   },
   {
     "paper_id": "arxiv:2607.02494v1",
@@ -1824,7 +2520,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:51.320274+00:00"
+    "last_checked_at": "2026-07-06T06:18:46.437585+00:00"
   },
   {
     "paper_id": "arxiv:2607.02284v1",
@@ -1853,7 +2549,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:51.320353+00:00"
+    "last_checked_at": "2026-07-06T06:18:46.437673+00:00"
   },
   {
     "paper_id": "arxiv:2607.01987v1",
@@ -1882,7 +2578,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:51.320406+00:00"
+    "last_checked_at": "2026-07-06T06:18:46.437735+00:00"
   },
   {
     "paper_id": "arxiv:2607.01906v1",
@@ -1911,7 +2607,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:51.320499+00:00"
+    "last_checked_at": "2026-07-06T06:18:46.437834+00:00"
   },
   {
     "paper_id": "arxiv:2607.01902v1",
@@ -1940,36 +2636,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:51.320590+00:00"
-  },
-  {
-    "paper_id": "arxiv:2607.01772v1",
-    "title": "LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design",
-    "authors": "Wen Wang; Yaping Sun; Yejun He; Hao Chen; Zhiyong Chen; Xiaodong Xu; Nan Ma; Shuguang Cui",
-    "year": 2026,
-    "venue": "arXiv",
-    "source": "arXiv",
-    "doi": "",
-    "arxiv_id": "2607.01772v1",
-    "paper_url": "http://arxiv.org/abs/2607.01772v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.01772v1",
-    "abstract": "Vision-radar fusion is central to robust autonomous driving, combining dense visual semantics with precise range and velocity measurements from radar. However, real-world fusion quality is fundamentally challenged by dynamically varying input quality, stemming from occlusion, adverse weather, and channel noise. To address this, we re-frame the problem from static data fusion to channel-aware semantic reasoning and propose a Large Language Model-centric Semantic-layer Channel-aware Integrated Perception (LM-SCIP) framework. It places a Large Language Model (LLM) as a central reasoning core to fuse a local visual stream with a quality-varying external radar stream used to cover perception-blind spots. Concretely, LM-SCIP couples a hierarchical radar-vision encoder with a Channel-Adaptive Semantic Module (CASM) that maps link indicators into a \"Channel Prompt\" to dynamically gate external radar features. A parameter-efficient, LoRA-tuned LLM, in conjunction with a heterogeneous Mixture-of-Experts (H-MoE), then arbitrates between local visual cues and the channel-conditioned radar context. Finally, a decoupled multi-task decoder outputs localization, trajectory forecasting, and image reconstruction. Experiments on nuScenes and VIRAT validate our approach. On nuScenes, under a controlled toggle of radar input, LM-SCIP reduces localization RMSE by 40.0% versus a vision-only baseline. On VIRAT, the model attains a 0.214m localization RMSE and 0.179m minFDE (k=1). These results reveal that the proposed LM-SCIP enables a robust vision-dominant fallback at low SNR and synergistic fusion at high SNR.",
-    "arxiv_comment": "6 pages, 4 figures. Accepted by 2026 IEEE 37th International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)",
-    "keywords": "semantic encoding",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-07-06T05:19:51.320655+00:00"
+    "last_checked_at": "2026-07-06T06:18:46.437917+00:00"
   },
   {
     "paper_id": "arxiv:2607.01658v1",
@@ -1998,7 +2665,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:51.320707+00:00"
+    "last_checked_at": "2026-07-06T06:18:46.438043+00:00"
   },
   {
     "paper_id": "arxiv:2607.01605v1",
@@ -2027,7 +2694,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:51.320771+00:00"
+    "last_checked_at": "2026-07-06T06:18:46.438114+00:00"
   },
   {
     "paper_id": "arxiv:2607.00833v1",
@@ -2056,7 +2723,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:51.320821+00:00"
+    "last_checked_at": "2026-07-06T06:18:46.438170+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7109581480",
@@ -2085,7 +2752,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:55.128245+00:00"
+    "last_checked_at": "2026-07-06T06:18:49.951524+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7128571704",
@@ -2114,7 +2781,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:55.128313+00:00"
+    "last_checked_at": "2026-07-06T06:18:49.951599+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7128875661",
@@ -2143,7 +2810,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:55.128375+00:00"
+    "last_checked_at": "2026-07-06T06:18:49.951667+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7136098147",
@@ -2172,7 +2839,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:55.128394+00:00"
+    "last_checked_at": "2026-07-06T06:18:49.951688+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7140350618",
@@ -2201,7 +2868,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:55.128526+00:00"
+    "last_checked_at": "2026-07-06T06:18:49.951836+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164474508",
@@ -2230,7 +2897,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:55.128587+00:00"
+    "last_checked_at": "2026-07-06T06:18:49.951890+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7166261769",
@@ -2259,7 +2926,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:55.128678+00:00"
+    "last_checked_at": "2026-07-06T06:18:49.951984+00:00"
   },
   {
     "paper_id": "arxiv:2606.29737v2",
@@ -2288,7 +2955,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750317+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043057+00:00"
   },
   {
     "paper_id": "arxiv:2606.29282v1",
@@ -2317,7 +2984,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750392+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043131+00:00"
   },
   {
     "paper_id": "arxiv:2606.28649v1",
@@ -2346,7 +3013,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750456+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043201+00:00"
   },
   {
     "paper_id": "arxiv:2606.28120v1",
@@ -2375,7 +3042,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750522+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043272+00:00"
   },
   {
     "paper_id": "arxiv:2606.27567v1",
@@ -2404,7 +3071,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750603+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043355+00:00"
   },
   {
     "paper_id": "arxiv:2606.24083v1",
@@ -2433,7 +3100,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750657+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043412+00:00"
   },
   {
     "paper_id": "arxiv:2606.23069v2",
@@ -2462,7 +3129,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750716+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043472+00:00"
   },
   {
     "paper_id": "arxiv:2606.20971v1",
@@ -2491,7 +3158,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750764+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043520+00:00"
   },
   {
     "paper_id": "arxiv:2606.17940v1",
@@ -2520,7 +3187,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750817+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043575+00:00"
   },
   {
     "paper_id": "arxiv:2606.15899v1",
@@ -2549,7 +3216,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:19:57.750890+00:00"
+    "last_checked_at": "2026-07-06T06:18:52.043637+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164710863",
@@ -2578,7 +3245,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:20:01.268169+00:00"
+    "last_checked_at": "2026-07-06T06:18:55.615256+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7163799798",
@@ -2607,7 +3274,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:20:01.268319+00:00"
+    "last_checked_at": "2026-07-06T06:18:55.615441+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7128116870",
@@ -2636,7 +3303,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:20:01.268387+00:00"
+    "last_checked_at": "2026-07-06T06:18:55.615517+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7166838414",
@@ -2665,6 +3332,6 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-07-06T05:20:01.268467+00:00"
+    "last_checked_at": "2026-07-06T06:18:55.615630+00:00"
   }
 ]
