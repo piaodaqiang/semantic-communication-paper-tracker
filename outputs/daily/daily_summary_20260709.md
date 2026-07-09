@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：114
+
+## 候选论文
+- Mitigating Taint-Style Vulnerabilities in MCP Servers via Security-Aware Tool Descriptions (2026) | http://arxiv.org/abs/2607.07461v1
+- Semantic Communications in the THz Band (2026) | http://arxiv.org/abs/2607.07455v1
+- Multimodal Voice Activity Projection for Turn-Taking in Social Robots with Voice-Activity-Related Pretrained Encoders (2026) | http://arxiv.org/abs/2607.07294v1
+- -8 dB SNR + 90% Packet Loss: MamVSC -- CSI-Guided Semantic Mamba for Extreme-Robust Video Semantic Communication (2026) | http://arxiv.org/abs/2607.07293v1
+- Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts (2026) | http://arxiv.org/abs/2607.07267v1
+- Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs (2026) | http://arxiv.org/abs/2607.06540v1
+- Trust-Aware Citation Cartel Ranking in Scholarly Knowledge Graphs (2026) | http://arxiv.org/abs/2607.06528v1
+- HDRL Staff Strategy Meeting Report (2026) | http://arxiv.org/abs/2607.06650v1
+- Whose fairness? Structural concentration in AI bias research (2026) | http://arxiv.org/abs/2607.05574v1
+- When Agents Lie: Premeditation, Persistence, and Exploitation in Repeated Games (2026) | http://arxiv.org/abs/2607.05132v2
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- Let’s Read Together: AAC-Supported Interactive Reading in the Classroom (2026) | http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/408410
+- Accessing primary care following the Affordable Care Act : a qualitative study of low-income women’s experiences in urban California (2026) | https://openalex.org/W7126357041
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- Technology-Enhanced Writing Pedagogy for EFL Learners: A Multi-Study Dissertation on Practice, Effectiveness, and Teacher Perceptions (2026) | https://escholarship.org/uc/item/1bf8j2r7
+- Reconstruction and Renaissance of Dongbei China:A Multimodal Metaphor Analysis of New Media on Harbin (2026) | https://research.manchester.ac.uk/en/publications/02ba2ca7-0a6a-45f6-8e18-8cf3c7218f17
+- Breaking Structural Isolation: Scalable Graph Clustering via Community-Aware Sampling and Structural Entropy (2026) | http://arxiv.org/abs/2607.05469v1
+- Modular Verification for Network-On-Chip Designs Using Probabilistic Verification and Assume-Guarantee Reasoning (2026) | https://digitalcommons.usu.edu/etd2023/816
+- High-Throughput Characterization of Creep in Additively Manufactured 316L Stainless Steel (2026) | https://digitalcommons.usu.edu/etd2023/809
+- Mind the Gap: Connecting Protocol Representations in Squirrel (2026) | https://hal.science/hal-05013723v1/document
+- The Dramatic Arc as a Conceptual Model for Understanding the Strategic Ordering of Game Play Events (2026) | https://doi.org/10.1017/chr.2026.10040
+- CHAPTER 10. THE KARST CAVES OF THE TYACHIV DISTRICT IN ZAKARPATTIA OBLAST AS SITES OF GEOLOGICAL HERITAGE AND PROMISING RESOURCES FOR THE DEVELOPMENT OF GEOLOGICAL TOURISM (2026) | https://doi.org/10.65237/15-2026-10
+- CHAPTER 14. ANALYSIS OF EXISTING SOLUTIONS FOR DETECTING COORDINATED ACTIVITY ON SOCIAL MEDIA (2026) | https://doi.org/10.65237/15-2026-14
+- Digital Teaching Skills in Distance Education Scale: A Validity and Reliability Study* (2026) | https://doi.org/10.5152/hayef.2026.25016
+- Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence (2026) | http://arxiv.org/abs/2607.07675v1
+- Task-Oriented Multimodal Edge Intelligence via Integrated Sensing-Communication-Computation (2026) | http://arxiv.org/abs/2607.03907v1
+- AirTF: Over-the-Air Token Fusion for Task-Oriented Multi-Modal Token Communications (2026) | http://arxiv.org/abs/2607.03099v1
+- Low-Latency Task-Oriented Image Transmission with Opportunistic Spectrum Access (2026) | http://arxiv.org/abs/2607.01921v1
+- Generative AI and Federated Learning for Intrusion Detection Systems: A Survey (2026) | http://arxiv.org/abs/2607.01305v1
+- Rethinking Multi-Label Image Classification With Deep Learning: Taxonomy, Challenge, and Outlook (2026) | http://arxiv.org/abs/2607.00839v1
+- Gaze-Informed Proactive AI Assistance for Children's Picture Exploration (2026) | http://arxiv.org/abs/2607.00445v1
+- JL1-CC&QA: Extending the JL1-CD Benchmark with Change Captioning and Question Answering (2026) | http://arxiv.org/abs/2606.31745v1
+- Governance Gaps in Agent Interoperability Protocols: What MCP, A2A, and ACP Cannot Express (2026) | http://arxiv.org/abs/2606.31498v1
+- Understanding LLM Intervention Explanations in Multi-Party Human-Robot Interaction (2026) | http://arxiv.org/abs/2606.29460v1
+- Beyond Surface Forms: A Comprehensive, Mechanism-Oriented Taxonomy of Indirect Linguistic Encoding for LLM-Based Coded Language Detection (2026) | http://arxiv.org/abs/2606.27314v1
+- Explainable AI for Next-Generation Wireless Physical Layer: Basics, State-of-the-Art, and Open Challenges (2026) | http://arxiv.org/abs/2606.24424v1
+- R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning (2026) | http://arxiv.org/abs/2606.18786v2
+- How Far Can Machine Translation Quality Take You? Extrinsic Discourse Evaluation in Goal-Oriented Setups (2026) | http://arxiv.org/abs/2606.16596v1
+- Bridging the Usability Gap: Lessons from Interpreting Studies for Machine Interpreting Design (2026) | http://arxiv.org/abs/2606.16009v2
+- 'AI Alignment' Encompasses Competing Technical Priorities (2026) | http://arxiv.org/abs/2606.14315v1
+- A Goal-Oriented Networking Approach for Intelligent IoT Service Deployment (2026) | http://arxiv.org/abs/2605.28502v1
+- World Model-Enabled Causal Digital Twins for Semantic Communications in Physical AI Systems (2026) | http://arxiv.org/abs/2605.16547v1
+- The Shared Prosperity Internet (2026) | http://arxiv.org/abs/2605.15791v1
+- Image Semantic Communication with Quadtree Partition-based Coding (2025) | http://arxiv.org/abs/2512.05395v1
+- VQ-VAE Based Digital Semantic Communication with Importance-Aware OFDM Transmission (2025) | http://arxiv.org/abs/2508.08686v2
+- Over-the-Air ODE-Inspired Neural Network for Dual Task-Oriented Semantic Communications (2025) | http://arxiv.org/abs/2505.04970v1
+- LLM-Enabled Data Transmission in End-to-End Semantic Communication (2025) | http://arxiv.org/abs/2504.07431v2
+- A Semantic Approach to Successive Interference Cancellation for Multiple Access Networks (2025) | http://arxiv.org/abs/2501.10926v1
+- Power-Efficient Optimization for Coexisting Semantic and Bit-Based Users in NOMA Networks (2025) | http://arxiv.org/abs/2501.01048v2
