@@ -1,6 +1,6 @@
 # Daily Inbox Summary
 
-新增/候选论文数量：102
+新增/候选论文数量：66
 
 ## 候选论文
 - Claim Plane: Enforceable Change Intents and Dynamic Scope for Parallel Coding Agents (2026) | http://arxiv.org/abs/2607.21909v1
@@ -13,18 +13,6 @@
 - STORM: RDMA-based Monte Carlo Transport Scheme for Distributed-Memory Particle Simulations (2026) | http://arxiv.org/abs/2607.20639v1
 - Qoreo: Choreographic Programming for Quantum Distributed Systems (2026) | http://arxiv.org/abs/2607.20391v1
 - Multiparty Session Types for GDPR Purpose Compliance (2026) | http://arxiv.org/abs/2607.20190v1
-- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
-- Let’s Read Together: AAC-Supported Interactive Reading in the Classroom (2026) | http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/408410
-- Accessing primary care following the Affordable Care Act : a qualitative study of low-income women’s experiences in urban California (2026) | https://openalex.org/W7126357041
-- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
-- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
-- Technology-Enhanced Writing Pedagogy for EFL Learners: A Multi-Study Dissertation on Practice, Effectiveness, and Teacher Perceptions (2026) | https://escholarship.org/uc/item/1bf8j2r7
-- Reconstruction and Renaissance of Dongbei China:A Multimodal Metaphor Analysis of New Media on Harbin (2026) | https://research.manchester.ac.uk/en/publications/02ba2ca7-0a6a-45f6-8e18-8cf3c7218f17
-- Doing Game Design in Theatre (2026) | https://orcid.org/0000-0002-4087-5798>,
-- Utilitarianism and Weak Sustainability : A Corpus Analysis of the Representation of the Sea by the UK Government (2010-2023) (2026) | https://openalex.org/W7149876925
-- Modular Verification for Network-On-Chip Designs Using Probabilistic Verification and Assume-Guarantee Reasoning (2026) | https://digitalcommons.usu.edu/etd2023/816
-- The Impact of AI on the Landscape Design Process (2026) | https://digitalcommons.usu.edu/etd2023/859
-- High-Throughput Characterization of Creep in Additively Manufactured 316L Stainless Steel (2026) | https://digitalcommons.usu.edu/etd2023/809
 - SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD (2026) | http://arxiv.org/abs/2607.20145v1
 - Do Sheaf Neural Networks Use Holonomy? A Measure--Intervene--Control Study (2026) | http://arxiv.org/abs/2607.19514v1
 - Task-Oriented Wave Processing with Stacked Intelligent Metasurfaces: Framework, Fusion, and Challenges (2026) | http://arxiv.org/abs/2607.18612v1
@@ -53,3 +41,26 @@
 - LLM-Enabled Data Transmission in End-to-End Semantic Communication (2025) | http://arxiv.org/abs/2504.07431v2
 - A Semantic Approach to Successive Interference Cancellation for Multiple Access Networks (2025) | http://arxiv.org/abs/2501.10926v1
 - Power-Efficient Optimization for Coexisting Semantic and Bit-Based Users in NOMA Networks (2025) | http://arxiv.org/abs/2501.01048v2
+- Editable-DeepSC: Reliable Cross-Modal Semantic Communications for Facial Editing (2024) | http://arxiv.org/abs/2411.15702v5
+- Semantic-Aware Resource Management for C-V2X Platooning via Multi-Agent Reinforcement Learning (2024) | http://arxiv.org/abs/2411.04672v2
+- Spatial Semantic Communication: When Semantic Transmission Meets Index Modulation (2026) | http://arxiv.org/abs/2607.19934v1
+- Rate-Distortion-Perception Theory: Redefining the Fundamental Limits of Information Representation (2026) | http://arxiv.org/abs/2607.17232v1
+- Learning to Stay Fresh: A Self-Learning Semantic Framework for Underwater Internet of Things (2026) | http://arxiv.org/abs/2607.16902v1
+- FlashDiff: Efficient Regional Execution and Scheduling for Diffusion Model Serving (2026) | http://arxiv.org/abs/2607.12121v2
+- SkillComm: Skill-Driven Semantic Communication for Sequential Workflows via Incremental Token Transmission (2026) | http://arxiv.org/abs/2607.11972v1
+- BLUE: Semantics-Preserving Video Compression for Efficient Vision-Language Surveillance Analytics (2026) | http://arxiv.org/abs/2607.19515v1
+- AirMoE: Statistic-Augmented Over-the-Air MoE for Collaborative Intelligence (2026) | http://arxiv.org/abs/2607.16562v1
+- DynaFilter: Cloud-driven Dynamic Filtering for Satellite Edge Intelligence (2026) | http://arxiv.org/abs/2607.10098v1
+- Generative Communications: Overview, Technologies, and Trends (2026) | http://arxiv.org/abs/2607.09183v1
+- SAGE-Net: Semantics-Augmented Geometric Encoder for Material Property Prediction (2026) | http://arxiv.org/abs/2607.22271v1
+
+## 抓取错误
+- OpenAlex:semantic communication: <HTTPError 429: 'Too Many Requests'>
+- OpenAlex:semantic communications: <HTTPError 429: 'Too Many Requests'>
+- OpenAlex:task-oriented communication: <HTTPError 429: 'Too Many Requests'>
+- OpenAlex:goal-oriented communication: <HTTPError 429: 'Too Many Requests'>
+- OpenAlex:DeepSC: <HTTPError 429: 'Too Many Requests'>
+- OpenAlex:semantic-aware communication: <HTTPError 429: 'Too Many Requests'>
+- OpenAlex:semantic transmission: <HTTPError 429: 'Too Many Requests'>
+- OpenAlex:semantic encoding: <HTTPError 429: 'Too Many Requests'>
+- OpenAlex:semantic channel coding: <HTTPError 429: 'Too Many Requests'>
