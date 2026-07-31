@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：101
+
+## 候选论文
+- Generalized Query-Oriented Image Semantic Coding Empowered by Large AI Models and Semantic-Aware Hybrid Beamforming (2026) | http://arxiv.org/abs/2607.28276v1
+- When Robots Exchange Meaning: A Demo of Goal-Oriented Semantic Communications for Collaborative Robotics (2026) | http://arxiv.org/abs/2607.28256v1
+- SciSchema.org: A Multidisciplinary Collection of Schemas for Structured Scientific Process Descriptions (2026) | http://arxiv.org/abs/2607.27955v1
+- TriShield: Zero-Utility-Loss Defense Against Privacy Backdoors in Federated Language Model Fine-Tuning via Orthogonal Gradient Projection and Optimizer State Entanglement (2026) | http://arxiv.org/abs/2607.27940v1
+- Learning to Understand Body Language from Flight through Robust 3D Avatar Placing (2026) | http://arxiv.org/abs/2607.27865v1
+- Before Agents Speak: Pre-hoc Failure Risk Inference in Multi-Agent Systems (2026) | http://arxiv.org/abs/2607.26836v1
+- The Price of Meaning: Quantifying Semantic Communication Overheads in Practice (2026) | http://arxiv.org/abs/2607.26764v1
+- Active Movable-Element RIS Assisted Vehicular Semantic Communications: Modeling and Optimization (2026) | http://arxiv.org/abs/2607.26658v1
+- ASARL: Autonomous Social-Aware Relevance Learning for QQ Search (2026) | http://arxiv.org/abs/2607.26593v1
+- CG-World: A Large-Scale World-State Dataset and Protocol for World Models (2026) | http://arxiv.org/abs/2607.26452v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- Let’s Read Together: AAC-Supported Interactive Reading in the Classroom (2026) | http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/408410
+- Accessing primary care following the Affordable Care Act : a qualitative study of low-income women’s experiences in urban California (2026) | https://openalex.org/W7126357041
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- Technology-Enhanced Writing Pedagogy for EFL Learners: A Multi-Study Dissertation on Practice, Effectiveness, and Teacher Perceptions (2026) | https://escholarship.org/uc/item/1bf8j2r7
+- Reconstruction and Renaissance of Dongbei China:A Multimodal Metaphor Analysis of New Media on Harbin (2026) | https://research.manchester.ac.uk/en/publications/02ba2ca7-0a6a-45f6-8e18-8cf3c7218f17
+- Doing Game Design in Theatre (2026) | https://orcid.org/0000-0002-4087-5798>,
+- Language, Imitation and Creativity : Dialogic Resonance in Grammar and Pragmatics (2026) | https://openalex.org/W7171751349
+- Modular Verification for Network-On-Chip Designs Using Probabilistic Verification and Assume-Guarantee Reasoning (2026) | https://digitalcommons.usu.edu/etd2023/816
+- The Impact of AI on the Landscape Design Process (2026) | https://digitalcommons.usu.edu/etd2023/859
+- High-Throughput Characterization of Creep in Additively Manufactured 316L Stainless Steel (2026) | https://digitalcommons.usu.edu/etd2023/809
+- CrossAtlas: Evaluating Projection Techniques for Spatial Referencing in Cross-Reality Collaboration (2026) | http://arxiv.org/abs/2607.28583v1
+- Inferring Missing Trajectory Data with Temporal Convolutional Networks (2026) | http://arxiv.org/abs/2607.25147v1
+- Quality-Adaptive Multi-UAV 3D Reconstruction with Sparse Workload Redistribution (2026) | http://arxiv.org/abs/2607.24233v1
+- SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD (2026) | http://arxiv.org/abs/2607.20145v2
+- Do Sheaf Neural Networks Use Holonomy? A Measure--Intervene--Control Study (2026) | http://arxiv.org/abs/2607.19514v1
+- Task-Oriented Wave Processing with Stacked Intelligent Metasurfaces: Framework, Fusion, and Challenges (2026) | http://arxiv.org/abs/2607.18612v1
+- Generative Transmission: Rethinking Computation, Bandwidth, and Memory in Communication (2026) | http://arxiv.org/abs/2607.17482v1
+- Sustainable Air-Ground Integrated Coverage Networks: ISCC Architecture, Technologies, and Testbed (2026) | http://arxiv.org/abs/2607.16812v1
+- Movable Antenna for Integrated Sensing and Communication in Air Sea Ground Networks (2026) | http://arxiv.org/abs/2607.17041v1
+- Goal-Oriented Semantic Communication for Distributed ISAC-Enabled Vehicle Coordination (2026) | http://arxiv.org/abs/2607.15111v1
+- Agentic Service-Oriented Computing: A Manifesto for the Next Frontier of Service-Oriented Computing (2026) | http://arxiv.org/abs/2607.12619v1
+- Dec-MARVEL: Decentralized Multi-Agent Exploration without Communication under Budget Constraints (2026) | http://arxiv.org/abs/2607.09060v2
+- Understanding LLM Intervention Explanations in Multi-Party Human-Robot Interaction (2026) | http://arxiv.org/abs/2606.29460v1
+- Beyond Surface Forms: A Comprehensive, Mechanism-Oriented Taxonomy of Indirect Linguistic Encoding for LLM-Based Coded Language Detection (2026) | http://arxiv.org/abs/2606.27314v1
+- Explainable AI for Next-Generation Wireless Physical Layer: Basics, State-of-the-Art, and Open Challenges (2026) | http://arxiv.org/abs/2606.24424v1
+- R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning (2026) | http://arxiv.org/abs/2606.18786v2
+- How Far Can Machine Translation Quality Take You? Extrinsic Discourse Evaluation in Goal-Oriented Setups (2026) | http://arxiv.org/abs/2606.16596v1
+- SignDeepSC: A Semantic Signature-based Approach for Robust Semantic Communication (2026) | http://arxiv.org/abs/2607.25676v1
+- Structured Spectral Compression based Low-Bitrate Secure Speech Communications for Internet of Things assisted Non-Terrestrial Networks (2026) | http://arxiv.org/abs/2607.19092v1
+- Semantic Communications in the THz Band (2026) | http://arxiv.org/abs/2607.07455v1
+- Image Semantic Communication with Quadtree Partition-based Coding (2025) | http://arxiv.org/abs/2512.05395v1
+- VQ-VAE Based Digital Semantic Communication with Importance-Aware OFDM Transmission (2025) | http://arxiv.org/abs/2508.08686v2
+- Over-the-Air ODE-Inspired Neural Network for Dual Task-Oriented Semantic Communications (2025) | http://arxiv.org/abs/2505.04970v1
+- LLM-Enabled Data Transmission in End-to-End Semantic Communication (2025) | http://arxiv.org/abs/2504.07431v2
+- A Semantic Approach to Successive Interference Cancellation for Multiple Access Networks (2025) | http://arxiv.org/abs/2501.10926v1
+- Power-Efficient Optimization for Coexisting Semantic and Bit-Based Users in NOMA Networks (2025) | http://arxiv.org/abs/2501.01048v2
+- Editable-DeepSC: Reliable Cross-Modal Semantic Communications for Facial Editing (2024) | http://arxiv.org/abs/2411.15702v5
+- Engineering Trustworthy Agentic AI for Critical Systems (2026) | https://arxiv.org/abs/2607.18548
