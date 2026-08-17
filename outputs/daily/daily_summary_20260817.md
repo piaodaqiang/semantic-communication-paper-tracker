@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：108
+
+## 候选论文
+- Sensor-Driven Mission Synthesis for UAV/UGV Swarms: A TB-CSPN Coordination Architecture with Hardware-Enforced Safety (2026) | http://arxiv.org/abs/2608.14306v1
+- LLM-Assisted LDPC Decoding via Syndrome-Verified Semantic Priors (2026) | http://arxiv.org/abs/2608.14280v1
+- Personalized Digital Semantic Communication for Image Transmission with Vision-Language Models (2026) | http://arxiv.org/abs/2608.14260v1
+- CoDS: Robust Collaborative Perception via Expert-driven Detection and BEV Segmentation (2026) | http://arxiv.org/abs/2608.14085v1
+- Attention Capture Is Not Detection: A Two-Stage Account of How Humans Miss Localized AI Image Edits (2026) | http://arxiv.org/abs/2608.13865v1
+- Learning to Assemble Novel Structures with Unfamiliar Parts under Semantic Constraints (2026) | http://arxiv.org/abs/2608.13684v1
+- Asymmetric Discourse Homogenization and Shared Language Technology: Evidence from Reddit (2026) | http://arxiv.org/abs/2608.13674v1
+- Heterogeneity-Aware Belief Synchronization for Semantic Communication in AI-Native 6G Networks (2026) | http://arxiv.org/abs/2608.13394v1
+- Resource-efficient Semantic Coding Schemes with Manifold-constrained Hyper-connections (2026) | http://arxiv.org/abs/2608.13253v1
+- Meshlib: In-Process Policy Enforcement for Sidecar-less Service Meshes (2026) | http://arxiv.org/abs/2608.13107v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- Allyship and Affect: Qualitative Investigations into Social Transformation (2026) | https://academicworks.cuny.edu/gc_etds/6807
+- Universal Audio Generation (2026) | https://hal.science/hal-05110014
+- See, Balance, Exchange: Building an Operational Toolkit for Active Distribution Networks under High DER Penetration (2026) | https://orbi.uliege.be/handle/2268/347656
+- Contexts of Violence against Physicians in the Health System: A Grounded Theory Study in Ahvaz Medical Centers (2026) | https://doaj.org/article/acd58a228b7c454c9214db73a38e0c5d
+- Road-oriented attention and class-balanced learning for post-disaster road damage segmentation (2026) | https://tsukuba.repo.nii.ac.jp/records/2025257
+- Distinct Temporal Stages of Infant Brain Processing Associate With Early Versus Later Autism Diagnosis (2026) | https://kclpure.kcl.ac.uk/portal/en/publications/f9f3eee3-ef8d-431c-81a9-d485b5dfe19e
+- Utilitarianism and Weak Sustainability : A Corpus Analysis of the Representation of the Sea by the UK Government (2010-2023) (2026) | https://eprints.lancs.ac.uk/id/eprint/236376/1/Representation_of_the_sea_-_Marine_Policy_-_Accepted_version_-_Germond-Duret.pdf
+- Foodstagramming decoded: A mixed-methods and topic modeling approach (2026) | https://doi.org/10.1016/j.ijhm.2026.104866
+- Toward federated large language models in medicine: a parameter-efficient framework for privacy-preserving, multi-institutional adaptation (2026) | https://doi.org/10.1038/s41746-026-03064-9
+- &lt;b&gt;A Quantitative Model of the Industrial Design Cognitive Process Based on Information Entropy&lt;/b&gt; (2026) | https://doi.org/10.67541/jdf2604
+- A modeling and simulation framework for the analysis of offensive and defensive strategies in computer networks (2026) | https://doi.org/10.30574/wjarr.2026.31.2.2081
+- Research on Data-Driven English Personalized Teaching Design in Smart Classrooms (2026) | https://doi.org/10.7753/ijsea1508.1014
+- The Dual Face of <scp> <i>Fusobacterium nucleatum</i> </scp> in Cancer: Foe, Friend or Both? (2026) | https://doi.org/10.1111/jre.70165
+- SSRGAT: integrating syntactic, semantic, and contextual knowledge in a knowledge-infused graph model for aspect-based sentiment analysis (2026) | https://doi.org/10.1038/s41598-026-66667-y
+- Transformation of International Economic and Business Alliances in the Face of Global Turbulence: Challenges of Sustainable Development (2026) | https://doi.org/10.59543/jidmis.v3.1681
+- OAA: Three Phases of Vocal Guidance in Human-Drone Teleoperation (2026) | http://arxiv.org/abs/2608.10651v1
+- A Semantic Communication Approach to Fiducial Marker Processing in 5G-Enabled Edge SLAM (2026) | http://arxiv.org/abs/2608.09620v1
+- Abstracted Away: Resisting Alienation and Ungrounded Abstraction in AI Research Communities (2026) | http://arxiv.org/abs/2608.08408v1
+- Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding (2026) | http://arxiv.org/abs/2608.06501v1
+- SciQNet: Two-Stage Multimodal Adaptation for Scientific Image Quality Assessment (2026) | http://arxiv.org/abs/2608.05691v1
+- SAT-Edge-Agent: Hardware-in-the-Loop Edge-Agent Orchestration for Onboard Satellite Intelligence (2026) | http://arxiv.org/abs/2608.03728v1
+- Task-Oriented Candidate-Latent Feedback for Coarse-to-Fine Sensing in Distributed OFDM-ISAC Networks (2026) | http://arxiv.org/abs/2608.03319v1
+- Ten Years of Deep Learning for Wireless Communications: From Learned Blocks to Deployable Wireless Intelligence (2026) | http://arxiv.org/abs/2608.01747v1
+- SyncPlan: Long-Horizon LLM Coordination with Explicit Synchronization and Adaptive Correction (2026) | http://arxiv.org/abs/2608.01652v1
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- Alzheimer’s Disease and Related Dementias Risk Profiles and Health Literacy among South Asian Seniors (2026) | https://academicworks.cuny.edu/gc_etds/6812
+- Model-Based Systems Engineering Framework for SysML-Driven Design of Autonomous UAVs (2026) | http://arxiv.org/abs/2608.09547v1
+- When Agentic AI Meets Integrated Sensing and Communication (2026) | http://arxiv.org/abs/2608.05792v1
+- Goal-Oriented Logic-based Semantic Communication for Neuro-Symbolic Reasoning with Applications onto Autonomous Driving (2026) | http://arxiv.org/abs/2608.00878v1
+- When Robots Exchange Meaning: A Demo of Goal-Oriented Semantic Communications for Collaborative Robotics (2026) | http://arxiv.org/abs/2607.28256v1
+- Movable Antenna for Integrated Sensing and Communication in Air Sea Ground Networks (2026) | http://arxiv.org/abs/2607.17041v1
+- Goal-Oriented Semantic Communication for Distributed ISAC-Enabled Vehicle Coordination (2026) | http://arxiv.org/abs/2607.15111v1
+- Agentic Service-Oriented Computing: A Manifesto for the Next Frontier of Service-Oriented Computing (2026) | http://arxiv.org/abs/2607.12619v1
+- Dec-MARVEL: Decentralized Multi-Agent Exploration without Communication under Budget Constraints (2026) | http://arxiv.org/abs/2607.09060v2
+- Algorithmic Justice and Responsible AI Journalism: A Comparative Communication Policy Perspective in East Asia (2026) | https://philpapers.org/rec/HUAAJA
+- SignDeepSC: A Semantic Signature-based Approach for Robust Semantic Communication (2026) | http://arxiv.org/abs/2607.25676v1
