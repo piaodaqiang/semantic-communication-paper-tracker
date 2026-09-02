@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：115
+
+## 候选论文
+- Position Matters: Feature Inversion Attacks in ViT Split Inference with Token Reduction and Shuffling (2026) | http://arxiv.org/abs/2609.01232v1
+- Don't You Know, Pump it Up! Investigating Cryptocurrency Manipulation in Telegram-Driven Activity (2026) | http://arxiv.org/abs/2609.01176v1
+- Space Generative AI with Solar Energy Harvesting (2026) | http://arxiv.org/abs/2609.01062v1
+- FractalNet-Based Heterogeneous Federated Learning for Orbital Edge Intelligence in Satellite Mega-Constellations: A Wildfire Case Study (2026) | http://arxiv.org/abs/2609.00875v1
+- Less Is More: Balancing Positive and Negative Space in Visual Concept Blending (2026) | http://arxiv.org/abs/2609.00476v1
+- Detoxifying Toxic Communication: A Design Science Approach to Responsible AI (2026) | http://arxiv.org/abs/2609.00361v1
+- Semantic Freshness Optimal Sampling and Transmission for Gossiping Receivers (2026) | http://arxiv.org/abs/2608.31140v1
+- Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization (2026) | http://arxiv.org/abs/2608.31077v1
+- Semantic-Aware Sub-Band Allocation for Terahertz Communications (2026) | http://arxiv.org/abs/2608.30984v1
+- Tariff Threats, Macroeconomic Expectations, and Policy Communication Strategies: Experiments Based on a Multi-Agent System (2026) | http://arxiv.org/abs/2608.30522v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept (2026) | https://philpapers.org/rec/WANMAS
+- Universal Audio Generation (2026) | https://hal.science/hal-05110014
+- Contexts of Violence against Physicians in the Health System: A Grounded Theory Study in Ahvaz Medical Centers (2026) | https://doaj.org/article/acd58a228b7c454c9214db73a38e0c5d
+- Has Complexity of EU Law Increased? (2026) | https://portal.findresearcher.sdu.dk/da/publications/cd084f15-d0a3-4c25-b7c2-d149e7d3fc54
+- Distinct Temporal Stages of Infant Brain Processing Associate With Early Versus Later Autism Diagnosis (2026) | https://kclpure.kcl.ac.uk/portal/en/publications/f9f3eee3-ef8d-431c-81a9-d485b5dfe19e
+- Allyship and Affect: Qualitative Investigations into Social Transformation (2026) | https://academicworks.cuny.edu/gc_etds/6807
+- See, Balance, Exchange: Building an Operational Toolkit for Active Distribution Networks under High DER Penetration (2026) | https://orbi.uliege.be/handle/2268/347656
+- A genomic catalog of Earth’s bacterial and archaeal symbionts (2026) | https://doi.org/10.1038/s41587-026-03213-1
+- Deep reinforcement learning-based optimization of reconfigurable intelligent surfaces (RIS) for 6G multi-user connectivity in NLOS environments (2026) | https://doi.org/10.1038/s41598-026-69294-9
+- Utilitarianism and Weak Sustainability : A Corpus Analysis of the Representation of the Sea by the UK Government (2010-2023) (2026) | https://eprints.lancs.ac.uk/id/eprint/236376/1/Representation_of_the_sea_-_Marine_Policy_-_Accepted_version_-_Germond-Duret.pdf
+- DLE-UNet: Cross-Group Enhanced Channel Attention and Dual-Path Collaborative Encoding for Defect Detection in Aluminum Castings (2026) | https://doi.org/10.1007/s10921-026-01415-w
+- Adaptive federated edge intelligence with semantic communication and trust-aware optimization for heterogeneous IoT networks (2026) | https://doi.org/10.1038/s41598-026-68096-3
+- Internet of Things Infrastructure Research Mapping (2026) | https://doi.org/10.58812/wsist.v4i02.3095
+- RUN, HIDE, FIGHT: Pragmatics, Gun Culture, and Corpus-Driven Vocabulary Instruction (2026) | https://hokuga.repo.nii.ac.jp/records/2004442
+- When meaning meets purpose: A survey on semantic and task-oriented communications (2026) | https://doi.org/10.1016/j.engappai.2026.116063
+- TEIDAN: A Multilingual Multiparty Dialogue Corpus (2026) | http://arxiv.org/abs/2609.00802v1
+- A Human-in-the-Loop Autonomous Agent for Industry Time Series Forecasting (2026) | http://arxiv.org/abs/2608.30976v1
+- RealOOB: A Definition-Consistent Real-World Oriented Occlusion Boundary Benchmark (2026) | http://arxiv.org/abs/2608.30820v1
+- Gen-TAS: A Generative AI-Aided Hardware-Software Task Allocation Framework for FPGA-GPP Heterogeneous Systems (2026) | http://arxiv.org/abs/2608.28160v1
+- Token-Oriented Semantic Communication with Pretrained Vision Transformers (2026) | http://arxiv.org/abs/2608.25410v1
+- Rethinking Communication Metrics: How Should We Measure Meaning? (2026) | http://arxiv.org/abs/2608.21626v1
+- G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation (2026) | http://arxiv.org/abs/2608.20331v1
+- Generating Diverse Personas for User Simulators to Test Interview Dialogue Systems (2026) | http://arxiv.org/abs/2608.19549v1
+- Balancing Safety and Autonomy: Accessibility-Oriented Interventions in Generative AI for Cognitive Impairment (2026) | http://arxiv.org/abs/2608.17175v1
+- Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases (2026) | http://arxiv.org/abs/2608.17168v1
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- ‘Reboot’ van de ordehandhaving bij protesten? Inzichten in technologiegestuurde praktijken van protestbeheer in de commandopost (2026) | https://lirias.kuleuven.be/handle/20.500.12942/792040
+- The Relationship Between Adverse Childhood Experiences, Protective and Compensatory Experiences, and Parenting Attitudes Among Fathers (2026) | https://digitalcommons.nl.edu/diss/969
+- Ada-TokenCom: Rate-Adaptive Token Communications via Large-Model-Driven Token Compression and Generation (2026) | http://arxiv.org/abs/2608.28086v1
+- LandingAgent: A Reference-Annotated Dataset and Agentic Generation Framework for Landing Pages (2026) | http://arxiv.org/abs/2608.27902v1
+- Over-The-Air Extreme Learning Machines with Nonlinear Stacked Intelligent Metasurfaces (2026) | http://arxiv.org/abs/2608.27137v1
+- High-Altitude Platforms Beyond Connectivity: A Survey of Integrated Sensing, Storage, Communication, Computing, and Intelligence (2026) | http://arxiv.org/abs/2608.18587v2
+- Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks (2026) | http://arxiv.org/abs/2608.17774v1
+- Model-Based Systems Engineering Framework for SysML-Driven Design of Autonomous UAVs (2026) | http://arxiv.org/abs/2608.09547v1
+- Abstracted Away: Resisting Alienation and Ungrounded Abstraction in AI Research Communities (2026) | http://arxiv.org/abs/2608.08408v1
+- When Agentic AI Meets Integrated Sensing and Communication (2026) | http://arxiv.org/abs/2608.05792v1
