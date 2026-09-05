@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：117
+
+## 候选论文
+- The Natural Language Interaction Protocol and Standard for AI Agents (2026) | http://arxiv.org/abs/2609.04135v1
+- THz-SynC: Collective Synthesis with Contextual-Bandit-Assisted Coordination for Reconfigurable Hybrid Optical-THz AI Datacenters (2026) | http://arxiv.org/abs/2609.04025v1
+- A Black Box for Agentic Processes: Blockchain-Anchored Evidence for AI Agent Communication, Human Oversight, and GRC Audits (2026) | http://arxiv.org/abs/2609.04017v1
+- Cooperative Multi-Task Semantic Communication for Joint Classification and Regression Tasks (2026) | http://arxiv.org/abs/2609.03977v1
+- Semantic Bayesian World Models (2026) | http://arxiv.org/abs/2609.03834v1
+- Closing the Semantic-Edge Gap: Tiny Language Models for 6G Wireless Intelligence (2026) | http://arxiv.org/abs/2609.03747v1
+- A Semantic-Aware Multiple Access Scheme Leveraging Spatial Redundancy for Uplink-Dominant Network Services (2026) | http://arxiv.org/abs/2609.03559v1
+- An Adversarial Zero-Shot Learning Approach for Anomaly Detection in Multivariate IoT Traffic Data (2026) | http://arxiv.org/abs/2609.03505v1
+- Air-Ground Collaborative Vision-and-Language Navigation via Shared Bird's-Eye Maps (2026) | http://arxiv.org/abs/2609.03483v1
+- Language-encoded network topology enables large language models to reason about complex networks (2026) | http://arxiv.org/abs/2609.03229v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept (2026) | https://philpapers.org/rec/WANMAS
+- Oil, light, gift, and trust: a comparative analysis of metaphor relating to human biomedical data (2026) | http://www.scielo.cl/scielo.php?script=sci_arttext&pid=S1726-569X2026000200213
+- Language, Imitation and Creativity : Dialogic Resonance in Grammar and Pragmatics (2026) | https://eprints.lancs.ac.uk/id/eprint/209933/1/Book_draft_revised.pdf
+- Understanding online conversations through fractal dimension: a case study linking semantic and structural analysis of reddit posts on AI (2026) | https://doi.org/10.1007/s13278-026-01629-w
+- FI-TW: An open train–weather dataset for railway delay analysis in Finland (2026) | https://doi.org/10.12688/openreseurope.24750.1
+- Qualitative Manifestation and Cross-System Readability in Cognitive Systems (2026) | https://doi.org/10.5281/zenodo.19914359
+- Partial Cross-System Qualitative Mapping in Cognitive Systems (2026) | https://doi.org/10.5281/zenodo.20190149
+- Fspgd: rethinking black-box attacks on semantic segmentation (2026) | https://doi.org/10.1007/s00138-026-01919-5
+- Longitudinal evidence for decreasing statistical learning abilities across childhood (2026) | https://doi.org/10.1038/s41467-026-77261-1
+- Proportional infinite-width infinite-depth limit for deep linear neural networks (2026) | https://doi.org/10.1142/s021949372650022x
+- CASCADE reproduction artifacts: per-sample decision records, evaluation corpus and analysis scripts (2026) | https://arxiv.org/abs/2604.17125
+- Enhanced seam segmentation for automated welding robot in construction through transfer learning: addressing limitations of bilateral segmentation network (2026) | https://doi.org/10.1038/s41598-026-68118-0
+- MAC1toK: relax feature matching with maximal cliques for 3D registration (2026) | https://doi.org/10.1007/s44267-026-00124-2
+- Digital linguistic sovereignty and Kazakh language policy in the digital environment (2026) | https://doi.org/10.3389/fpsyg.2026.1858650
+- Topogram-based anatomical labelling of CT series: anatomy-aware CT data processing using deep learning (2026) | https://doi.org/10.1007/s00330-026-12830-y
+- Value-Preserving Architectures for Agentic AI Systems (2026) | http://arxiv.org/abs/2609.03920v1
+- Code Black: Desktop-Mediated Co-Design of AR-HMD Microinteractions for Emergency Department Teamwork (2026) | http://arxiv.org/abs/2609.03295v1
+- TEIDAN: A Multilingual Multiparty Dialogue Corpus (2026) | http://arxiv.org/abs/2609.00802v1
+- A Human-in-the-Loop Autonomous Agent for Industry Time Series Forecasting (2026) | http://arxiv.org/abs/2608.30976v1
+- RealOOB: A Definition-Consistent Real-World Oriented Occlusion Boundary Benchmark (2026) | http://arxiv.org/abs/2608.30820v1
+- Gen-TAS: A Generative AI-Aided Hardware-Software Task Allocation Framework for FPGA-GPP Heterogeneous Systems (2026) | http://arxiv.org/abs/2608.28160v1
+- Token-Oriented Semantic Communication with Pretrained Vision Transformers (2026) | http://arxiv.org/abs/2608.25410v1
+- Rethinking Communication Metrics: How Should We Measure Meaning? (2026) | http://arxiv.org/abs/2608.21626v1
+- G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation (2026) | http://arxiv.org/abs/2608.20331v1
+- Generating Diverse Personas for User Simulators to Test Interview Dialogue Systems (2026) | http://arxiv.org/abs/2608.19549v1
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- Interventions that could mitigate the adverse effects of household overcrowding on wellbeing: A rapid realist review with stakeholder participation from urban contexts in England (2026) | https://discovery.ucl.ac.uk/id/eprint/10214954/
+- Understanding cascading failure across innovation journeys : the case of antibiotics development (2026) | https://strathprints.strath.ac.uk/view/author/909854.html>
+- Value Contraction in the Market for Antique Decorative Arts and Furniture (2026) | http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/408905
+- Executive function in adolescents with obesity: A systematic review and meta-analysis (2026) | https://hdl.handle.net/21.11116/0000-0013-4267-D
+- The ethics of influence: organizational culture as a moderator of leadership style in agile projects (2026) | http://www.scielo.cl/scielo.php?script=sci_arttext&pid=S1726-569X2026000200287
+- Ada-TokenCom: Rate-Adaptive Token Communications via Large-Model-Driven Token Compression and Generation (2026) | http://arxiv.org/abs/2608.28086v1
+- LandingAgent: A Reference-Annotated Dataset and Agentic Generation Framework for Landing Pages (2026) | http://arxiv.org/abs/2608.27902v1
+- Over-The-Air Extreme Learning Machines with Nonlinear Stacked Intelligent Metasurfaces (2026) | http://arxiv.org/abs/2608.27137v1
+- High-Altitude Platforms Beyond Connectivity: A Survey of Integrated Sensing, Storage, Communication, Computing, and Intelligence (2026) | http://arxiv.org/abs/2608.18587v2
+- Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks (2026) | http://arxiv.org/abs/2608.17774v1
