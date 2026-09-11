@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：112
+
+## 候选论文
+- A Community-Developed Domain Ontology for Magnetic Materials (2026) | http://arxiv.org/abs/2609.11464v1
+- Portable Semantics, Private Dialects: Reuse and Negative Transfer in Latent Communication Between Language-Model Cells (2026) | http://arxiv.org/abs/2609.11365v1
+- E-CONAN (Entailment, CONtradition And Neutral) Benchmarks: Arabic Textual Entailment and Natural Inference Datasets (2026) | http://arxiv.org/abs/2609.11334v1
+- Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection (2026) | http://arxiv.org/abs/2609.11225v1
+- A Mathematical Theory of Pragmatic Information (2026) | http://arxiv.org/abs/2609.10986v1
+- SynCo: Synthetic Community-Aware Attributed Graph Generator for Graph Neural Network Benchmarking (2026) | http://arxiv.org/abs/2609.10742v1
+- From Semantic to Token Communication: The Next Paradigm for Large-Model-Driven 6G Intelligent Connectivity (2026) | http://arxiv.org/abs/2609.10714v1
+- SAGE: Semantic-Aware Geographic Error Recovery for AI Data Movement (2026) | http://arxiv.org/abs/2609.10126v1
+- Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse (2026) | http://arxiv.org/abs/2609.10112v1
+- From State Synchronization to Cognitive Self-Evolution: An Operational Architecture for Cognitive Digital Twins (2026) | http://arxiv.org/abs/2609.09625v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept (2026) | https://philpapers.org/rec/WANMAS
+- Oil, light, gift, and trust: a comparative analysis of metaphor relating to human biomedical data (2026) | http://www.scielo.cl/scielo.php?script=sci_arttext&pid=S1726-569X2026000200213
+- Language, Imitation and Creativity : Dialogic Resonance in Grammar and Pragmatics (2026) | https://eprints.lancs.ac.uk/id/eprint/209933/1/Book_draft_revised.pdf
+- TOURISM, NEOLIBERAL CONSERVATION, AND INEQUITIES IN BWINDI IMPENETRABLE NATIONAL PARK: HOUSEHOLD INCOMES AND WELLBEING IN PARK-PERIPHERAL COMMUNITIES (2026) | http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/412842
+- Reflexiones epistemológicas sobre Big Data (2026) | https://doi.org/10.57027/eikasia.71.2657
+- A review of ontology-driven big data analytics in healthcare: challenges, tools, and applications (2026) | https://doi.org/10.1007/s10115-026-02864-5
+- Anomalous Phenomena and Consciousness: A Diagnostic Stress Test of Explanatory Frameworks (2026) | https://doi.org/10.5281/zenodo.18394581
+- Model checking of hyperproperties for high-level relational models (2026) | https://doi.org/10.1145/3845615
+- Nigerian Salafi Discourse Corpus (NSDC): Construction, Methods, and Use (2026) | https://doi.org/10.21203/rs.3.rs-10966766/v1
+- Tale of Two Storylines：An NLP-assisted Corpus Study of Open AI’s Identity Construction (2026) | https://doi.org/10.21203/rs.3.rs-10948391/v1
+- Innovative Computing and Communications (2026) | https://doi.org/10.1007/978-3-032-30438-4
+- An Expert-independent Artificial Intelligence Method for Extracting and Prioritizing Decision Factors From Large-scale Textual Corpora (2026) | https://doi.org/10.21203/rs.3.rs-10943606/v1
+- Beyond Access: Development and Exploratory Pilot Evaluation of a Social Sustainability Framework for Interactive Technologies in Vulnerable Educational Communities (2026) | https://doi.org/10.21203/rs.3.rs-10060357/v1
+- Agentic V2X Communications: Goal-Aware Information Exchange, Semantic Coordination, and Autonomous Decision-Making in 6G Vehicular Networks (2026) | https://doi.org/10.5281/zenodo.22669775
+- Omni Interaction Agent Technical Report (2026) | http://arxiv.org/abs/2609.08977v2
+- PAPR-Aware Multimodal Token Transmission in MLLM-Based Multiuser Networks (2026) | http://arxiv.org/abs/2609.08464v1
+- Lightweight Generative Image Semantic Communication over Packet Erasure Channels (2026) | http://arxiv.org/abs/2609.06989v1
+- Task-Oriented Semantic Communication for Hazard Warning and Remote Operation in Connected Vehicle Platoons (2026) | http://arxiv.org/abs/2609.06242v1
+- FedSubMuon: Communication-Efficient Federated LLM Fine-Tuning via Structured Subspace Muon (2026) | http://arxiv.org/abs/2609.06073v1
+- Task-oriented Framework for Communication-Efficient Federated Learning: From Isolated Optimization to Holistic Synergy (2026) | http://arxiv.org/abs/2609.04945v2
+- Value-Preserving Architectures for Agentic AI Systems (2026) | http://arxiv.org/abs/2609.03920v1
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- Interventions that could mitigate the adverse effects of household overcrowding on wellbeing: A rapid realist review with stakeholder participation from urban contexts in England (2026) | https://discovery.ucl.ac.uk/id/eprint/10214954/
+- Telocytes in skeletal muscle: Emerging players in homeostasis and repair/regeneration. (2026) | https://pubmed.ncbi.nlm.nih.gov/41919353
+- Understanding cascading failure across innovation journeys : the case of antibiotics development (2026) | https://strathprints.strath.ac.uk/view/author/909854.html>
+- Value Contraction in the Market for Antique Decorative Arts and Furniture (2026) | http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/408905
+- Foundation Models for Generalizable Semantic and Goal-Oriented Communication (2026) | http://arxiv.org/abs/2609.07853v1
+- Code Black: Desktop-Mediated Co-Design of AR-HMD Microinteractions for Emergency Department Teamwork (2026) | http://arxiv.org/abs/2609.03295v1
+- Ada-TokenCom: Rate-Adaptive Token Communications via Large-Model-Driven Token Compression and Generation (2026) | http://arxiv.org/abs/2608.28086v1
+- LandingAgent: A Reference-Annotated Dataset and Agentic Generation Framework for Landing Pages (2026) | http://arxiv.org/abs/2608.27902v1
+- Over-The-Air Extreme Learning Machines with Nonlinear Stacked Intelligent Metasurfaces (2026) | http://arxiv.org/abs/2608.27137v1
+- Rethinking Communication Metrics: How Should We Measure Meaning? (2026) | http://arxiv.org/abs/2608.21626v1
+- High-Altitude Platforms Beyond Connectivity: A Survey of Integrated Sensing, Storage, Communication, Computing, and Intelligence (2026) | http://arxiv.org/abs/2608.18587v2
+- Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks (2026) | http://arxiv.org/abs/2608.17774v1
+- Model-Based Systems Engineering Framework for SysML-Driven Design of Autonomous UAVs (2026) | http://arxiv.org/abs/2608.09547v1
+- Algorithmic Justice and Responsible AI Journalism: A Comparative Communication Policy Perspective in East Asia (2026) | https://philpapers.org/rec/HUAAJA
