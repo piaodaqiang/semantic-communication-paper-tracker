@@ -1,92 +1,5 @@
 [
   {
-    "paper_id": "openalex:https://openalex.org/W7121465138",
-    "title": "DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON",
-    "authors": "Ngenwie Emilia Tanyie; Therese Mungah Shalo Tchombe",
-    "year": 2026,
-    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-    "source": "OpenAlex",
-    "doi": "10.5281/zenodo.18206766",
-    "arxiv_id": "",
-    "paper_url": "https://ubueajournals.org/index.php/IJDIEH/article/view/28",
-    "pdf_url": "https://ubueajournals.org/index.php/IJDIEH/article/download/28/24",
-    "abstract": "This study examined the impact of portfolio assessment on evaluating the English language skills of pupils with hearing impairment in Fako Division, Cameroon. Portfolio assessment, as an informal and learner-centred approach, was explored within the framework of inclusive education, where traditional assessment methods often fail to adequately reflect the abilities of learners with hearing loss. The research utilised a quasi-experimental design involving pupils with hearing impairment in selected inclusive primary schools. Data were gathered through English language tests, classroom observations, and interviews with parents, teachers, head teachers, and the divisional delegate. Quantitative data were analysed using descriptive statistics, t-tests, and regression analysis, while qualitative data underwent thematic analysis. The results indicated that pupils subjected to portfolio assessment performed significantly better in English language skills than those assessed through conventional methods. Statistical analysis (SPSS t-tests and regression) showed that pupils assessed via portfolios scored notably higher on post-tests (portfolio group mean=12.78 versus control=11.14; t(38)=2.919, p<.05). Regression analysis demonstrated that portfolio use was a strong predictor of language improvement (β=0.336, p<.001). Classroom observations and interview findings further revealed that portfolio assessment encouraged ongoing learning, increased learner engagement, self-reflection, and heightened teacher awareness of individual progress. The study concludes that portfolio assessment is an effective method for evaluating the English language skills of pupils with hearing impairment and recommends its systematic adoption within inclusive classroom practice.",
-    "arxiv_comment": "",
-    "keywords": "semantic communication; semantic-aware communication",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "open_access_pdf",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.644998+00:00"
-  },
-  {
-    "paper_id": "openalex:https://openalex.org/W7161111530",
-    "title": "From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services",
-    "authors": "Yongxin Chen",
-    "year": 2026,
-    "venue": "",
-    "source": "OpenAlex",
-    "doi": "10.17613/sb76m-v2e23",
-    "arxiv_id": "",
-    "paper_url": "https://pub.respai.de/articles/1-2/2ychen.html",
-    "pdf_url": "https://pub.respai.de/articles/1-2/is2-2.pdf",
-    "abstract": "Embedded finance is usually described as the integration of financial services into non-financial platforms. This article argues that the deeper regulatory transformation is the embedding of future legal and economic obligations into ordinary consumption, work, business, and entertainment environments. When credit, payment, wage-advance, wallet, and merchant-financing functions are delivered through plat form architecture, consumer protection cannot focus only on the formal product or licensed provider. It must also examine how obligations are framed, made salient or obscure, personalized through data, and allocated across platforms, merchants, lenders, and technical intermediaries. The article develops a law and-economics theory of Embedded Obligation Architecture, explains its irreducible object, refines its four layers, and distinguishes it from choice architecture, digital nudging, dark patterns, behavioral contract theory, and platform governance. It specifies the evidentiary limits of transferring behavioral evidence to embedded-finance contexts and proposes a Functional Embedded Obligation Test as a standard with gateway elements, evidentiary thresholds, legal vehicles, safe harbors, and proportionate remedies.",
-    "arxiv_comment": "",
-    "keywords": "semantic communication; goal-oriented communication; semantic-aware communication; semantic channel coding",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "open_access_pdf",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.645075+00:00"
-  },
-  {
-    "paper_id": "openalex:https://openalex.org/W7164183113",
-    "title": "The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation",
-    "authors": "Guangni Li",
-    "year": 2026,
-    "venue": "",
-    "source": "OpenAlex",
-    "doi": "10.17613/fdwhn-ejz93",
-    "arxiv_id": "",
-    "paper_url": "https://pub.respai.de/articles/1-2/4gli.html",
-    "pdf_url": "https://pub.respai.de/articles/1-2/is2-4.pdf",
-    "abstract": "Do large language models (LLMs) possess a measurable \"personality,\" and how do the linguistic properties of training corpora shape their cognitive style and downstream reasoning? This paper approaches these questions from a sociolinguistic perspective on machine \"identity.\" This manuscript is positioned explicitly as a conceptual perspective paper: it does not present original experimental data, nor does it constitute a systematic review with defined search strategies or inclusion criteria. Instead, it synthesises key published findings into two original theoretical frameworks intended to guide future empirical and engineering work. We examine evidence that LLMs exhibit reliable, valid Big Five personality traits—particularly in large, instruction-tuned models—and that continued pre-training on domain-specific corpora may shape those traits through measurable linguistic features: imperative ratio, type-token ratio (TTR), and syntactic complexity. We then analyse how standard-language ideology embedded in training corpora is amplified in model outputs, disadvantaging dialect and minority-language communities. Building on these findings, we propose two conceptual contributions: (1) a Personality Engineering (PE) framework for targeted continued pre-training to cultivate task-appropriate cognitive profiles, and (2) a Language Ideology Propagation Model (LIPM) mapping the pipeline from corpus composition to societal impact. Both frameworks are explicitly conceptual and require empirical validation before they can function as operational guidelines. Their value lies in structuring future research and providing a shared vocabulary for cross-disciplinary collaboration, with direct implications for responsible AI deployment.",
-    "arxiv_comment": "",
-    "keywords": "semantic communication; semantic encoding; semantic channel coding",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "open_access_pdf",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.645141+00:00"
-  },
-  {
     "paper_id": "openalex:https://openalex.org/W7203451471",
     "title": "Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept",
     "authors": "Guangwei Wang",
@@ -99,7 +12,7 @@
     "pdf_url": "https://philpapers.org/archive/WANMAS.pdf",
     "abstract": "Segregation research increasingly measures who people encounter beyond home, yet physical mobility, place semantics, and digital activity are often combined without clear construct boundaries. This study develops a physical--digital activity-space framework that distinguishes co-presence, digital exposure, and digital interaction, and represents physical and digital segregation as separate components rather than a forced composite. Validation is deliberately split by evidentiary role. A public Washington--Baltimore Foursquare check-in subset tests the computational feasibility and robustness of a discrete group co-visitation statistic; it does not validate continuous socioeconomic exposure because the dataset lacks individual socioeconomic status. Monte Carlo experiments separately test layer-selective construct response and sensitivity to trace missingness, spatial aggregation, socioeconomic measurement error, and cross-layer coupling. The results show that the proposed calculations are executable and that the synthetic physical and digital components respond selectively to their generating mechanisms, while also revealing important measurement attenuation. No real-data estimate of income segregation, digital exposure, physical--digital coupling, or the causal effect of inequality is reported. The framework therefore combines bounded validation with a falsifiable comparative and causal research agenda.",
     "arxiv_comment": "",
-    "keywords": "semantic communication; semantic communications; semantic-aware communication; semantic encoding; semantic channel coding",
+    "keywords": "semantic communications; semantic-aware communication; semantic encoding; semantic channel coding",
     "is_open_source": false,
     "open_source_status": "not_detected",
     "code_url": "",
@@ -113,36 +26,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.645192+00:00"
-  },
-  {
-    "paper_id": "openalex:https://openalex.org/W7203802238",
-    "title": "Oil, light, gift, and trust: a comparative analysis of metaphor relating to human biomedical data",
-    "authors": "Yifan Peng",
-    "year": 2026,
-    "venue": "Scientific Electronic Library Online (Scientific Electronic Library Online)",
-    "source": "OpenAlex",
-    "doi": "",
-    "arxiv_id": "",
-    "paper_url": "http://www.scielo.cl/scielo.php?script=sci_arttext&pid=S1726-569X2026000200213",
-    "pdf_url": "http://www.scielo.cl/pdf/abioeth/v32n2/1726-569X-abioeth-32-02-213.pdf",
-    "abstract": "Abstract: This article analyzes four prevailing metaphors-”oil,” “light,” “gift,” and “trust”-that shape how human biomedical data are ethically and conceptually understood. Each metaphor reflects competing views on ownership, access, and responsibility. By comparing their strengths and limitations, the paper proposes a new “trust-gift” model that integrates altruistic donation with institutional accountability. This hybrid metaphor offers a normative foundation for balancing individual rights with collective benefit and provides practical guidance for building more ethical and inclusive global data governance frameworks.",
-    "arxiv_comment": "",
-    "keywords": "semantic communication",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "open_access_pdf",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.645223+00:00"
+    "last_checked_at": "2026-09-14T07:22:57.352103+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7171751349",
@@ -157,7 +41,7 @@
     "pdf_url": "https://eprints.lancs.ac.uk/id/eprint/209933/1/Book_draft_revised.pdf",
     "abstract": "Linguistic imitation is not mere repetition, but is instead a foundational mechanism of language use. It underpins the engagement and categorisation of meaning as a conceptual pact among speakers. This book redefines imitation as the creative engine of human communication, showing how language evolves through our engagement with what others say. It discusses dialogic resonance – the reuse and reshaping of communicative constructions – as a unifying framework that bridges pragmatics and construction grammar. Combining evidence from first and second language acquisition, intercultural communication and neurodiverse interaction, the book highlights the crucial role of imitation in shaping social conformity, engagement, categorisation and innovation. It combines detailed qualitative case studies with innovative corpus-based and statistical analyses to provide new theoretical insights and methodological tools. It is essential reading for scholars and students of linguistics, psychology, education and sociology, and for anyone interested in how language emerges from the creative interplay of human voices.",
     "arxiv_comment": "",
-    "keywords": "semantic communication; semantic communications; semantic-aware communication",
+    "keywords": "semantic communications; semantic-aware communication",
     "is_open_source": false,
     "open_source_status": "not_detected",
     "code_url": "",
@@ -171,36 +55,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.645286+00:00"
-  },
-  {
-    "paper_id": "openalex:https://openalex.org/W7212094137",
-    "title": "TOURISM, NEOLIBERAL CONSERVATION, AND INEQUITIES IN BWINDI IMPENETRABLE NATIONAL PARK: HOUSEHOLD INCOMES AND WELLBEING IN PARK-PERIPHERAL COMMUNITIES",
-    "authors": "James Ssebaggala",
-    "year": 2026,
-    "venue": "Dépôt institutionnel de l'Université libre de Bruxelles (Université Libre de Bruxelles)",
-    "source": "OpenAlex",
-    "doi": "",
-    "arxiv_id": "",
-    "paper_url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/412842/5/ContratDiSsebaggala.pdf",
-    "pdf_url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/412842/4/PhDThesisJamesSsebaggala.pdf",
-    "abstract": "This thesis examines how conservation tourism shapes household livelihoods, multidimensional wellbeing, and socio-economic inequities among park-peripheral communities around Bwindi Impenetrable National Park (BINP), Uganda. It assesses tourism’s contribution to household livelihoods and resilience, explores residents’ experiences of its effects on wellbeing and equity, and integrates quantitative and qualitative evidence to explain differentiated livelihood and wellbeing outcomes.A transformative sequential mixed-methods case study was conducted in Mukono Parish. The quantitative component comprised a longitudinal survey of 235 households conducted over six rounds between June 2019 and July 2020. The qualitative component included 70 semi-structured interviews, five focus group discussions, structured observations, and field notes. Analysis examined five dimensions of differentiation: tourism engagement (V1), proximity (V2), gender (V3), age (V4), and ethnicity (V5). Findings were interpreted through an Integrated theoretical and analytical framework linking Political ecology, the Sustainable livelihoods approach, Sen’s Capability approach, and distributional, procedural, and recognitional equity within the broader context of Neoliberal conservation.The findings demonstrate that conservation tourism generated meaningful livelihood opportunities, but access and outcomes were differentiated. Tourism-Income Households (TIHHs) reported a median monthly income of UGX 205,000, compared with UGX 135,000 among Non-Tourism-Income Households (NTIHHs). Tourism participation varied by proximity, gender, age, and ethnicity and was mediated by factors including skills, information, mobility, productive assets, social networks, and market access. During the COVID-19 disruption, mean income-security scores among TIHHs declined from 3.6 to 1.9 out of five, compared with 2.7 to 2.3 among NTIHHs, demonstrating that higher tourism income did not necessarily translate into greater livelihood resilience. Qualitative findings showed that tourism-related resources could support valued functionings, including education, housing, and food security, but their contribution to wellbeing depended on residents’ substantive ability to access and convert them into valued opportunities. Batwa experiences further demonstrated how contemporary livelihood opportunities intersected with historical dispossession, restricted resource access, cultural recognition, and agency.The thesis conceptualises these patterns as a Regime of differentiated inclusion, whereby residents participate in and experience conservation tourism on different terms and with differing capacities to access opportunities, exercise agency, influence relevant processes, convert resources into valued functionings, and sustain resulting benefits. This concept integrates livelihood assets and strategies, conversion factors and capabilities, historical and institutional power relations, and distributional, procedural, and recognitional equity.The thesis concludes that conservation tourism around BINP contributes meaningfully to local livelihoods and wellbeing, but conditionally and unevenly. Its contribution should therefore be assessed not only through income, employment, or participation, but also through livelihood resilience, substantive capabilities, meaningful participation, agency, and the equity with which benefits, burdens, and recognition are experienced.",
-    "arxiv_comment": "",
-    "keywords": "semantic communication; semantic-aware communication",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "open_access_pdf",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.645401+00:00"
+    "last_checked_at": "2026-09-14T07:22:57.352190+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W4393968378",
@@ -215,7 +70,7 @@
     "pdf_url": "https://doi.org/10.1145/3832810.3832925",
     "abstract": "With its elastic power and a pay-as-you-go cost model, the deployment of deep learning inference services (DLISs) on serverless platforms is emerging as a prevalent trend. However, the varying resource requirements of different layers in DL models hinder resource utilization and increase costs, when DLISs are deployed as a single function on serverless platforms. To tackle this problem, we propose a model partitioning framework called MOPAR. This work is based on the two resource usage patterns of DLISs: global differences and local similarity, due to the presence of resource dominant (RD) operators and layer stacking. Considering these patterns, MOPAR adopts a hybrid approach that initially divides the DL model vertically into multiple slices composed of similar layers to improve resource efficiency. Slices containing RD operators are further partitioned into multiple sub-slices, enabling parallel optimization to reduce inference latency. Moreover, MOPAR comprehensively employs data compression and share-memory techniques to offset the additional time introduced by communication between slices. We implement a prototype of MOPAR and evaluate its efficacy using four categories of 12 DL models on OpenFaaS and AWS Lambda. The experiment results show that MOPAR can improve the resource efficiency of DLISs by 27.62\\% on average, while reducing latency by about 5.52\\%. Furthermore, based on Lambda's pricing, the cost of running DLISs is reduced by about 2.58 $\\times$ using MOPAR.",
     "arxiv_comment": "",
-    "keywords": "semantic communication; semantic communications; semantic-aware communication; semantic transmission; semantic encoding; semantic channel coding",
+    "keywords": "semantic communications; semantic-aware communication; semantic transmission; semantic encoding; semantic channel coding",
     "is_open_source": false,
     "open_source_status": "not_detected",
     "code_url": "",
@@ -229,7 +84,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.645465+00:00"
+    "last_checked_at": "2026-09-14T07:22:57.352280+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7170595000",
@@ -244,7 +99,7 @@
     "pdf_url": "https://doi.org/10.1145/3832810.3832835",
     "abstract": "Federated fine-tuning (FedFT) enables adapting pre-trained large vision models (LVMs) on distributed, privacy-sensitive devices, while its practical deployment is hindered by three critical challenges: resource constraints, system heterogeneity, and non-IID data. While prior studies partially address these issues, e.g., by pre-training initial models on synthetic images to mitigate the adverse effects of non-IID data, or leveraging parameter-efficient fine-tuning (PEFT) methods like low-rank adaptation (LoRA) to reduce resource consumption, they remain inadequate and fragmented. Specifically, existing synthetic image generation methods fail to capture device-specific feature distributions, while current PEFT-based FedFT methods often undervalue weaker devices that may provide critical information. More importantly, the separate optimization of pre-training and FedFT neglects their inherent connection, lacking a holistic perspective to maximize training efficiency. To overcome these limitations, we propose FeDiSyn, a unified framework that holistically considers the interplay between pre-training and FedFT to minimize the overall LVM training time. Specifically, FeDiSyn introduces: (i) a scaling law for FedFT pre-training to determine the optimal number of synthetic images, balancing pre-training benefit against generation/pre-training cost, (ii) diffusion-based synthetic image generation that captures device-specific feature distributions for pre-training to tackle non-IID data, and (iii) a contribution-aware LoRA configuration and bandwidth allocation algorithm for FedFT to ensure that informative devices are effectively utilized while addressing system heterogeneity. Experimental results on the real-world testbed demonstrate that FeDiSyn reduces completion time by over 52.5% and communication cost by over 97.2%, while achieving comparable accuracy to state-of-the-art solutions.",
     "arxiv_comment": "",
-    "keywords": "semantic communication; semantic communications; semantic-aware communication; semantic transmission; semantic encoding",
+    "keywords": "semantic communications; semantic-aware communication; semantic transmission; semantic encoding",
     "is_open_source": false,
     "open_source_status": "not_detected",
     "code_url": "",
@@ -258,36 +113,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.645529+00:00"
-  },
-  {
-    "paper_id": "openalex:https://openalex.org/W7159578795",
-    "title": "Target-Relative Semantic Rate–Distortion Theory Compression, Context, and Determinability under Partial Observation",
-    "authors": "yuqiang",
-    "year": 2026,
-    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-    "source": "OpenAlex",
-    "doi": "10.5281/zenodo.19946130",
-    "arxiv_id": "",
-    "paper_url": "https://doi.org/10.5281/zenodo.19946130",
-    "pdf_url": "https://doi.org/10.5281/zenodo.19946130",
-    "abstract": "This paper develops a target-relative theory of semantic compression. Instead of asking how much “meaning” is lost in the abstract, it asks a sharper question: after compression, summarization, or intention passing, which target facts remain determinable and which become irrecoverable? The central object is a target-relative semantic distortion that measures the increase in decision risk or the loss of determinability induced by compression, conditional on shared context. The paper is intended as a mathematical foundation for semantic communication, intention transfer, and compressed multi-agent coordination.",
-    "arxiv_comment": "",
-    "keywords": "semantic communication",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "open_access_pdf",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-09-14T05:55:11.645565+00:00"
+    "last_checked_at": "2026-09-14T07:22:57.352372+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7134094522",
@@ -316,7 +142,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:18.842072+00:00"
+    "last_checked_at": "2026-09-14T07:22:57.352485+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7154656409",
@@ -345,7 +171,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:18.842086+00:00"
+    "last_checked_at": "2026-09-14T07:22:57.352505+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7211916058",
@@ -374,7 +200,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:18.842098+00:00"
+    "last_checked_at": "2026-09-14T07:22:57.352523+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212233212",
@@ -403,7 +229,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:18.842163+00:00"
+    "last_checked_at": "2026-09-14T07:22:57.352616+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212306744",
@@ -432,7 +258,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:18.842282+00:00"
+    "last_checked_at": "2026-09-14T07:22:57.352798+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7164131933",
@@ -447,7 +273,7 @@
     "pdf_url": "https://pub.respai.de/articles/1-2/is2-5.pdf",
     "abstract": "This conceptual narrative review examines the role of generative artificial intelligence (AI) in Korean language learning. The paper synthesizes recent scholarship on AI-assisted language learning, Korean language education, technology acceptance, and educational ethics to develop an analytical framework for responsible classroom use. The review focuses on four dimensions: Korean language skills, Korean-specific linguistic and cultural features, instructional design, and governance risks. The analysis suggests that generative AI can support listening, speaking, reading, and writing when tasks are explicitly designed around Korean phonology, morphology, pragmatics, and learner purposes such as TOPIK preparation, study abroad, employment, and popular-culture engagement. It also identifies challenges in cultural-pragmatic accuracy, hallucinated expressions, assessment validity, data privacy, unequal access, teacher readiness, and learner dependency. The paper concludes that generative AI should function as a mediated learning resource rather than a substitute for teachers, learner judgment, or culturally grounded interaction.",
     "arxiv_comment": "",
-    "keywords": "task-oriented communication; goal-oriented communication",
+    "keywords": "task-oriented communication",
     "is_open_source": false,
     "open_source_status": "not_detected",
     "code_url": "",
@@ -461,7 +287,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:46.448114+00:00"
+    "last_checked_at": "2026-09-14T07:24:10.271007+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7166533473",
@@ -476,7 +302,7 @@
     "pdf_url": "https://philpapers.org/archive/QIAROA.pdf",
     "abstract": "As artificial intelligence gets deeply embedded into immersive environments, attention-guiding technology delivers ever more precise and efficient outcomes. Still, this improved efficiency carries an overlooked design risk: excessive AI guidance may steadily erode user agency and undermine exploratory behaviors as well as the process of meaning-making. This paper builds a critical conceptual framework to rethink attention-oriented design within AI-driven immersive settings. It defines excessive guidance and establishes theoretical links between this concept and three core facets of user agency: perceived control, voluntary choice and decision-making authority. Based on these findings, the paper calls for a paradigm shift from attention optimization to curiosity-led design. It also puts forward actionable behavioral measurement indicators covering exploration scope, average dwell time, path-following ratio, active choice frequency and recall test performance. The proposed framework supplies a new theoretical tool for human-computer interaction research in immersive scenarios and helps shift AI's role from a fixed route provider to an exploratory collaborator.",
     "arxiv_comment": "",
-    "keywords": "task-oriented communication; goal-oriented communication",
+    "keywords": "task-oriented communication",
     "is_open_source": false,
     "open_source_status": "not_detected",
     "code_url": "",
@@ -490,7 +316,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:46.448154+00:00"
+    "last_checked_at": "2026-09-14T07:24:10.271060+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7113013908",
@@ -519,7 +345,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:46.448168+00:00"
+    "last_checked_at": "2026-09-14T07:24:10.271078+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212204323",
@@ -534,7 +360,7 @@
     "pdf_url": "https://lup.lub.lu.se/search/files/260202723/Avhandling_Johanna_Fink.pdf",
     "abstract": "Innovation and technological progress have been identified as key drivers of long-term economic growth. However, not all innovation is supporting sustained economic growth or addressing societal concerns such as climate change. Against this backdrop, researchers advocate for active government intervention in shaping technological development, a role that governments have increasingly assumed in recent decades. Yet, it remains unclear where exactly public funds are channeled, and whether this is in line with wider policy objectives.This thesis offers empirical evidence on the allocation of public funding in Sweden between 1970–2021. To this end, a comprehensive database over public innovation funding is created, where individual public funding projects are directly linked to innovation outputs. The database has been used to investigate the quantitative dimension, direction, network additionality, and output additionality of public funding. Sweden is selected as the research subject, since it was among the first countries to actively promote applied research, ranks among the most innovative countries today, and is considered a pioneer in sustainable development.The thesis highlights the importance of public support for innovation development. It shows that public funding is associated with types of innovation projects that are typically less likely to receive private funding, particularly innovations developed by small firms, radical innovation, and green innovation. Innovations involving innovation agencies are more likely to bring together diverse sets of collaborators, which in turn are associated with the development of radical innovations. Finally, public funding shows signs of output additionality, as approved public funding projects are nearly twice as likely to generate significant innovation outputs.",
     "arxiv_comment": "",
-    "keywords": "task-oriented communication; goal-oriented communication",
+    "keywords": "task-oriented communication",
     "is_open_source": false,
     "open_source_status": "not_detected",
     "code_url": "",
@@ -548,7 +374,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:46.448246+00:00"
+    "last_checked_at": "2026-09-14T07:24:10.271164+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7147543120",
@@ -563,7 +389,7 @@
     "pdf_url": "https://www.hh.um.es/Articles-Proofs/25-071-manuscript.pdf",
     "abstract": "Telocytes (TCs) have recently emerged as novel components of the skeletal muscle interstitium. They are distinguished from other stromal cells by their immunophenotypic profiles and, especially, unique ultrastructural traits. Specifically, TCs feature a small cell body and very long, thin telopodes with a moniliform appearance conferred by the alternation of slender segments (podomers) and small dilated portions (podoms). Experimental evidence suggests that, as part of the skeletal muscle stem cell niche, TCs may be involved in orchestrating satellite cell activation and myogenic differentiation through both direct physical interactions and paracrine signaling. Yet, further in-depth research is needed to uncover specific immunophenotypic signatures for skeletal muscle TCs within the niche, as well as to identify the signaling pathways by which they influence neighboring satellite cells and, possibly, other cellular components of the niche. In the present review, particular emphasis is placed on the putative strategic role of TCs in maintaining skeletal muscle tissue homeostasis, their involvement in muscle pathological alterations, and, most importantly, their possible role in the coordination of the regenerative response following injury. In perspective, the promising therapeutic potential of TC-based strategies to enhance skeletal muscle tissue repair/regeneration and restrain post-injury fibrosis is also discussed.",
     "arxiv_comment": "",
-    "keywords": "task-oriented communication; goal-oriented communication",
+    "keywords": "task-oriented communication",
     "is_open_source": false,
     "open_source_status": "not_detected",
     "code_url": "",
@@ -577,7 +403,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:46.448301+00:00"
+    "last_checked_at": "2026-09-14T07:24:10.271230+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7162906575",
@@ -606,7 +432,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:46.448360+00:00"
+    "last_checked_at": "2026-09-14T07:24:10.271304+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7166410730",
@@ -635,94 +461,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:56:46.448374+00:00"
-  },
-  {
-    "paper_id": "openalex:https://openalex.org/W7166006500",
-    "title": "Algorithmic Justice and Responsible AI Journalism: A Comparative Communication Policy Perspective in East Asia",
-    "authors": "Renxiudi Huang; Linjia Bai",
-    "year": 2026,
-    "venue": "PhilPapers (PhilPapers Foundation)",
-    "source": "OpenAlex",
-    "doi": "10.17613/d0ee4-h2e12",
-    "arxiv_id": "",
-    "paper_url": "https://philpapers.org/rec/HUAAJA",
-    "pdf_url": "https://philpapers.org/archive/HUAAJA.pdf",
-    "abstract": "As generative artificial intelligence and automated content curation rapidly reshape the global media landscape, the intersection of algorithmic justice and media governance has become a critical frontier for sustainable development. This study provides a comparative communication policy analysis of China and South Korea, focusing explicitly on how their distinct regulatory toolkits address the tension between algorithmic fairness and platform accountability in AI journalism. While China utilizes a top-down, state-centric regulatory framework emphasizing ideological security, algorithmic registration, and strict synthetic media labeling, South Korea employs a multi-stakeholder co-regulation model driven by personal data protection, anti-monopoly platform intervention, and civil society oversight. Through a detailed textual analysis of key policy documents—including China's Provisions on the Administration of Algorithmic Recommendations and South Korea's Guidelines for AI Service Ethics to Protect Users—alongside empirical evidence from prominent algorithmic news curation platforms (Toutiao and Naver), this paper evaluates the implementation efficacy and structural trade-offs of each nation's approach. We demonstrate that while both models mitigate the risks of digital infodemics and algorithmic bias, they face contrasting trade-offs between regulatory efficiency and editorial independence. Finally, this study introduces the \"Policy-Media-Society\" (PMS) responsive governance framework, clarifying how systemic institutional adaptations can advance UN Sustainable Development Goal 16 (SDG 16) by ensuring public access to transparent, verified information.",
-    "arxiv_comment": "",
-    "keywords": "goal-oriented communication",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "open_access_pdf",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-09-14T05:57:25.511694+00:00"
-  },
-  {
-    "paper_id": "openalex:https://openalex.org/W7167291331",
-    "title": "Can FinTech innovate Green Finance? Scrutinising the Platform Ecologies of FinTech for Forest Restoration",
-    "authors": "Jack Harris; Felicia Liu; B Thompson",
-    "year": 2026,
-    "venue": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
-    "source": "OpenAlex",
-    "doi": "",
-    "arxiv_id": "",
-    "paper_url": "https://eprints.whiterose.ac.uk/id/eprint/242759/1/1-s2.0-S0048733326001551-main.pdf",
-    "pdf_url": "https://eprints.whiterose.ac.uk/id/eprint/242759/1/1-s2.0-S0048733326001551-main.pdf",
-    "abstract": "Green finance has struggled to make a difference in climate change mitigation.For some, the main limitations lie in scaling and diversifying financial flows and instruments to close the climate funding gap, while for others, green finance is fundamentally flawed as an incumbent-led project that opens new environmental frontiers for accumulation.In response, FinTech has been touted as offering the technological solutions that could both bridge the climate financing gap and disrupt the systemic issues green finance faces.Yet, critical voices question whether FinTech is simply the latest 'technological turn' in a long line of socioecological fixes, designed to reintermediate financial activity onto increasingly powerful FinTech platforms.To assess the potential for Fin-Tech to innovate green finance, we explore a suite of FinTech innovations aimed at enticing, incentivising, and thus mobilising retail consumers to fund tree planting for forest restoration as a means of delivering climate, biodiversity, and livelihood outcomes.Rooted in the award-winning Ant Forest innovation by Alibaba, we document eight subsequent variations of the Ant Forest model by different FinTech firms, who share the same focus on enabling consumer-funded tree plantingbut modify the initial innovation in various ways.By utilising a 'platform ecologies' framework, we reveal that these innovations have delivered significant environmental outputs, with these nine FinTechs collectively financing the planting of over 750 million trees, but that evidence of environmental impact in terms of tree survival and carbon sequestration rates, remains vague.Moreover, whilst these nine FinTechs offer novel green finance solutions, they are also fundamentally driven by platform development to increase users and revenuerather than environmental concern.",
-    "arxiv_comment": "",
-    "keywords": "goal-oriented communication",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "open_access_pdf",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-09-14T05:57:25.511921+00:00"
-  },
-  {
-    "paper_id": "openalex:https://openalex.org/W7167999099",
-    "title": "Executive function in adolescents with obesity: A systematic review and meta-analysis",
-    "authors": "A. ; https://orcid.org/0000-0002-7187-1685 Asgeirsdottir; L. ; https://orcid.org/0000-0002-0166-8163 Janssen; A. ; https://orcid.org/0000-0003-2604-2404 Villringer; A. ; https://orcid.org/0000-0001-9054-6688 Witte",
-    "year": 2026,
-    "venue": "MPG.PuRe (Max Planck Society)",
-    "source": "OpenAlex",
-    "doi": "",
-    "arxiv_id": "",
-    "paper_url": "https://hdl.handle.net/21.11116/0000-0013-4267-D",
-    "pdf_url": "https://hdl.handle.net/21.11116/0000-0013-4269-B",
-    "abstract": "The development of executive function continues in adolescence, a phase bringing independence to choose behaviors and environments. In parallel, compromised executive function may foster unhealthy eating behaviors and weight gain. However, obesity-related differences in executive function in adolescents remain poorly understood. In this systematic review and meta-analysis, we investigated whether executive function is compromised in adolescent obesity and whether any executive function domain (inhibition, cognitive flexibility, working memory, decision-making, planning and verbal fluency) shows more pronounced impairments than others. Pooled across executive function domains, results from 49 studies (n = 9648 participants) that compared adolescents with excess weight (defined as overweight or obesity) to healthy-weight peers on at least one executive function task, showed a small effect indicating worse performance in adolescents with excess weight (g = -0.314, p < .001, 95% CI [-0.413, -0.214]). To disentangle the effects of obesity and overweight, we performed separate analyses which indicated similar differences for adolescents with obesity, but not for those with overweight, compared to healthy-weight peers. We found no evidence of selective executive function impairments, as effect sizes for performance differences between weight groups did not differ between domains. Samples with higher age, BMI range and proportion of female participants showed more pronounced differences between weight groups. In conclusion, our results show that adolescents with obesity scored modestly but consistently lower on executive function tasks compared to their healthy-weight peers, with moderating effects of age, BMI and sex. Our findings raise implications for future studies and the treatment of obesity.",
-    "arxiv_comment": "",
-    "keywords": "goal-oriented communication",
-    "is_open_source": false,
-    "open_source_status": "not_detected",
-    "code_url": "",
-    "project_url": "",
-    "candidate_code_urls": "",
-    "open_source_evidence": "open_access_pdf",
-    "application_scenario": "未分类",
-    "technical_framework": "未分类",
-    "task_type": "",
-    "modality": "",
-    "relevance_score": 0.0,
-    "curation_status": "inbox",
-    "notes": "",
-    "last_checked_at": "2026-09-14T05:57:25.511988+00:00"
+    "last_checked_at": "2026-09-14T07:24:10.271321+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212064132",
@@ -751,7 +490,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487429+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485159+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7208749051",
@@ -780,7 +519,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487514+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485256+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7208766090",
@@ -809,7 +548,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487577+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485336+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7204910119",
@@ -838,7 +577,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487621+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485394+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7204781404",
@@ -867,7 +606,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487667+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485456+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7204160575",
@@ -896,7 +635,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487722+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485531+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7203714278",
@@ -925,7 +664,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487775+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485600+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7203724245",
@@ -954,7 +693,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487819+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485661+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7202378773",
@@ -983,7 +722,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487881+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485763+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7203440781",
@@ -1012,7 +751,94 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:57:57.487941+00:00"
+    "last_checked_at": "2026-09-14T07:27:36.485844+00:00"
+  },
+  {
+    "paper_id": "openalex:https://openalex.org/W7121465138",
+    "title": "DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON",
+    "authors": "Ngenwie Emilia Tanyie; Therese Mungah Shalo Tchombe",
+    "year": 2026,
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "source": "OpenAlex",
+    "doi": "10.5281/zenodo.18206766",
+    "arxiv_id": "",
+    "paper_url": "https://ubueajournals.org/index.php/IJDIEH/article/view/28",
+    "pdf_url": "https://ubueajournals.org/index.php/IJDIEH/article/download/28/24",
+    "abstract": "This study examined the impact of portfolio assessment on evaluating the English language skills of pupils with hearing impairment in Fako Division, Cameroon. Portfolio assessment, as an informal and learner-centred approach, was explored within the framework of inclusive education, where traditional assessment methods often fail to adequately reflect the abilities of learners with hearing loss. The research utilised a quasi-experimental design involving pupils with hearing impairment in selected inclusive primary schools. Data were gathered through English language tests, classroom observations, and interviews with parents, teachers, head teachers, and the divisional delegate. Quantitative data were analysed using descriptive statistics, t-tests, and regression analysis, while qualitative data underwent thematic analysis. The results indicated that pupils subjected to portfolio assessment performed significantly better in English language skills than those assessed through conventional methods. Statistical analysis (SPSS t-tests and regression) showed that pupils assessed via portfolios scored notably higher on post-tests (portfolio group mean=12.78 versus control=11.14; t(38)=2.919, p<.05). Regression analysis demonstrated that portfolio use was a strong predictor of language improvement (β=0.336, p<.001). Classroom observations and interview findings further revealed that portfolio assessment encouraged ongoing learning, increased learner engagement, self-reflection, and heightened teacher awareness of individual progress. The study concludes that portfolio assessment is an effective method for evaluating the English language skills of pupils with hearing impairment and recommends its systematic adoption within inclusive classroom practice.",
+    "arxiv_comment": "",
+    "keywords": "semantic-aware communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "open_access_pdf",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-09-14T07:29:45.895371+00:00"
+  },
+  {
+    "paper_id": "openalex:https://openalex.org/W7161111530",
+    "title": "From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services",
+    "authors": "Yongxin Chen",
+    "year": 2026,
+    "venue": "",
+    "source": "OpenAlex",
+    "doi": "10.17613/sb76m-v2e23",
+    "arxiv_id": "",
+    "paper_url": "https://pub.respai.de/articles/1-2/2ychen.html",
+    "pdf_url": "https://pub.respai.de/articles/1-2/is2-2.pdf",
+    "abstract": "Embedded finance is usually described as the integration of financial services into non-financial platforms. This article argues that the deeper regulatory transformation is the embedding of future legal and economic obligations into ordinary consumption, work, business, and entertainment environments. When credit, payment, wage-advance, wallet, and merchant-financing functions are delivered through plat form architecture, consumer protection cannot focus only on the formal product or licensed provider. It must also examine how obligations are framed, made salient or obscure, personalized through data, and allocated across platforms, merchants, lenders, and technical intermediaries. The article develops a law and-economics theory of Embedded Obligation Architecture, explains its irreducible object, refines its four layers, and distinguishes it from choice architecture, digital nudging, dark patterns, behavioral contract theory, and platform governance. It specifies the evidentiary limits of transferring behavioral evidence to embedded-finance contexts and proposes a Functional Embedded Obligation Test as a standard with gateway elements, evidentiary thresholds, legal vehicles, safe harbors, and proportionate remedies.",
+    "arxiv_comment": "",
+    "keywords": "semantic-aware communication; semantic channel coding",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "open_access_pdf",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-09-14T07:29:45.895447+00:00"
+  },
+  {
+    "paper_id": "openalex:https://openalex.org/W7212094137",
+    "title": "TOURISM, NEOLIBERAL CONSERVATION, AND INEQUITIES IN BWINDI IMPENETRABLE NATIONAL PARK: HOUSEHOLD INCOMES AND WELLBEING IN PARK-PERIPHERAL COMMUNITIES",
+    "authors": "James Ssebaggala",
+    "year": 2026,
+    "venue": "Dépôt institutionnel de l'Université libre de Bruxelles (Université Libre de Bruxelles)",
+    "source": "OpenAlex",
+    "doi": "",
+    "arxiv_id": "",
+    "paper_url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/412842/5/ContratDiSsebaggala.pdf",
+    "pdf_url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/412842/4/PhDThesisJamesSsebaggala.pdf",
+    "abstract": "This thesis examines how conservation tourism shapes household livelihoods, multidimensional wellbeing, and socio-economic inequities among park-peripheral communities around Bwindi Impenetrable National Park (BINP), Uganda. It assesses tourism’s contribution to household livelihoods and resilience, explores residents’ experiences of its effects on wellbeing and equity, and integrates quantitative and qualitative evidence to explain differentiated livelihood and wellbeing outcomes.A transformative sequential mixed-methods case study was conducted in Mukono Parish. The quantitative component comprised a longitudinal survey of 235 households conducted over six rounds between June 2019 and July 2020. The qualitative component included 70 semi-structured interviews, five focus group discussions, structured observations, and field notes. Analysis examined five dimensions of differentiation: tourism engagement (V1), proximity (V2), gender (V3), age (V4), and ethnicity (V5). Findings were interpreted through an Integrated theoretical and analytical framework linking Political ecology, the Sustainable livelihoods approach, Sen’s Capability approach, and distributional, procedural, and recognitional equity within the broader context of Neoliberal conservation.The findings demonstrate that conservation tourism generated meaningful livelihood opportunities, but access and outcomes were differentiated. Tourism-Income Households (TIHHs) reported a median monthly income of UGX 205,000, compared with UGX 135,000 among Non-Tourism-Income Households (NTIHHs). Tourism participation varied by proximity, gender, age, and ethnicity and was mediated by factors including skills, information, mobility, productive assets, social networks, and market access. During the COVID-19 disruption, mean income-security scores among TIHHs declined from 3.6 to 1.9 out of five, compared with 2.7 to 2.3 among NTIHHs, demonstrating that higher tourism income did not necessarily translate into greater livelihood resilience. Qualitative findings showed that tourism-related resources could support valued functionings, including education, housing, and food security, but their contribution to wellbeing depended on residents’ substantive ability to access and convert them into valued opportunities. Batwa experiences further demonstrated how contemporary livelihood opportunities intersected with historical dispossession, restricted resource access, cultural recognition, and agency.The thesis conceptualises these patterns as a Regime of differentiated inclusion, whereby residents participate in and experience conservation tourism on different terms and with differing capacities to access opportunities, exercise agency, influence relevant processes, convert resources into valued functionings, and sustain resulting benefits. This concept integrates livelihood assets and strategies, conversion factors and capabilities, historical and institutional power relations, and distributional, procedural, and recognitional equity.The thesis concludes that conservation tourism around BINP contributes meaningfully to local livelihoods and wellbeing, but conditionally and unevenly. Its contribution should therefore be assessed not only through income, employment, or participation, but also through livelihood resilience, substantive capabilities, meaningful participation, agency, and the equity with which benefits, burdens, and recognition are experienced.",
+    "arxiv_comment": "",
+    "keywords": "semantic-aware communication",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "open_access_pdf",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-09-14T07:29:45.895763+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7168351688",
@@ -1041,7 +867,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:59:09.358627+00:00"
+    "last_checked_at": "2026-09-14T07:29:45.895978+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W4416436601",
@@ -1070,7 +896,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:59:09.358669+00:00"
+    "last_checked_at": "2026-09-14T07:29:45.896035+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7171281037",
@@ -1099,7 +925,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:59:09.358743+00:00"
+    "last_checked_at": "2026-09-14T07:29:45.896134+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212138878",
@@ -1128,7 +954,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:59:49.717026+00:00"
+    "last_checked_at": "2026-09-14T07:30:13.122299+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212220141",
@@ -1157,7 +983,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:59:49.717087+00:00"
+    "last_checked_at": "2026-09-14T07:30:13.122382+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212245888",
@@ -1186,7 +1012,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:59:49.717100+00:00"
+    "last_checked_at": "2026-09-14T07:30:13.122402+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212251062",
@@ -1215,7 +1041,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:59:49.717167+00:00"
+    "last_checked_at": "2026-09-14T07:30:13.122490+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212306524",
@@ -1244,7 +1070,36 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T05:59:49.717259+00:00"
+    "last_checked_at": "2026-09-14T07:30:13.122600+00:00"
+  },
+  {
+    "paper_id": "openalex:https://openalex.org/W7164183113",
+    "title": "The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation",
+    "authors": "Guangni Li",
+    "year": 2026,
+    "venue": "",
+    "source": "OpenAlex",
+    "doi": "10.17613/fdwhn-ejz93",
+    "arxiv_id": "",
+    "paper_url": "https://pub.respai.de/articles/1-2/4gli.html",
+    "pdf_url": "https://pub.respai.de/articles/1-2/is2-4.pdf",
+    "abstract": "Do large language models (LLMs) possess a measurable \"personality,\" and how do the linguistic properties of training corpora shape their cognitive style and downstream reasoning? This paper approaches these questions from a sociolinguistic perspective on machine \"identity.\" This manuscript is positioned explicitly as a conceptual perspective paper: it does not present original experimental data, nor does it constitute a systematic review with defined search strategies or inclusion criteria. Instead, it synthesises key published findings into two original theoretical frameworks intended to guide future empirical and engineering work. We examine evidence that LLMs exhibit reliable, valid Big Five personality traits—particularly in large, instruction-tuned models—and that continued pre-training on domain-specific corpora may shape those traits through measurable linguistic features: imperative ratio, type-token ratio (TTR), and syntactic complexity. We then analyse how standard-language ideology embedded in training corpora is amplified in model outputs, disadvantaging dialect and minority-language communities. Building on these findings, we propose two conceptual contributions: (1) a Personality Engineering (PE) framework for targeted continued pre-training to cultivate task-appropriate cognitive profiles, and (2) a Language Ideology Propagation Model (LIPM) mapping the pipeline from corpus composition to societal impact. Both frameworks are explicitly conceptual and require empirical validation before they can function as operational guidelines. Their value lies in structuring future research and providing a shared vocabulary for cross-disciplinary collaboration, with direct implications for responsible AI deployment.",
+    "arxiv_comment": "",
+    "keywords": "semantic encoding; semantic channel coding",
+    "is_open_source": false,
+    "open_source_status": "not_detected",
+    "code_url": "",
+    "project_url": "",
+    "candidate_code_urls": "",
+    "open_source_evidence": "open_access_pdf",
+    "application_scenario": "未分类",
+    "technical_framework": "未分类",
+    "task_type": "",
+    "modality": "",
+    "relevance_score": 0.0,
+    "curation_status": "inbox",
+    "notes": "",
+    "last_checked_at": "2026-09-14T07:31:42.386923+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7109581480",
@@ -1273,7 +1128,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T06:00:58.434702+00:00"
+    "last_checked_at": "2026-09-14T07:31:42.387065+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7128571704",
@@ -1302,7 +1157,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T06:00:58.434742+00:00"
+    "last_checked_at": "2026-09-14T07:31:42.387118+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7204680450",
@@ -1331,7 +1186,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T06:00:58.434758+00:00"
+    "last_checked_at": "2026-09-14T07:31:42.387138+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7133335930",
@@ -1360,7 +1215,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T06:00:58.434853+00:00"
+    "last_checked_at": "2026-09-14T07:31:42.387267+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W4415338370",
@@ -1389,7 +1244,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T06:00:58.434930+00:00"
+    "last_checked_at": "2026-09-14T07:31:42.387367+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7172098915",
@@ -1418,7 +1273,7 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T06:01:55.628822+00:00"
+    "last_checked_at": "2026-09-14T07:32:14.617063+00:00"
   },
   {
     "paper_id": "openalex:https://openalex.org/W7212386175",
@@ -1447,6 +1302,6 @@
     "relevance_score": 0.0,
     "curation_status": "inbox",
     "notes": "",
-    "last_checked_at": "2026-09-14T06:01:55.629423+00:00"
+    "last_checked_at": "2026-09-14T07:32:14.617854+00:00"
   }
 ]
