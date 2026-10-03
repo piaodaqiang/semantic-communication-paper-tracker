@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：113
+
+## 候选论文
+- DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication (2026) | http://arxiv.org/abs/2610.02161v1
+- Token Communication-Assisted Collaborative Embodied Artificial Intelligence: Concepts, Framework, and Opportunities (2026) | http://arxiv.org/abs/2610.01826v1
+- Managing Context and Communication in Distributed Agentic UAV Swarms (2026) | http://arxiv.org/abs/2610.01569v1
+- Learning to structure data from user-generated thematic corpora (2026) | http://arxiv.org/abs/2610.01463v1
+- GPU-Initiated Communication: Dissecting Down to the Bone (2026) | http://arxiv.org/abs/2610.01380v1
+- ParaCalib: Semantically Calibrated Paralinguistic Modeling for Depression Detection (2026) | http://arxiv.org/abs/2610.01103v1
+- CommunityKV: Efficient Long-Context Decoding via Graph Partitioning (2026) | http://arxiv.org/abs/2610.00418v1
+- KUAISHOU Explorer LLM-Rec Challenge 2026: Reasoning Generative Recommendation (2026) | http://arxiv.org/abs/2609.39828v1
+- Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams (2026) | http://arxiv.org/abs/2609.39477v1
+- XIM: The XDC Interledger Messaging Protocol (2026) | http://arxiv.org/abs/2609.39310v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- From Legal Databases to AI-Assisted Justice: A Risk-Sensitive Framework for the Application of Information Technologies in Law (2026) | https://philpapers.org/rec/LIFLDC
+- Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept (2026) | https://philpapers.org/rec/WANMAS
+- Data Sherpa: An AI-Powered Assistant for Scientific Collaboration Knowledge Management (2026) | https://doi.org/10.5281/zenodo.22804319
+- "I don't like splashing in the water": children's voices in primary science (2026) | https://pure.qub.ac.uk/en/studentTheses/eaf5b615-d627-44ab-8fc0-6280dab51b6d
+- Software-defined Significance-Driven Computing (2026) | https://pure.qub.ac.uk/portal/en/theses/softwaredefined-significancedriven-computing(22a3cdcb-3773-4117-a06d-23f031539a36).html
+- A Study on the Implementation of the Strengthening Innovation and Practice in Secondary Education Initiative for the preparation of Science, Technology, English and Mathematics (STEM) Teachers in Kenya to integrate Information and Communication Technology (ICT) in Teaching and Learning (2026) | https://pure.qub.ac.uk/portal/en/theses/a-study-on-the-implementation-of-the-strengthening-innovation-and-practice-in-secondary-education-initiative-for-the-preparation-of-science-technology-english-and-mathematics-stem-teachers-in-kenya-to-integrate-information-and-communication-technology-ict-in-teaching-and-learning(e1d24d01-54fc-4967-abb0-c29b5d80e973).html
+- How do probation officers apply attachment theory in their practice? A qualitative study of probation supervision (2026) | https://pure.qub.ac.uk/en/studentTheses/c63d244f-3afa-4f4f-8553-6905fd506746
+- Navigating teacher identity in evolving technological contexts in Irish classrooms (2026) | https://pure.qub.ac.uk/en/studentTheses/d6eceb22-6a0b-4b09-a587-cc6020d30aa4
+- Exploring the use of video interaction guidance (VIG) with hearing parents of deaf / hard of hearing children (2026) | https://pure.qub.ac.uk/en/studentTheses/64592690-7e3e-4c60-8ac4-35dda941fb29
+- Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment (2026) | https://doi.org/10.1145/3832267
+- Belobog: Move Language Fuzzing Framework for Real-World Smart Contracts (2026) | https://doi.org/10.1145/3832169
+- Is “Knowing It’s Malicious” Enough? Evaluating LLMs for Fine-Grained Malware Behavior Auditing (2026) | https://doi.org/10.1145/3832187
+- Understanding Automated Program Repair Agents through the Lens of Traceability: An Empirical Study (2026) | https://doi.org/10.1145/3832285
+- FuncDroid: Towards Inter-functional Flows for Comprehensive Mobile App GUI Testing (2026) | https://doi.org/10.1145/3832203
+- Task-Oriented Boolean Function Computation: Practical Code Constructions (2026) | http://arxiv.org/abs/2610.01228v1
+- Rotatable Antenna-Enabled Space-Air-Ground Integrated Networks: Opportunities and Challenges (2026) | http://arxiv.org/abs/2609.37338v2
+- Embodied Semantic Communication for Collective Autonomous Agents: A Tutorial on Representation, Wireless Delivery, and Closed-Loop Coordination (2026) | http://arxiv.org/abs/2609.35936v1
+- Task-Oriented Communications for Edge-Assisted Multi-View Localization (2026) | http://arxiv.org/abs/2609.35173v1
+- MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation (2026) | http://arxiv.org/abs/2609.34702v1
+- QBX: A Compiler for 2-local Qubit Hamiltonian Simulation on Quantum Chiplets (2026) | http://arxiv.org/abs/2609.33997v1
+- Mycelium: A Generalizable Cross-Grid Multi-Task Model for Electrical Distribution Systems (2026) | http://arxiv.org/abs/2609.33120v1
+- Agentic AI Enabling Autonomous, Self-Organizing, and Evolving UAV Networks (2026) | http://arxiv.org/abs/2609.24664v1
+- When Does Communication Help? Beyond Spectral Descriptions of Collective Intelligence (2026) | http://arxiv.org/abs/2609.23310v1
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- Antitrust Regulation of Algorithmic "Platform-Driven Involution'': From Governing the Corporate Person to Governing the Platform Ecosystem (2026) | https://philpapers.org/rec/ZENARO-2
+- Digital-Twin-Driven Predictive Maintenance and Fault-Tolerant Control for Electrified Agricultural Machinery: A Multiphysics and Deep Reinforcement Learning Framework for PMSM In-Wheel Drives (2026) | https://philpapers.org/rec/XIADPM
+- TinZr: A compact wireless ESP32-C3 platform for multi-modal physiological sensor integration and data acquisition. (2026) | https://pubmed.ncbi.nlm.nih.gov/42741027
+- Interventions that could mitigate the adverse effects of household overcrowding on wellbeing: A rapid realist review with stakeholder participation from urban contexts in England (2026) | https://discovery.ucl.ac.uk/id/eprint/10214954/
+- Shaping innovation : Studies of public funding for applied research in Sweden, 1970–2021. (2026) | https://lup.lub.lu.se/record/1c8c1203-00f7-46c4-850c-8db9304515fb
+- Mission Efficiency Optimization in Low-Altitude Economy: Adaptive Power Allocation for Coordinating Heterogeneous Aircraft Swarms (2026) | http://arxiv.org/abs/2609.39776v1
+- Semantic Map Sharing and Capability-Aware Coverage Planning for AI-Native 6G Robotic Coordination (2026) | http://arxiv.org/abs/2609.37666v1
+- Goal-Oriented Communication and Control Co-Design via Semantic Push-Pull in Industrial IoT (2026) | http://arxiv.org/abs/2609.21566v1
+- Value-Based Massive Access through Goal-Oriented Irregular Repetition Slotted ALOHA (2026) | http://arxiv.org/abs/2609.20569v1
+- Goal-Oriented Communications for Physical AI: Design and Testbed (2026) | http://arxiv.org/abs/2609.15895v1
+- A Mathematical Theory of Pragmatic Information (2026) | http://arxiv.org/abs/2609.10986v4
+- Foundation Models for Generalizable Semantic and Goal-Oriented Communication (2026) | http://arxiv.org/abs/2609.07853v1
