@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：113
+
+## 候选论文
+- Beyond Predefined Sinks: Security-Aware Dependency Analysis for LLM Agents (2026) | http://arxiv.org/abs/2610.03014v1
+- ConvoDrift: A Multi-Turn Conversational Dataset for Modeling Stylistic Tone Evolution (2026) | http://arxiv.org/abs/2610.02873v1
+- A Token Service Interface for AI-Native RANs (2026) | http://arxiv.org/abs/2610.02618v1
+- Time Series Forecasting Benchmarks Need Scenario-Grounded Stress Testing (2026) | http://arxiv.org/abs/2610.02608v1
+- Harnessing LLMs as Agents: What Does It Cost? (2026) | http://arxiv.org/abs/2610.02488v1
+- Unifying Privacy Accounting: Information Equivalence and Information Loss (2026) | http://arxiv.org/abs/2610.02414v1
+- Hop-Decayed Influence: New Vulnerabilities of Structural Auxiliary Indexing in GraphRAG Pipelines with LLM (2026) | http://arxiv.org/abs/2610.02373v1
+- MIRROR: Multipath Quorum Integrity for LLM Multi-Agent Communication (2026) | http://arxiv.org/abs/2610.02349v1
+- Joint Movement and Compression Ratio Design for Mobile Embodied AI Networks (MEAN) (2026) | http://arxiv.org/abs/2610.02334v1
+- DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication (2026) | http://arxiv.org/abs/2610.02161v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/IJDIEH/article/view/28
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- From Legal Databases to AI-Assisted Justice: A Risk-Sensitive Framework for the Application of Information Technologies in Law (2026) | https://philpapers.org/rec/LIFLDC
+- Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept (2026) | https://philpapers.org/rec/WANMAS
+- Data Sherpa: An AI-Powered Assistant for Scientific Collaboration Knowledge Management (2026) | https://doi.org/10.5281/zenodo.22804319
+- RLMs Have Minds, A Functional Argument for Artificial Mentality by Peter Eidos. (2026) | https://doi.org/10.5281/zenodo.23128522
+- Non-Deterministic Abstract Machines (2026) | https://doi.org/10.1145/3849808
+- Token Communication-Assisted Collaborative Embodied Artificial Intelligence: Concepts, Framework, and Opportunities (2026) | http://arxiv.org/abs/2610.01826v1
+- Petri Nets-based Methods on Automatically Detecting for Concurrency Bugs in Rust Programs (2026) | https://doi.org/10.1145/3849803
+- A Survey of Deep Learning Based Software Refactoring (2026) | https://doi.org/10.1145/3849693
+- Safety, Interlocks and Effect Authority in Consequential Systems (2026) | https://doi.org/10.5281/zenodo.23114579
+- Unsupervised deep generative models for anomaly detection in neuroimaging: A systematic scoping review (2026) | https://doi.org/10.1016/j.bspc.2026.111572
+- CHORUS: Designing Human–AI Multi-Agent Collaboration for Professional Translators (2026) | https://doi.org/10.1145/3776574.3831126
+- SENSE: Efficient EEG-to-Text via Privacy-Preserving Semantic Retrieval (2026) | https://doi.org/10.1145/3776574.3831225
+- Real-time Generation of Listener Nodding via Prediction of Kinematic Parameters for Avatar Dialogue Systems (2026) | https://doi.org/10.1145/3776574.3831145
+- Task-Oriented Boolean Function Computation: Practical Code Constructions (2026) | http://arxiv.org/abs/2610.01228v1
+- Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams (2026) | http://arxiv.org/abs/2609.39477v1
+- Rotatable Antenna-Enabled Space-Air-Ground Integrated Networks: Opportunities and Challenges (2026) | http://arxiv.org/abs/2609.37338v2
+- Embodied Semantic Communication for Collective Autonomous Agents: A Tutorial on Representation, Wireless Delivery, and Closed-Loop Coordination (2026) | http://arxiv.org/abs/2609.35936v1
+- Task-Oriented Communications for Edge-Assisted Multi-View Localization (2026) | http://arxiv.org/abs/2609.35173v1
+- MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation (2026) | http://arxiv.org/abs/2609.34702v1
+- QBX: A Compiler for 2-local Qubit Hamiltonian Simulation on Quantum Chiplets (2026) | http://arxiv.org/abs/2609.33997v1
+- Mycelium: A Generalizable Cross-Grid Multi-Task Model for Electrical Distribution Systems (2026) | http://arxiv.org/abs/2609.33120v1
+- Agentic AI Enabling Autonomous, Self-Organizing, and Evolving UAV Networks (2026) | http://arxiv.org/abs/2609.24664v1
+- When Does Communication Help? Beyond Spectral Descriptions of Collective Intelligence (2026) | http://arxiv.org/abs/2609.23310v1
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- Antitrust Regulation of Algorithmic "Platform-Driven Involution'': From Governing the Corporate Person to Governing the Platform Ecosystem (2026) | https://philpapers.org/rec/ZENARO-2
+- Digital-Twin-Driven Predictive Maintenance and Fault-Tolerant Control for Electrified Agricultural Machinery: A Multiphysics and Deep Reinforcement Learning Framework for PMSM In-Wheel Drives (2026) | https://philpapers.org/rec/XIADPM
+- TinZr: A compact wireless ESP32-C3 platform for multi-modal physiological sensor integration and data acquisition. (2026) | https://pubmed.ncbi.nlm.nih.gov/42741027
+- A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI (2026) | https://doi.org/10.1145/3856802
+- Mission Efficiency Optimization in Low-Altitude Economy: Adaptive Power Allocation for Coordinating Heterogeneous Aircraft Swarms (2026) | http://arxiv.org/abs/2609.39776v1
+- Semantic Map Sharing and Capability-Aware Coverage Planning for AI-Native 6G Robotic Coordination (2026) | http://arxiv.org/abs/2609.37666v1
+- Goal-Oriented Communication and Control Co-Design via Semantic Push-Pull in Industrial IoT (2026) | http://arxiv.org/abs/2609.21566v1
+- Value-Based Massive Access through Goal-Oriented Irregular Repetition Slotted ALOHA (2026) | http://arxiv.org/abs/2609.20569v1
+- Goal-Oriented Communications for Physical AI: Design and Testbed (2026) | http://arxiv.org/abs/2609.15895v1
+- A Mathematical Theory of Pragmatic Information (2026) | http://arxiv.org/abs/2609.10986v4
+- Foundation Models for Generalizable Semantic and Goal-Oriented Communication (2026) | http://arxiv.org/abs/2609.07853v1
+- Code Black: Desktop-Mediated Co-Design of AR-HMD Microinteractions for Emergency Department Teamwork (2026) | http://arxiv.org/abs/2609.03295v1
