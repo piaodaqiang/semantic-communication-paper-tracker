@@ -1,6 +1,6 @@
 # Daily Inbox Summary
 
-新增/候选论文数量：79
+新增/候选论文数量：126
 
 ## 候选论文
 - DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/index/article/view/28
@@ -13,6 +13,16 @@
 - The Impact of Business Environmental Changes on the Adoption of a Strategic Pivot: A Case Study of Zar Industrial Group (2026) | https://journals.kmanpub.com/index.php/ijimob/article/view/5793
 - Designing an Educational Planning Model Based on the Agricultural Value Chain with a Qualitative Approach (2026) | https://journalfwdmj.com/index.php/fwdmj/article/view/294
 - Design and Validation of a Performance Improvement Model Based on Social Responsibility Accounting (2026) | https://bmfopen.com/index.php/bmfopen/article/view/479
+- REFLECT: Role-Aware Detection of Sentiment, Emotion, Politeness, and Formality (2026) | http://arxiv.org/abs/2610.13797v1
+- UkrMeme: Multimodal Explainable Persuasion Detection in Ukrainian Memes (2026) | http://arxiv.org/abs/2610.13783v1
+- Multi-Source and Multi-Dimensional Information Fusion in Resource-Constrained Edge Networks (2026) | http://arxiv.org/abs/2610.13298v1
+- Coexponential Exploration in the Clef Programming Language (2026) | http://arxiv.org/abs/2610.12911v1
+- Adaptive Semantic Communication with Residual Quantization for Resilient Vehicular Networks (2026) | http://arxiv.org/abs/2610.10886v1
+- Active Inference for Interaction-Mediated Control of a High-Dimensional Robotic Arm (2026) | http://arxiv.org/abs/2610.10275v1
+- Why Software Engineering Is Indispensable in the Age of Coding Agents (2026) | http://arxiv.org/abs/2610.10226v1
+- A multi-scenario EEG dataset for auditory attention decoding in naturalistic multi-talker environments (2026) | http://arxiv.org/abs/2610.09539v1
+- Quantifying Volumetric Risk: Class-Aware Asymmetric Weighted Conformal Prediction for 3D Medical Image Segmentation (2026) | http://arxiv.org/abs/2610.09392v1
+- TwinViT-DeepJSCC: Adversarially Robust Semantic Image Communication (2026) | http://arxiv.org/abs/2610.08590v1
 - AI-Powered Healthcare Assistant with Drug Interaction Detection and Emergency Support (2026) | https://doi.org/10.22214/ijraset.2026.85050
 - Vision-Based Indoor Navigation System for Assistive Applications Using Deep Learning (2026) | https://doi.org/10.22214/ijraset.2026.85084
 - A Review on Perceptual Hash based Video Shot Boundary Detection (2026) | https://doi.org/10.25258/ijddt.16.62s.40
@@ -21,44 +31,28 @@
 - Chasing the Algorithm:A Law and Economics perspective on experimental AI governance (2026) | https://pure.eur.nl/en/publications/77dc7e89-fb88-43de-b970-978d53424f70
 - Landscape-Dependent Performance of Photonic Quantum Solvers in QUBO Feature Selection for Financial Risk Detection (2026) | https://doi.org/10.66977/xsci.2610.000s
 - Mathematical Coding as an Application of Graph Theory: A Sustainable Approach to Urban Structure Analysis (2026) | https://doi.org/10.56261/jars.v23.277656
+- Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning (2026) | http://arxiv.org/abs/2610.13923v1
+- Goal-Oriented Ordered Autoencoding for Successive Refinement in Progressive Communication (2026) | http://arxiv.org/abs/2610.13426v1
+- Implementation of Zero-shot Semantic Communication on Software Defined Radio (2026) | http://arxiv.org/abs/2610.05764v1
+- Task-Oriented Boolean Function Computation: Practical Code Constructions (2026) | http://arxiv.org/abs/2610.01228v2
+- Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams (2026) | http://arxiv.org/abs/2609.39477v1
+- Rotatable Antenna-Enabled Space-Air-Ground Integrated Networks: Opportunities and Challenges (2026) | http://arxiv.org/abs/2609.37338v2
+- Embodied Semantic Communication for Collective Autonomous Agents: A Tutorial on Representation, Wireless Delivery, and Closed-Loop Coordination (2026) | http://arxiv.org/abs/2609.35936v1
+- MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation (2026) | http://arxiv.org/abs/2609.34702v1
+- QBX: A Compiler for 2-local Qubit Hamiltonian Simulation on Quantum Chiplets (2026) | http://arxiv.org/abs/2609.33997v1
+- Mycelium: A Generalizable Cross-Grid Multi-Task Model for Electrical Distribution Systems (2026) | http://arxiv.org/abs/2609.33120v1
 - The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
 - Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
 - Antitrust Regulation of Algorithmic "Platform-Driven Involution'': From Governing the Corporate Person to Governing the Platform Ecosystem (2026) | https://philpapers.org/rec/ZENARO-2
 - Digital-Twin-Driven Predictive Maintenance and Fault-Tolerant Control for Electrified Agricultural Machinery: A Multiphysics and Deep Reinforcement Learning Framework for PMSM In-Wheel Drives (2026) | https://philpapers.org/rec/XIADPM
 - TinZr: A compact wireless ESP32-C3 platform for multi-modal physiological sensor integration and data acquisition. (2026) | https://pubmed.ncbi.nlm.nih.gov/42741027
 - Designing an Artificial Intelligence–Based Cognitive Empowerment Package to Enhance Entrepreneurial Skills in Gifted and Creative Adolescents (2026) | https://journalecs.com/index.php/ecs/article/view/452
-- Algorithmic Justice and Responsible AI Journalism: A Comparative Communication Policy Perspective in East Asia (2026) | https://philpapers.org/rec/HUAAJA
-- MOVPE growth and characterization of AlPN layers for HFETs (2026) | https://strathprints.strath.ac.uk/view/author/20435.html>
-- Krum-Inspired Central Teacher Selection and Residual Channel Bottlenecks for Efficient DeepSC (2026) | http://arxiv.org/abs/2609.13405v1
-- Where to Defend? Layer-Wise Adversarial Training for Robust Transformer-Based Semantic Communications (2026) | http://arxiv.org/abs/2609.13128v1
-- Semantic-Aware Sub-Band Allocation for Terahertz Communications (2026) | http://arxiv.org/abs/2608.30984v1
-- Flexible Deep Joint Source-Channel Coding: A Vibrotactile Example (2026) | http://arxiv.org/abs/2608.15070v1
-- Compressibility is not Feedback: A Random-access Gap in Causal Semantic Repair (2026) | http://arxiv.org/abs/2609.25020v2
-- SignDeepSC: A Semantic Signature-based Approach for Robust Semantic Communication (2026) | http://arxiv.org/abs/2607.25676v1
-- Structured Spectral Compression based Low-Bitrate Secure Speech Communications for Internet of Things assisted Non-Terrestrial Networks (2026) | http://arxiv.org/abs/2607.19092v1
-- Semantic Communications in the THz Band (2026) | http://arxiv.org/abs/2607.07455v1
-- Image Semantic Communication with Quadtree Partition-based Coding (2025) | http://arxiv.org/abs/2512.05395v1
-- VQ-VAE Based Digital Semantic Communication with Importance-Aware OFDM Transmission (2025) | http://arxiv.org/abs/2508.08686v2
-- Adaptive Goal-Oriented Semantic Communication with Pretrained Semantic Encoding and Effectiveness-Aware Equalization for Beyond-5G/6G Networks (2026) | https://doi.org/10.66879/jmla.2026.51
-- Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams (2026) | https://arxiv.org/abs/2609.39477
-- Language Model-Aided Text Semantic Communications for Digital-Twin Interaction (2026) | https://doi.org/10.3390/electronics15194476
-- Predictive Semantic-Aware Hybrid Automatic Repeat Request for Reliable and Efficient 6G Communications (2026) | https://doi.org/10.3390/electronics15194482
-- TokenCom: vision-language model for multimodal and multitask token communications (2026) | https://doi.org/10.1007/s11432-026-5166-3
-- Machine-Learned Mismatch and Task Preservation Beliefs in CoSMA DAI for Common Knowledge Aware Semantic Alignment (2026) | https://doi.org/10.3390/network6030080
-- Channel-adaptive semantic token transmission for multimodal edge perception over wireless uplinks (2026) | https://doi.org/10.1016/j.phycom.2026.103378
-- AeroLat: Channel-Aware Latent Space Semantic Communication for Decentralized UAV Swarms (2026) | https://arxiv.org/abs/2609.16947
-- Channel-Adaptive Region Adjacency Graph Carriers for Semantic Image Communication (2026) | https://arxiv.org/abs/2609.14616
-- Deep Reinforcement Learning for Semantic Secure Energy Efficiency Optimization in IRS-Assisted UAV Communications (2026) | https://doi.org/10.3390/s26185779
-- Identifying and Prioritizing the Components of Circular Accounting: A Qualitative Study Based on Systematic Content Analysis (2026) | https://bmfopen.com/index.php/bmfopen/article/view/665
-- Data Sherpa: An AI-Powered Assistant for Scientific Collaboration Knowledge Management (2026) | https://doi.org/10.5281/zenodo.22804318
-- Hybrid hypergraph networks for multimodal sequence data classification (2026) | https://doi.org/10.1038/s41598-026-73391-0
-- A socio-technical analysis of the natural hydrogen hype: Network dynamics and institutional expectation governance (2026) | https://doi.org/10.1016/j.erss.2026.104997
+- Behavior-Mining, Generative Conversations, and Collaborative Advisory: the Future of Travel and Tourism Recommender Systems (2026) | http://arxiv.org/abs/2610.08232v1
+- Mission Efficiency Optimization in Low-Altitude Economy: Adaptive Power Allocation for Coordinating Heterogeneous Aircraft Swarms (2026) | http://arxiv.org/abs/2609.39776v1
+- Semantic Map Sharing and Capability-Aware Coverage Planning for AI-Native 6G Robotic Coordination (2026) | http://arxiv.org/abs/2609.37666v1
+- Goal-Oriented Communication and Control Co-Design via Semantic Push-Pull in Industrial IoT (2026) | http://arxiv.org/abs/2609.21566v1
+- Value-Based Massive Access through Goal-Oriented Irregular Repetition Slotted ALOHA (2026) | http://arxiv.org/abs/2609.20569v1
+- Goal-Oriented Communications for Physical AI: Design and Testbed (2026) | http://arxiv.org/abs/2609.15895v1
 
 ## 抓取错误
 - arXiv:semantic communication: TimeoutError('The read operation timed out')
-- arXiv:semantic communications: TimeoutError('The read operation timed out')
-- arXiv:task-oriented communication: <HTTPError 429: 'Unknown Error'>
-- arXiv:goal-oriented communication: <HTTPError 429: 'Unknown Error'>
-- arXiv:semantic-aware communication: TimeoutError('The read operation timed out')
-- arXiv:semantic transmission: TimeoutError('The read operation timed out')
-- arXiv:semantic encoding: TimeoutError('The read operation timed out')
