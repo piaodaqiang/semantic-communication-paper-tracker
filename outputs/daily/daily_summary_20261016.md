@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：121
+
+## 候选论文
+- Content associations with answer selection and engagement in supply chain community question answering (2026) | http://arxiv.org/abs/2610.21807v1
+- Reflective Compositional Grounding for Natural-Language-to-SPARQL (2026) | http://arxiv.org/abs/2610.21796v1
+- DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents (2026) | http://arxiv.org/abs/2610.21561v1
+- Agent Status Protocol (ASP): A Lightweight Specification for State Reporting in Multi-Agent Systems (2026) | http://arxiv.org/abs/2610.21538v1
+- Receiver-Specific Interventional Valuation of Semantic Atoms for Budget-Constrained Multi-Agent Communication (2026) | http://arxiv.org/abs/2610.21504v1
+- SITAR: A Situational Distortion Metric for Automatic Speech Recognition Evaluation (2026) | http://arxiv.org/abs/2610.21440v1
+- ExecWeave: Cross-Layer Execution Provenance for Observable Agentic Software (2026) | http://arxiv.org/abs/2610.21146v1
+- Privacy-Preserving Text Inference for Health-Misinformation Classification and Semantic Retrieval (2026) | http://arxiv.org/abs/2610.20796v1
+- Lexical Persistence Without Semantic Entrenchment in AI Agent Communities (2026) | http://arxiv.org/abs/2610.20365v1
+- RetinaSC: Retinal Semantic Communication Framework for Diabetic Retinopathy Detection (2026) | http://arxiv.org/abs/2610.18824v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/index/article/view/28
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- From Legal Databases to AI-Assisted Justice: A Risk-Sensitive Framework for the Application of Information Technologies in Law (2026) | https://philpapers.org/rec/LIFLDC
+- Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept (2026) | https://philpapers.org/rec/WANMAS
+- From Chopin to Kitsch? Pauline Viardot's Vocal Mazurkas and the popularisation of classical music (2026) | https://jmttms.com/index.php/jmmtms/article/view/43
+- Video and digital games: Historical controversies, benefits, and risks for children and adolescents (2026) | https://jcdee.com/index.php/jcdee/article/view/72
+- The Impact of Business Environmental Changes on the Adoption of a Strategic Pivot: A Case Study of Zar Industrial Group (2026) | https://journals.kmanpub.com/index.php/ijimob/article/view/5793
+- Designing an Educational Planning Model Based on the Agricultural Value Chain with a Qualitative Approach (2026) | https://journalfwdmj.com/index.php/fwdmj/article/view/294
+- Design and Validation of a Performance Improvement Model Based on Social Responsibility Accounting (2026) | https://bmfopen.com/index.php/bmfopen/article/view/479
+- Federated Distillation: A Survey (2026) | https://doi.org/10.1145/3857792
+- Weaker Coherence, Weaker Reciprocity: Comparing the Semantic and Social Organization of Moltbook and Reddit (2026) | https://doi.org/10.3390/complexities2040024
+- Machine Translation for Sign Languages (2026) | https://doi.org/10.1146/annurev-linguistics-040125-043013
+- A HYBRID VAE-HUFFMAN GENERATIVE COMPRESSION FRAMEWORK FOR IMAGE TRANSMISSION IN WIRELESS SENSOR NETWORKS (2026) | https://doi.org/10.55766/sujst12181
+- Learning-enabled collaborative intelligence in search and rescue robotics: a survey of paradigms, models, and challenges (2026) | https://doi.org/10.3389/frobt.2026.1832982
+- ЦИФРОВИЙ БЕКГРАУНД «ВЕЛИКОГО АНТРОПОЛОГІЧНОГО ПОВОРОТУ» ХХІ СТ.: ВІД ЗСУВУ МЕНТАЛЬНОГО ДО ТРАНСФОРМАЦІЙ ТІЛЕСНОГО (2026) | https://doi.org/10.26661/hst-2026-27-104-02
+- AI-Native Network with Clean–Impaired Semantic Preservation for Robust Semantic Communications in Space (2026) | https://doi.org/10.3390/aerospace13100939
+- Wearable Single-Lead ECG Detects Fine-Grained Structural Heart Disease Through Echo-Report Supervision (2026) | https://doi.org/10.21203/rs.3.rs-11313095/v1
+- A Responsibility-Centered Coordination Mechanism for Decentralized Multi-Agent Systems (2026) | http://arxiv.org/abs/2610.21243v1
+- Memento: Communicating Sensor Observations Through Shared Memory (2026) | http://arxiv.org/abs/2610.19227v1
+- Queue-Aware Token Communications: Bridging AI Representation and Wireless Service (2026) | http://arxiv.org/abs/2610.16730v1
+- RFWeave: Learning Wireless Propagation Across Scenes and Transceiver Configurations (2026) | http://arxiv.org/abs/2610.16656v1
+- More Interactions Make Communications More Efficient: A Directed Information Bottleneck Approach to Task-Oriented Communication (2026) | http://arxiv.org/abs/2610.16328v1
+- CreepScope: Measuring Post-Use Authorization Exposure in Tool-Using Agents (2026) | http://arxiv.org/abs/2610.15988v1
+- Radio Echo Representation Learning for Semantic Sensing in Multi-Modal ISAC Systems (2026) | http://arxiv.org/abs/2610.15338v1
+- Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning (2026) | http://arxiv.org/abs/2610.13923v1
+- Goal-Oriented Ordered Autoencoding for Successive Refinement in Progressive Communication (2026) | http://arxiv.org/abs/2610.13426v1
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- Antitrust Regulation of Algorithmic "Platform-Driven Involution'': From Governing the Corporate Person to Governing the Platform Ecosystem (2026) | https://philpapers.org/rec/ZENARO-2
+- Digital-Twin-Driven Predictive Maintenance and Fault-Tolerant Control for Electrified Agricultural Machinery: A Multiphysics and Deep Reinforcement Learning Framework for PMSM In-Wheel Drives (2026) | https://philpapers.org/rec/XIADPM
+- TinZr: A compact wireless ESP32-C3 platform for multi-modal physiological sensor integration and data acquisition. (2026) | https://pubmed.ncbi.nlm.nih.gov/42741027
+- Designing an Artificial Intelligence–Based Cognitive Empowerment Package to Enhance Entrepreneurial Skills in Gifted and Creative Adolescents (2026) | https://journalecs.com/index.php/ecs/article/view/452
+- Behavior-Mining, Generative Conversations, and Collaborative Advisory: the Future of Travel and Tourism Recommender Systems (2026) | http://arxiv.org/abs/2610.08232v1
+- Mission Efficiency Optimization in Low-Altitude Economy: Adaptive Power Allocation for Coordinating Heterogeneous Aircraft Swarms (2026) | http://arxiv.org/abs/2609.39776v1
+- Resource-Efficient Semantic Communication for Heterogeneous Agentic Teams (2026) | http://arxiv.org/abs/2609.39477v1
+- Semantic Map Sharing and Capability-Aware Coverage Planning for AI-Native 6G Robotic Coordination (2026) | http://arxiv.org/abs/2609.37666v1
+- Goal-Oriented Communication and Control Co-Design via Semantic Push-Pull in Industrial IoT (2026) | http://arxiv.org/abs/2609.21566v1
+- Value-Based Massive Access through Goal-Oriented Irregular Repetition Slotted ALOHA (2026) | http://arxiv.org/abs/2609.20569v1
+- Goal-Oriented Communications for Physical AI: Design and Testbed (2026) | http://arxiv.org/abs/2609.15895v1
