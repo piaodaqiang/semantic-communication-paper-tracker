@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：114
+
+## 候选论文
+- Ordered Chaos: Towards Adaptive Multipath Load Balancing with Precise Fast Loss Detection (2026) | http://arxiv.org/abs/2610.41707v1
+- ROSTrans: Empirically Benchmarking LLMs for ROS1-to-ROS2 Migration (2026) | http://arxiv.org/abs/2610.41168v1
+- What Hallucinations Have We Measured? Semantic Illusion, Confabulation, and Expressed Uncertainty (2026) | http://arxiv.org/abs/2610.38520v1
+- Semantic Anchor Communication System for Point Cloud Transmission in Internet of Vehicles (2026) | http://arxiv.org/abs/2610.38350v1
+- The Indian Financial Automated Advice Bias (IFAAB) Dataset : Auditing Socioeconomic and Demographic Disparities in LLM-Generated Financial Advice in India (2026) | http://arxiv.org/abs/2610.38239v1
+- Federated Learning for Semantic Communications over Multiple Access Channels (2026) | http://arxiv.org/abs/2610.37951v1
+- NLP-based Message Prioritisation for Opportunistic Routing: A Case Study of Nepal Earthquake Emergency Communication (2026) | http://arxiv.org/abs/2610.37933v1
+- 3Dtrees.earth: community research infrastructure for tree and forest analysis using close-range LiDAR data (2026) | http://arxiv.org/abs/2610.37803v1
+- Extending the W3C Data Privacy Vocabulary to Cover the German Health Data Use Act - Lessons Learned (2026) | http://arxiv.org/abs/2610.37527v1
+- Time-Dynamic Semantic-Activity Entanglement: Quantifying Communication-Based Synchrony in Collaborative VR (2026) | http://arxiv.org/abs/2610.37427v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/index/article/view/28
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- From Legal Databases to AI-Assisted Justice: A Risk-Sensitive Framework for the Application of Information Technologies in Law (2026) | https://philpapers.org/rec/LIFLDC
+- Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept (2026) | https://philpapers.org/rec/WANMAS
+- From Chopin to Kitsch? Pauline Viardot's Vocal Mazurkas and the popularisation of classical music (2026) | https://jmttms.com/index.php/jmmtms/article/view/43
+- Video and digital games: Historical controversies, benefits, and risks for children and adolescents (2026) | https://jcdee.com/index.php/jcdee/article/view/72
+- Triage models for surgical decision-making in patients with shoulder pain: an integrative review. (2026) | https://pmc.ncbi.nlm.nih.gov/articles/PMC13668291/
+- Natural Language Processing and Graph Methods for Knowledge Graph Applications (2026) | https://doktori.bibl.u-szeged.hu/id/eprint/13202/1/kardospeter_disszertacio.pdf
+- English as a Foreign Language Instructors’ Professional Identity and Professional Development in Higher Education Institutions (2026) | https://doktori.bibl.u-szeged.hu/id/eprint/13141/1/1.%20H_Qamariah_revised_%20Dissertation_HD.pdf
+- Inter-Frame Predictive Contour Coding for Semantic Map Compression (2026) | http://arxiv.org/abs/2610.40887v1
+- From Prompt to Pwn: Exploiting GPU Memory Errors During ML Inference (2026) | https://lirias.kuleuven.be/handle/20.500.12942/793317
+- End-to-End Hardware Validation of OSSDM Semantic Waveform for 6G Communications (2026) | https://hal.science/hal-05749897v1
+- Doing Game Design in Theatre (2026) | https://orcid.org/0000-0002-4087-5798>,
+- Identification and Validation of Components Affecting the Sustainability of the National Banking Network (2026) | https://journalmbs.com/index.php/jmbs/article/view/215
+- Challenges of Criminal Procedure in Emergency Conditions: A Critical Reflection on the Gap Between Norms and Reality in the Experience of the COVID-19 Pandemic (2026) | https://www.journalisslp.com/index.php/isslp/article/view/553
+- To WASM or Not to WASM: Evaluation of Browser Fingerprinting Defenses Under WASM Based Obfuscation (2026) | https://doi.org/10.1007/978-3-032-42929-2_11
+- NaturalEdit: Code Modification through Direct Interaction with Adaptive Natural Language Representation (2026) | https://doi.org/10.1145/3830398.3830631
+- No Data? No Problem: Synthesizing Security Graphs for Better Intrusion Detection (2026) | https://doi.org/10.1007/978-3-032-42929-2_19
+- Embodied Movable Antennas (2026) | http://arxiv.org/abs/2610.42078v1
+- TERRA: Task-Oriented Edge AI for Regional Fire Detection with Identity-Free Reporting (2026) | http://arxiv.org/abs/2610.37909v1
+- Array Rotation in Near-Field ISAC: Communication, Detection, and Estimation Under Low-Complexity Transmit Architectures (2026) | http://arxiv.org/abs/2610.31136v2
+- Energy-Efficient Risk-Constrained Adaptive Semantic Communications Under Uncertain Adversarial Threats (2026) | http://arxiv.org/abs/2610.30911v2
+- In-Orbit Computing for Remote Sensing: Task-Oriented Processing and Transmission (2026) | http://arxiv.org/abs/2610.30693v1
+- Recursive Code Evolution for Task-Oriented Semantic Communications (2026) | http://arxiv.org/abs/2610.29641v2
+- GALA: Geometry-Aware Language Model for Controllable Object Arrangement (2026) | http://arxiv.org/abs/2610.28280v1
+- JARVIS: From Visual Manuals to Autonomous Robotic Assembly (2026) | http://arxiv.org/abs/2610.27618v1
+- Semantic Communications: Principles, Architectures and Applications (2026) | http://arxiv.org/abs/2610.27544v1
+- Mobile Embodied Agent Network (MEAN): Integrated Framework, Enabling Technologies, and Task-Driven Deployment (2026) | http://arxiv.org/abs/2610.26297v1
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- Antitrust Regulation of Algorithmic "Platform-Driven Involution'': From Governing the Corporate Person to Governing the Platform Ecosystem (2026) | https://philpapers.org/rec/ZENARO-2
+- Digital-Twin-Driven Predictive Maintenance and Fault-Tolerant Control for Electrified Agricultural Machinery: A Multiphysics and Deep Reinforcement Learning Framework for PMSM In-Wheel Drives (2026) | https://philpapers.org/rec/XIADPM
+- TinZr: A compact wireless ESP32-C3 platform for multi-modal physiological sensor integration and data acquisition. (2026) | https://pmc.ncbi.nlm.nih.gov/articles/PMC13572519/
+- The Effectiveness of Group-Based Positive Youth Development Training on Attachment to Parents and Alexithymia in Male Adolescents with a Tendency Toward Addiction in Isfahan (2026) | https://journals.kmanpub.com/index.php/jayps/article/view/5722
+- Crossing the Chasm: Bridging Visual Augmentations and Designer Intent (2026) | http://arxiv.org/abs/2610.38782v1
+- XL MIMO Extreme Learning Machines: Wave-Domain Inference with Stacked Metasurfaces (2026) | http://arxiv.org/abs/2610.35469v1
+- Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning (2026) | http://arxiv.org/abs/2610.13923v1
+- Goal-Oriented Ordered Autoencoding for Successive Refinement in Progressive Communication (2026) | http://arxiv.org/abs/2610.13426v2
+- Behavior-Mining, Generative Conversations, and Collaborative Advisory: the Future of Travel and Tourism Recommender Systems (2026) | http://arxiv.org/abs/2610.08232v1
