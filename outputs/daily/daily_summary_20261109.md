@@ -1,6 +1,6 @@
 # Daily Inbox Summary
 
-新增/候选论文数量：102
+新增/候选论文数量：105
 
 ## 候选论文
 - Nothing Is Shared Until You Synchronise: Reinterpreting Java for Data-Race Freedom (2026) | http://arxiv.org/abs/2611.09410v1
@@ -35,6 +35,12 @@
 - Spectral-Convolutional Factorized Transformer for Joint Multipath Parameter Estimation: Applications to mmWave Positioning and Radio SLAM (2026) | http://arxiv.org/abs/2611.01491v1
 - Synergy-Aware Symbol Allocation for Distributed Semantic Communication (2026) | http://arxiv.org/abs/2611.00648v1
 - Embodied Movable Antennas (2026) | http://arxiv.org/abs/2610.42078v1
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- Antitrust Regulation of Algorithmic "Platform-Driven Involution'': From Governing the Corporate Person to Governing the Platform Ecosystem (2026) | https://philpapers.org/rec/ZENARO-2
+- Digital-Twin-Driven Predictive Maintenance and Fault-Tolerant Control for Electrified Agricultural Machinery: A Multiphysics and Deep Reinforcement Learning Framework for PMSM In-Wheel Drives (2026) | https://philpapers.org/rec/XIADPM
+- Screen use in children and adolescents: Developmental risks, benefits, and educational implications (2026) | https://jcdee.com/index.php/jcdee/article/view/74
+- STEM E-MODULE DEVELOPMENT WITH DEMONSTRATION MEDIA FOR LINEAR MOTION (2026) | https://repository.unib.ac.id/id/eprint/35300/8/Jurnal%20Risva%20dan%20LoA%20Risva.Pdf
 - On the Optimality of Implicit Feedback in Markov Decision Processes over Imperfect Links (2026) | http://arxiv.org/abs/2611.06365v1
 - AI-Aided and AI-Oriented Integrated Sensing, Communication, and Computation: A Survey (2026) | http://arxiv.org/abs/2611.01521v1
 - Crossing the Chasm: Bridging Visual Augmentations and Designer Intent (2026) | http://arxiv.org/abs/2610.38782v1
@@ -42,17 +48,8 @@
 - Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning (2026) | http://arxiv.org/abs/2610.13923v1
 - Goal-Oriented Ordered Autoencoding for Successive Refinement in Progressive Communication (2026) | http://arxiv.org/abs/2610.13426v2
 - Behavior-Mining, Generative Conversations, and Collaborative Advisory: the Future of Travel and Tourism Recommender Systems (2026) | http://arxiv.org/abs/2610.08232v1
-- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
 - Algorithmic Justice and Responsible AI Journalism: A Comparative Communication Policy Perspective in East Asia (2026) | https://philpapers.org/rec/HUAAJA
-- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
-- Screen use in children and adolescents: Developmental risks, benefits, and educational implications (2026) | https://jcdee.com/index.php/jcdee/article/view/74
 - Legislation Is Hot: Reforming the Troubled Teen Industry in California (2026) | https://scholarlycommons.law.hofstra.edu/hlr/vol54/iss2/6
 - Krum-Inspired Central Teacher Selection and Residual Channel Bottlenecks for Efficient DeepSC (2026) | http://arxiv.org/abs/2609.13405v1
 - Where to Defend? Layer-Wise Adversarial Training for Robust Transformer-Based Semantic Communications (2026) | http://arxiv.org/abs/2609.13128v1
 - Semantic-Aware Sub-Band Allocation for Terahertz Communications (2026) | http://arxiv.org/abs/2608.30984v1
-- Flexible Deep Joint Source-Channel Coding: A Vibrotactile Example (2026) | http://arxiv.org/abs/2608.15070v1
-- Compressibility is not Feedback: A Random-access Gap in Causal Semantic Repair (2026) | http://arxiv.org/abs/2609.25020v2
-- SignDeepSC: A Semantic Signature-based Approach for Robust Semantic Communication (2026) | http://arxiv.org/abs/2607.25676v1
-
-## 抓取错误
-- OpenAlex:task-oriented communication: <HTTPError 429: 'Too Many Requests'>
