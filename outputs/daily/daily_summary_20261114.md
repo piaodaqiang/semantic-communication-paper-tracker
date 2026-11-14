@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：113
+
+## 候选论文
+- Hibikino-Musashi@Home 2026 Team Description Paper (2026) | http://arxiv.org/abs/2611.16297v1
+- Computational Explanations of Semantic Universals (2026) | http://arxiv.org/abs/2611.15804v1
+- Over-the-Air Computation for Imperfectly Synchronized Multi-View Semantic Communication (2026) | http://arxiv.org/abs/2611.15520v1
+- When Cause Attribution Is Not Enough: Action-Value Control for Task-Oriented Semantic Communication with Discrete Encoder Switching (2026) | http://arxiv.org/abs/2611.15513v1
+- ChartGalaxy++: A Richly Annotated Dataset for Chart Understanding and Generation (2026) | http://arxiv.org/abs/2611.15418v1
+- MetaCom: Meta Codebook Learning for Robust V2X Semantic Communications (2026) | http://arxiv.org/abs/2611.15359v1
+- Multimodal Semantic Communication using Shared and Unique Representation Decomposition (2026) | http://arxiv.org/abs/2611.15357v1
+- LLMs and the Homogenization of Teaching (2026) | http://arxiv.org/abs/2611.14828v1
+- Wave-Domain Semantic ISAC: Holographic Surfaces as Analog Semantic Encoders for Integrated TN-NTN (2026) | http://arxiv.org/abs/2611.14094v1
+- Data4Cyber: Labeled Cyber-Physical Datasets for Distribution-Grid Management Systems Under Representative OT Attacks (2026) | http://arxiv.org/abs/2611.13942v1
+- DYNAMICS OF PORTFOLIO ASSESSMENT STRATEGY IN EVALUATING THE ENGLISH LANGUAGE SKILLS FOR PUPILS WITH HEARING IMPAIRMENTS IN FAKO DIVISION, SOUTH WEST REGION OF CAMEROON (2026) | https://ubueajournals.org/index.php/index/article/view/28
+- From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services (2026) | https://pub.respai.de/articles/1-2/2ychen.html
+- The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation (2026) | https://pub.respai.de/articles/1-2/4gli.html
+- From Legal Databases to AI-Assisted Justice: A Risk-Sensitive Framework for the Application of Information Technologies in Law (2026) | https://philpapers.org/rec/LIFLDC
+- Measuring Activity-Space Segregation with Multi-Source Big Data: A Physical--Digital Framework with Simulation Validation and a Real-Data Proof of Concept (2026) | https://philpapers.org/rec/WANMAS
+- From Chopin to Kitsch? Pauline Viardot's Vocal Mazurkas and the popularisation of classical music (2026) | https://jmttms.com/index.php/jmmtms/article/view/43
+- Video and digital games: Historical controversies, benefits, and risks for children and adolescents (2026) | https://jcdee.com/index.php/jcdee/article/view/72
+- Enmification and De/Reconstruction of the Self at Guantánamo: U.S. Political-Legal Discourse and Mansoor Adayfi's Life Narrative (2026) | https://doktori.bibl.u-szeged.hu/id/eprint/13133/1/Kajt%C3%A1r-PinjungOlga_dissertation_final.pdf
+- Simple is better? HPC-enabled neural architecture search for energy demand forecasting (2026) | https://d.cobiss.net/repository/si/files/287185923/181529/ASHPC26_BOOKLET.pdf/terms
+- Reconstruction and Renaissance of Dongbei China:A Multimodal Metaphor Analysis of New Media on Harbin (2026) | https://research.manchester.ac.uk/en/publications/02ba2ca7-0a6a-45f6-8e18-8cf3c7218f17
+- The Securitization of Immigration on the EU Level after 2015 (2026) | https://doktori.bibl.u-szeged.hu/id/eprint/13288/1/PhD%20Dissertation%20-%20USLU.pdf
+- The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning (2026) | https://openaccess.city.ac.uk/id/eprint/37928/
+- SlowPerception: Physical-World Latency Attack against Camera-based Perception in Autonomous Driving (2026) | https://doi.org/10.1145/3830454.3832618
+- Large language models for mental health (2026) | https://doi.org/10.3389/fdgth.2026.1901454
+- A Survey on LLMs from a Human-Centric Perspective (2026) | https://doi.org/10.1145/3859364
+- Biomedical text corpora for multi-entity recognition in diet-related metabolic syndrome research (2026) | https://doi.org/10.1038/s41597-026-08594-1
+- CommJEPA: When Predictive Representation Learning Meets Wireless Intelligence (2026) | http://arxiv.org/abs/2611.14961v1
+- Be My Eye: Learning to See Beyond a Robot's Own Perspective (2026) | http://arxiv.org/abs/2611.12295v1
+- Confidence-driven adaptive semantic transmission for task-oriented communication (2026) | http://arxiv.org/abs/2611.11132v1
+- TOFS: Feature Selection with Swap Supervision for Semantic Communication over Fading Channels (2026) | http://arxiv.org/abs/2611.09173v1
+- Semantic Extraction Framework for Goal-Oriented V2X Communication Supporting Safe Intersection Passage (2026) | http://arxiv.org/abs/2611.09118v1
+- AI-Native Task-Oriented Semantic Communications over a Relay: Benefits and Vulnerabilities (2026) | http://arxiv.org/abs/2611.08155v1
+- Structured Agentic Learning for Persistent Spatial Acquisition in RDT-TAIS-Assisted Communications (2026) | http://arxiv.org/abs/2611.08141v1
+- Operational Indirect Rate-Distortion Functions for Classification Tasks (2026) | http://arxiv.org/abs/2611.07946v1
+- Integrated Identity Protection for Semantic Communications in Embodied IoT Systems (2026) | http://arxiv.org/abs/2611.06788v2
+- The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies (2026) | https://pub.respai.de/articles/1-2/5ywu.html
+- Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments (2026) | https://philpapers.org/rec/QIAROA
+- Antitrust Regulation of Algorithmic "Platform-Driven Involution'': From Governing the Corporate Person to Governing the Platform Ecosystem (2026) | https://philpapers.org/rec/ZENARO-2
+- Digital-Twin-Driven Predictive Maintenance and Fault-Tolerant Control for Electrified Agricultural Machinery: A Multiphysics and Deep Reinforcement Learning Framework for PMSM In-Wheel Drives (2026) | https://philpapers.org/rec/XIADPM
+- Screen use in children and adolescents: Developmental risks, benefits, and educational implications (2026) | https://jcdee.com/index.php/jcdee/article/view/74
+- Instructional Reading Material Design and Use: Exploring the Roles of EFL Teachers’ Knowledge, Beliefs, and Contexts (2026) | https://doktori.bibl.u-szeged.hu/id/eprint/13156/1/Doctoral%20Dissertation_Nurul%20Fitriyah%20Almunawaroh.pdf
+- STEM E-MODULE DEVELOPMENT WITH DEMONSTRATION MEDIA FOR LINEAR MOTION (2026) | https://repository.unib.ac.id/id/eprint/35300/8/Jurnal%20Risva%20dan%20LoA%20Risva.Pdf
+- Reference-Dependent Utility Optimization for Goal-Oriented Communication Systems (2026) | http://arxiv.org/abs/2611.12480v1
+- On the Optimality of Implicit Feedback in Markov Decision Processes over Imperfect Links (2026) | http://arxiv.org/abs/2611.06365v1
+- Building a Method: Challenges and Lessons from Developing an Impact Evaluation Framework for Public Investment in Open Source Software (2026) | http://arxiv.org/abs/2611.06281v1
+- AI-Aided and AI-Oriented Integrated Sensing, Communication, and Computation: A Survey (2026) | http://arxiv.org/abs/2611.01521v1
+- Crossing the Chasm: Bridging Visual Augmentations and Designer Intent (2026) | http://arxiv.org/abs/2610.38782v1
+- XL MIMO Extreme Learning Machines: Wave-Domain Inference with Stacked Metasurfaces (2026) | http://arxiv.org/abs/2610.35469v1
+- Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning (2026) | http://arxiv.org/abs/2610.13923v1
+- Goal-Oriented Ordered Autoencoding for Successive Refinement in Progressive Communication (2026) | http://arxiv.org/abs/2610.13426v2
