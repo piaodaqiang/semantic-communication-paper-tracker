@@ -1,0 +1,55 @@
+# Daily Inbox Summary
+
+新增/候选论文数量：80
+
+## 候选论文
+- From Novel Combinations to Informative Absence: Structural permission, communicative opportunity, and form choice in language learning (2026) | http://arxiv.org/abs/2611.27762v1
+- Pose-based Co-speech Gesture Detection (2026) | http://arxiv.org/abs/2611.27415v1
+- Moonshine Conjecture Formalized (2026) | http://arxiv.org/abs/2611.27001v1
+- Towards Scale-Up Networking: Challenges and Open Questions (2026) | http://arxiv.org/abs/2611.26156v1
+- ScaleWire: An End-to-End Scale-Up Ethernet Simulation Framework for LLM Systems (2026) | http://arxiv.org/abs/2611.26086v1
+- UMelCodec: An Ultra-Low-Bitrate and Lightweight Mel-Domain Neural Speech Codec (2026) | http://arxiv.org/abs/2611.25569v1
+- Beyond Resemblance: Image Fusion Reimagined (2026) | http://arxiv.org/abs/2611.25453v1
+- Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models (2026) | http://arxiv.org/abs/2611.24938v2
+- A Principled Approach to Concurrency, Nondeterminism, and Asynchrony in Choreographies (2026) | http://arxiv.org/abs/2611.24649v1
+- SIRAZ: Sparse Inter-Layer Residual Aggregation for Zero-Shot Visual Neural Decoding (2026) | http://arxiv.org/abs/2611.23991v1
+- Channel-Aware Codebook Design for Task-Oriented Token Communication Over Wireless Networks (2026) | http://arxiv.org/abs/2611.26038v1
+- Soft biological and bio-inspired materials (2026) | http://arxiv.org/abs/2611.25959v1
+- Over-the-Air Semantic Alignment via Dual Stacked Intelligent Metasurfaces (2026) | http://arxiv.org/abs/2611.19515v1
+- When the Mythical Man-Month Meets Agentic Web Systems: Structured Coordination for Scalable Development (2026) | http://arxiv.org/abs/2611.19140v1
+- When Cause Attribution Is Not Enough: Action-Value Control for Task-Oriented Semantic Communication with Discrete Encoder Switching (2026) | http://arxiv.org/abs/2611.15513v1
+- CommJEPA: When Predictive Representation Learning Meets Wireless Intelligence (2026) | http://arxiv.org/abs/2611.14961v2
+- Be My Eye: Learning to See Beyond a Robot's Own Perspective (2026) | http://arxiv.org/abs/2611.12295v1
+- Confidence-driven adaptive semantic transmission for task-oriented communication (2026) | http://arxiv.org/abs/2611.11132v1
+- TOFS: Feature Selection with Swap Supervision for Semantic Communication over Fading Channels (2026) | http://arxiv.org/abs/2611.09173v1
+- Semantic Extraction Framework for Goal-Oriented V2X Communication Supporting Safe Intersection Passage (2026) | http://arxiv.org/abs/2611.09118v1
+- Edge Computing for IoT-Enabled Smart Cities: A Review of Middleware, Explainable AI, and User Behavior Analytics (2026) | http://arxiv.org/abs/2611.23310v1
+- Reference-Dependent Utility Optimization for Goal-Oriented Communication Systems (2026) | http://arxiv.org/abs/2611.12480v1
+- Operational Indirect Rate-Distortion Functions for Classification Tasks (2026) | http://arxiv.org/abs/2611.07946v1
+- On the Optimality of Implicit Feedback in Markov Decision Processes over Imperfect Links (2026) | http://arxiv.org/abs/2611.06365v1
+- Building a Method: Challenges and Lessons from Developing an Impact Evaluation Framework for Public Investment in Open Source Software (2026) | http://arxiv.org/abs/2611.06281v1
+- AI-Aided and AI-Oriented Integrated Sensing, Communication, and Computation: A Survey (2026) | http://arxiv.org/abs/2611.01521v1
+- Crossing the Chasm: Bridging Visual Augmentations and Designer Intent (2026) | http://arxiv.org/abs/2610.38782v1
+- XL MIMO Extreme Learning Machines: Wave-Domain Inference with Stacked Metasurfaces (2026) | http://arxiv.org/abs/2610.35469v1
+- Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning (2026) | http://arxiv.org/abs/2610.13923v1
+- Krum-Inspired Central Teacher Selection and Residual Channel Bottlenecks for Efficient DeepSC (2026) | http://arxiv.org/abs/2609.13405v1
+- Where to Defend? Layer-Wise Adversarial Training for Robust Transformer-Based Semantic Communications (2026) | http://arxiv.org/abs/2609.13128v1
+- Semantic-Aware Sub-Band Allocation for Terahertz Communications (2026) | http://arxiv.org/abs/2608.30984v1
+- Flexible Deep Joint Source-Channel Coding: A Vibrotactile Example (2026) | http://arxiv.org/abs/2608.15070v1
+- Compressibility is not Feedback: A Random-access Gap in Causal Semantic Repair (2026) | http://arxiv.org/abs/2609.25020v2
+- SignDeepSC: A Semantic Signature-based Approach for Robust Semantic Communication (2026) | http://arxiv.org/abs/2607.25676v1
+- Structured Spectral Compression based Low-Bitrate Secure Speech Communications for Internet of Things assisted Non-Terrestrial Networks (2026) | http://arxiv.org/abs/2607.19092v1
+- Semantic Communications in the THz Band (2026) | http://arxiv.org/abs/2607.07455v1
+- Image Semantic Communication with Quadtree Partition-based Coding (2025) | http://arxiv.org/abs/2512.05395v1
+- VQ-VAE Based Digital Semantic Communication with Importance-Aware OFDM Transmission (2025) | http://arxiv.org/abs/2508.08686v2
+- OMNIS+: Semantic RAN Slicing and Quantization for Dynamic Split Neural Networks (2026) | https://arxiv.org/abs/2611.23977
+- Multimodal Semantic Communication using Shared and Unique Representation Decomposition (2026) | https://arxiv.org/abs/2611.15357
+- ParaJSCC: A Parameterized Framework for Reusable Multimodal Joint Source–Channel Coding (2026) | https://doi.org/10.1145/3767308.3836537
+- Semantic-Aware Communications in Industrial IoT:What Can Be Tested Today, and What Is Missing? (2026) | https://arxiv.org/abs/2611.12391
+- An intent aware framework for semantic edge intelligence in autonomous 6g UAV and vehicular networks (2026) | https://doi.org/10.1038/s41598-026-76018-6
+- QISFP: a quantum-inspired semantic fidelity protocol for energy-efficient and noise-resilient visual IoT transmission (2026) | https://doi.org/10.1007/s40860-026-00279-1
+- Adaptive Channel Coding with Semantic-Aware Error Protection for 6G Non-Terrestrial Networks (2026) | https://doi.org/10.21203/rs.3.rs-10823448/v1
+- Leakage-Aware Encrypted Semantic Communication with Key-Conditioned Signal Perturbation (2026) | https://arxiv.org/abs/2611.02938
+- Resource Allocation for Semantic‐Driven Multibeam Satellite Systems via Deep Reinforcement Learning (2026) | https://doi.org/10.1002/itl2.70374
+- AI-ENABLED SEMANTIC COMMUNICATION ARCHITECTURE FOR 6G NETWORKS: AN INTELLIGENT, CONTEXT-AWARE AND RESOURCE-EFFICIENT FRAMEWORK WITH HYBRID OPTIMIZATION (2026) | https://doi.org/10.30574/ijsra.2026.21.1.1834
+- Physical Layer Security for Digital Semantic Communication: A Bit-Level Perspective (2026) | http://arxiv.org/abs/2611.23940v1
